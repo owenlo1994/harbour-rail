@@ -1,0 +1,75 @@
+{
+  "startedAt": "2026-11-16T07:52:40.120329+00:00",
+  "userAgent": "hk-mtr-live/0.1 (+CONTACT_EMAIL_NOT_PROVIDED)",
+  "contactEmailMissing": true,
+  "bbox": "(22.15,113.80,22.57,114.45)",
+  "attempts": [
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "queryType": "subway",
+      "queryFile": "data/raw/overpass-1-subway.overpass",
+      "retrievedAt": "2026-11-16T07:52:45.534649+00:00",
+      "httpStatus": 503,
+      "curlExitCode": 0,
+      "error": "upstream connect error or disconnect/reset before headers. reset reason: connection timeout",
+      "success": false
+    },
+    {
+      "endpoint": "https://overpass.private.coffee/api/interpreter",
+      "queryType": "subway",
+      "queryFile": "data/raw/overpass-2-subway.overpass",
+      "retrievedAt": "2026-11-16T07:53:35.555663+00:00",
+      "httpStatus": null,
+      "curlExitCode": 28,
+      "error": "curl: (28) Operation timed out after 50003 milliseconds with 0 bytes received",
+      "success": false
+    },
+    {
+      "endpoint": "https://overpass.kumi.systems/api/interpreter",
+      "queryType": "subway",
+      "queryFile": "data/raw/overpass-3-subway.overpass",
+      "retrievedAt": "2026-11-16T07:54:25.578971+00:00",
+      "httpStatus": null,
+      "curlExitCode": 28,
+      "error": "curl: (28) Operation timed out after 50002 milliseconds with 0 bytes received",
+      "success": false
+    },
+    {
+      "endpoint": "https://z.overpass-api.de/api/interpreter",
+      "queryType": "subway",
+      "queryFile": "data/raw/overpass-4-subway.overpass",
+      "retrievedAt": "2026-11-16T07:54:55.527322+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "error": "",
+      "success": true,
+      "file": "data/raw/overpass-4-subway.json",
+      "elementCount": 54
+    },
+    {
+      "endpoint": "https://z.overpass-api.de/api/interpreter",
+      "queryType": "light_rail",
+      "queryFile": "data/raw/overpass-4-light_rail.overpass",
+      "retrievedAt": "2026-11-16T07:55:29.604496+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "error": "",
+      "success": true,
+      "file": "data/raw/overpass-4-light_rail.json",
+      "elementCount": 31
+    },
+    {
+      "endpoint": "https://z.overpass-api.de/api/interpreter",
+      "queryType": "train",
+      "queryFile": "data/raw/overpass-4-train.overpass",
+      "retrievedAt": "2026-11-16T07:55:31.153592+00:00",
+      "httpStatus": 502,
+      "curlExitCode": 0,
+      "error": "# 502 Gateway Timeout\n\nThis Overpass API server is currently at capacity. All query workers are busy\nand the request queue is full.\n\n## What to do\n\nRetry your request using exponential backoff: wait a short interval, then retry.\nIf the request fails again, double the wait time and retry again.\n\n## For heavy or automated use\n\nThis public endpoint is intended for browser-based and human-operated tools.\nFor automated or high-volume use, run a local Overpass API instance:\n\nhttps://github.com/b1tw153",
+      "success": false
+    }
+  ],
+  "complete": false,
+  "completedAt": "2026-11-16T07:55:31.153863+00:00",
+  "blocked": "All endpoint rounds failed; no geometry inferred or substituted."
+}

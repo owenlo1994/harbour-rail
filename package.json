@@ -1,0 +1,56 @@
+{
+  "name": "hk-mtr-live",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "node --import tsx scripts/dev.ts",
+    "build": "npm run typecheck && npm run data:audit && npm run data:network && npm run data:live && npm run data:toy && npm run data:city && npm run build --workspaces --if-present",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint . && prettier --check .",
+    "format": "prettier --write .",
+    "data:audit": "node --import tsx scripts/audit-csv.ts",
+    "data:network": "node --import tsx scripts/build-network.ts",
+    "data:fetch-overpass": "python3 scripts/fetch-overpass.py",
+    "data:toy": "node --import tsx scripts/build-toy.ts",
+    "build:site": "node --import tsx scripts/build-site.ts",
+    "data:city": ".venv/bin/python scripts/extract-toy-city.py",
+    "data:live": "node --import tsx scripts/build-live.ts",
+    "db:generate": "drizzle-kit generate"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.181.0",
+    "concurrently": "^9.2.1",
+    "drizzle-kit": "0.31.10",
+    "esbuild": "0.28.2",
+    "eslint": "^9.39.0",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^16.5.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.0",
+    "vite": "^7.2.0",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "drizzle-orm": "0.45.2",
+    "fast-xml-parser": "^5.3.0",
+    "zod": "^4.1.12"
+  }
+}

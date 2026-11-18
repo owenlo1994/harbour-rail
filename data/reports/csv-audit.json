@@ -1,0 +1,2099 @@
+{
+  "records": 270,
+  "stationCodes": 97,
+  "lineStationKeys": 120,
+  "blankRecords": 3,
+  "routes": [
+    {
+      "line": "AEL",
+      "direction": "DT",
+      "directionFamily": "DT",
+      "branchToken": null,
+      "stations": [
+        "AWE",
+        "AIR",
+        "TSY",
+        "KOW",
+        "HOK"
+      ]
+    },
+    {
+      "line": "AEL",
+      "direction": "UT",
+      "directionFamily": "UT",
+      "branchToken": null,
+      "stations": [
+        "HOK",
+        "KOW",
+        "TSY",
+        "AIR",
+        "AWE"
+      ]
+    },
+    {
+      "line": "DRL",
+      "direction": "DT",
+      "directionFamily": "DT",
+      "branchToken": null,
+      "stations": [
+        "SUN",
+        "DIS"
+      ]
+    },
+    {
+      "line": "DRL",
+      "direction": "UT",
+      "directionFamily": "UT",
+      "branchToken": null,
+      "stations": [
+        "DIS",
+        "SUN"
+      ]
+    },
+    {
+      "line": "EAL",
+      "direction": "DT",
+      "directionFamily": "DT",
+      "branchToken": null,
+      "stations": [
+        "LOW",
+        "SHS",
+        "FAN",
+        "TWO",
+        "TAP",
+        "UNI",
+        "FOT",
+        "SHT",
+        "TAW",
+        "KOT",
+        "MKK",
+        "HUH",
+        "EXC",
+        "ADM"
+      ]
+    },
+    {
+      "line": "EAL",
+      "direction": "LMC-DT",
+      "directionFamily": "DT",
+      "branchToken": "LMC",
+      "stations": [
+        "LMC",
+        "SHS",
+        "FAN",
+        "TWO",
+        "TAP",
+        "UNI",
+        "FOT",
+        "SHT",
+        "TAW",
+        "KOT",
+        "MKK",
+        "HUH",
+        "EXC",
+        "ADM"
+      ]
+    },
+    {
+      "line": "EAL",
+      "direction": "LMC-UT",
+      "directionFamily": "UT",
+      "branchToken": "LMC",
+      "stations": [
+        "ADM",
+        "EXC",
+        "HUH",
+        "MKK",
+        "KOT",
+        "TAW",
+        "SHT",
+        "FOT",
+        "UNI",
+        "TAP",
+        "TWO",
+        "FAN",
+        "SHS",
+        "LMC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "direction": "UT",
+      "directionFamily": "UT",
+      "branchToken": null,
+      "stations": [
+        "ADM",
+        "EXC",
+        "HUH",
+        "MKK",
+        "KOT",
+        "TAW",
+        "SHT",
+        "FOT",
+        "UNI",
+        "TAP",
+        "TWO",
+        "FAN",
+        "SHS",
+        "LOW"
+      ]
+    },
+    {
+      "line": "ISL",
+      "direction": "DT",
+      "directionFamily": "DT",
+      "branchToken": null,
+      "stations": [
+        "CHW",
+        "HFC",
+        "SKW",
+        "SWH",
+        "TAK",
+        "QUB",
+        "NOP",
+        "FOH",
+        "TIH",
+        "CAB",
+        "WAC",
+        "ADM",
+        "CEN",
+        "SHW",
+        "SYP",
+        "HKU",
+        "KET"
+      ]
+    },
+    {
+      "line": "ISL",
+      "direction": "UT",
+      "directionFamily": "UT",
+      "branchToken": null,
+      "stations": [
+        "KET",
+        "HKU",
+        "SYP",
+        "SHW",
+        "CEN",
+        "ADM",
+        "WAC",
+        "CAB",
+        "TIH",
+        "FOH",
+        "NOP",
+        "QUB",
+        "TAK",
+        "SWH",
+        "SKW",
+        "HFC",
+        "CHW"
+      ]
+    },
+    {
+      "line": "KTL",
+      "direction": "DT",
+      "directionFamily": "DT",
+      "branchToken": null,
+      "stations": [
+        "TIK",
+        "YAT",
+        "LAT",
+        "KWT",
+        "NTK",
+        "KOB",
+        "CHH",
+        "DIH",
+        "WTS",
+        "LOF",
+        "KOT",
+        "SKM",
+        "PRE",
+        "MOK",
+        "YMT",
+        "HOM",
+        "WHA"
+      ]
+    },
+    {
+      "line": "KTL",
+      "direction": "UT",
+      "directionFamily": "UT",
+      "branchToken": null,
+      "stations": [
+        "WHA",
+        "HOM",
+        "YMT",
+        "MOK",
+        "PRE",
+        "SKM",
+        "KOT",
+        "LOF",
+        "WTS",
+        "DIH",
+        "CHH",
+        "KOB",
+        "NTK",
+        "KWT",
+        "LAT",
+        "YAT",
+        "TIK"
+      ]
+    },
+    {
+      "line": "TML",
+      "direction": "UT",
+      "directionFamily": "UT",
+      "branchToken": null,
+      "stations": [
+        "WKS",
+        "MOS",
+        "HEO",
+        "TSH",
+        "SHM",
+        "CIO",
+        "STW",
+        "CKT",
+        "TAW",
+        "HIK",
+        "DIH",
+        "KAT",
+        "SUW",
+        "TKW",
+        "HOM",
+        "HUH",
+        "ETS",
+        "AUS",
+        "NAC",
+        "MEF",
+        "TWW",
+        "KSR",
+        "YUL",
+        "LOP",
+        "TIS",
+        "SIH",
+        "TUM"
+      ]
+    },
+    {
+      "line": "TML",
+      "direction": "DT",
+      "directionFamily": "DT",
+      "branchToken": null,
+      "stations": [
+        "TUM",
+        "SIH",
+        "TIS",
+        "LOP",
+        "YUL",
+        "KSR",
+        "TWW",
+        "MEF",
+        "NAC",
+        "AUS",
+        "ETS",
+        "HUH",
+        "HOM",
+        "TKW",
+        "SUW",
+        "KAT",
+        "DIH",
+        "HIK",
+        "TAW",
+        "CKT",
+        "STW",
+        "CIO",
+        "SHM",
+        "TSH",
+        "HEO",
+        "MOS",
+        "WKS"
+      ]
+    },
+    {
+      "line": "TCL",
+      "direction": "DT",
+      "directionFamily": "DT",
+      "branchToken": null,
+      "stations": [
+        "TUC",
+        "SUN",
+        "TSY",
+        "LAK",
+        "NAC",
+        "OLY",
+        "KOW",
+        "HOK"
+      ]
+    },
+    {
+      "line": "TCL",
+      "direction": "UT",
+      "directionFamily": "UT",
+      "branchToken": null,
+      "stations": [
+        "HOK",
+        "KOW",
+        "OLY",
+        "NAC",
+        "LAK",
+        "TSY",
+        "SUN",
+        "TUC"
+      ]
+    },
+    {
+      "line": "TKL",
+      "direction": "DT",
+      "directionFamily": "DT",
+      "branchToken": null,
+      "stations": [
+        "POA",
+        "HAH",
+        "TKO",
+        "TIK",
+        "YAT",
+        "QUB",
+        "NOP"
+      ]
+    },
+    {
+      "line": "TKL",
+      "direction": "TKS-DT",
+      "directionFamily": "DT",
+      "branchToken": "TKS",
+      "stations": [
+        "LHP",
+        "TKO",
+        "TIK"
+      ]
+    },
+    {
+      "line": "TKL",
+      "direction": "TKS-UT",
+      "directionFamily": "UT",
+      "branchToken": "TKS",
+      "stations": [
+        "TIK",
+        "TKO",
+        "LHP"
+      ]
+    },
+    {
+      "line": "TKL",
+      "direction": "UT",
+      "directionFamily": "UT",
+      "branchToken": null,
+      "stations": [
+        "NOP",
+        "QUB",
+        "YAT",
+        "TIK",
+        "TKO",
+        "HAH",
+        "POA"
+      ]
+    },
+    {
+      "line": "TWL",
+      "direction": "DT",
+      "directionFamily": "DT",
+      "branchToken": null,
+      "stations": [
+        "TSW",
+        "TWH",
+        "KWH",
+        "KWF",
+        "LAK",
+        "MEF",
+        "LCK",
+        "CSW",
+        "SSP",
+        "PRE",
+        "MOK",
+        "YMT",
+        "JOR",
+        "TST",
+        "ADM",
+        "CEN"
+      ]
+    },
+    {
+      "line": "TWL",
+      "direction": "UT",
+      "directionFamily": "UT",
+      "branchToken": null,
+      "stations": [
+        "CEN",
+        "ADM",
+        "TST",
+        "JOR",
+        "YMT",
+        "MOK",
+        "PRE",
+        "SSP",
+        "CSW",
+        "LCK",
+        "MEF",
+        "LAK",
+        "KWF",
+        "KWH",
+        "TWH",
+        "TSW"
+      ]
+    },
+    {
+      "line": "SIL",
+      "direction": "UT",
+      "directionFamily": "UT",
+      "branchToken": null,
+      "stations": [
+        "ADM",
+        "OCP",
+        "WCH",
+        "LET",
+        "SOH"
+      ]
+    },
+    {
+      "line": "SIL",
+      "direction": "DT",
+      "directionFamily": "DT",
+      "branchToken": null,
+      "stations": [
+        "SOH",
+        "LET",
+        "WCH",
+        "OCP",
+        "ADM"
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "key": "AEL:AWE",
+      "line": "AEL",
+      "stationCode": "AWE",
+      "stationId": "56",
+      "chineseName": "博覽館",
+      "englishName": "AsiaWorld-Expo",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "AEL:AIR",
+      "line": "AEL",
+      "stationCode": "AIR",
+      "stationId": "47",
+      "chineseName": "機場",
+      "englishName": "Airport",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "AEL:TSY",
+      "line": "AEL",
+      "stationCode": "TSY",
+      "stationId": "46",
+      "chineseName": "青衣",
+      "englishName": "Tsing Yi",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "AEL:KOW",
+      "line": "AEL",
+      "stationCode": "KOW",
+      "stationId": "45",
+      "chineseName": "九龍",
+      "englishName": "Kowloon",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "AEL:HOK",
+      "line": "AEL",
+      "stationCode": "HOK",
+      "stationId": "44",
+      "chineseName": "香港",
+      "englishName": "Hong Kong",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "DRL:SUN",
+      "line": "DRL",
+      "stationCode": "SUN",
+      "stationId": "54",
+      "chineseName": "欣澳",
+      "englishName": "Sunny Bay",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "DRL:DIS",
+      "line": "DRL",
+      "stationCode": "DIS",
+      "stationId": "55",
+      "chineseName": "迪士尼",
+      "englishName": "Disneyland Resort",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:LOW",
+      "line": "EAL",
+      "stationCode": "LOW",
+      "stationId": "76",
+      "chineseName": "羅湖",
+      "englishName": "Lo Wu",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:SHS",
+      "line": "EAL",
+      "stationCode": "SHS",
+      "stationId": "75",
+      "chineseName": "上水",
+      "englishName": "Sheung Shui",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:FAN",
+      "line": "EAL",
+      "stationCode": "FAN",
+      "stationId": "74",
+      "chineseName": "粉嶺",
+      "englishName": "Fanling",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:TWO",
+      "line": "EAL",
+      "stationCode": "TWO",
+      "stationId": "73",
+      "chineseName": "太和",
+      "englishName": "Tai Wo",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:TAP",
+      "line": "EAL",
+      "stationCode": "TAP",
+      "stationId": "72",
+      "chineseName": "大埔墟",
+      "englishName": "Tai Po Market",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:UNI",
+      "line": "EAL",
+      "stationCode": "UNI",
+      "stationId": "71",
+      "chineseName": "大學",
+      "englishName": "University",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:FOT",
+      "line": "EAL",
+      "stationCode": "FOT",
+      "stationId": "69",
+      "chineseName": "火炭",
+      "englishName": "Fo Tan",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:SHT",
+      "line": "EAL",
+      "stationCode": "SHT",
+      "stationId": "68",
+      "chineseName": "沙田",
+      "englishName": "Sha Tin",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:TAW",
+      "line": "EAL",
+      "stationCode": "TAW",
+      "stationId": "67",
+      "chineseName": "大圍",
+      "englishName": "Tai Wai",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:KOT",
+      "line": "EAL",
+      "stationCode": "KOT",
+      "stationId": "8",
+      "chineseName": "九龍塘",
+      "englishName": "Kowloon Tong",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:MKK",
+      "line": "EAL",
+      "stationCode": "MKK",
+      "stationId": "65",
+      "chineseName": "旺角東",
+      "englishName": "Mong Kok East",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:HUH",
+      "line": "EAL",
+      "stationCode": "HUH",
+      "stationId": "64",
+      "chineseName": "紅磡",
+      "englishName": "Hung Hom",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:EXC",
+      "line": "EAL",
+      "stationCode": "EXC",
+      "stationId": "94",
+      "chineseName": "會展",
+      "englishName": "Exhibition Centre",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:ADM",
+      "line": "EAL",
+      "stationCode": "ADM",
+      "stationId": "2",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "directions": [
+        "DT",
+        "LMC-DT",
+        "LMC-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "EAL:LMC",
+      "line": "EAL",
+      "stationCode": "LMC",
+      "stationId": "78",
+      "chineseName": "落馬洲",
+      "englishName": "Lok Ma Chau",
+      "directions": [
+        "LMC-DT",
+        "LMC-UT"
+      ]
+    },
+    {
+      "key": "ISL:CHW",
+      "line": "ISL",
+      "stationCode": "CHW",
+      "stationId": "37",
+      "chineseName": "柴灣",
+      "englishName": "Chai Wan",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:HFC",
+      "line": "ISL",
+      "stationCode": "HFC",
+      "stationId": "36",
+      "chineseName": "杏花邨",
+      "englishName": "Heng Fa Chuen",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:SKW",
+      "line": "ISL",
+      "stationCode": "SKW",
+      "stationId": "35",
+      "chineseName": "筲箕灣",
+      "englishName": "Shau Kei Wan",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:SWH",
+      "line": "ISL",
+      "stationCode": "SWH",
+      "stationId": "34",
+      "chineseName": "西灣河",
+      "englishName": "Sai Wan Ho",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:TAK",
+      "line": "ISL",
+      "stationCode": "TAK",
+      "stationId": "33",
+      "chineseName": "太古",
+      "englishName": "Tai Koo",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:QUB",
+      "line": "ISL",
+      "stationCode": "QUB",
+      "stationId": "32",
+      "chineseName": "鰂魚涌",
+      "englishName": "Quarry Bay",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:NOP",
+      "line": "ISL",
+      "stationCode": "NOP",
+      "stationId": "31",
+      "chineseName": "北角",
+      "englishName": "North Point",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:FOH",
+      "line": "ISL",
+      "stationCode": "FOH",
+      "stationId": "30",
+      "chineseName": "炮台山",
+      "englishName": "Fortress Hill",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:TIH",
+      "line": "ISL",
+      "stationCode": "TIH",
+      "stationId": "29",
+      "chineseName": "天后",
+      "englishName": "Tin Hau",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:CAB",
+      "line": "ISL",
+      "stationCode": "CAB",
+      "stationId": "28",
+      "chineseName": "銅鑼灣",
+      "englishName": "Causeway Bay",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:WAC",
+      "line": "ISL",
+      "stationCode": "WAC",
+      "stationId": "27",
+      "chineseName": "灣仔",
+      "englishName": "Wan Chai",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:ADM",
+      "line": "ISL",
+      "stationCode": "ADM",
+      "stationId": "2",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:CEN",
+      "line": "ISL",
+      "stationCode": "CEN",
+      "stationId": "1",
+      "chineseName": "中環",
+      "englishName": "Central",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:SHW",
+      "line": "ISL",
+      "stationCode": "SHW",
+      "stationId": "26",
+      "chineseName": "上環",
+      "englishName": "Sheung Wan",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:SYP",
+      "line": "ISL",
+      "stationCode": "SYP",
+      "stationId": "81",
+      "chineseName": "西營盤",
+      "englishName": "Sai Ying Pun",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:HKU",
+      "line": "ISL",
+      "stationCode": "HKU",
+      "stationId": "82",
+      "chineseName": "香港大學",
+      "englishName": "HKU",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "ISL:KET",
+      "line": "ISL",
+      "stationCode": "KET",
+      "stationId": "83",
+      "chineseName": "堅尼地城",
+      "englishName": "Kennedy Town",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:TIK",
+      "line": "KTL",
+      "stationCode": "TIK",
+      "stationId": "49",
+      "chineseName": "調景嶺",
+      "englishName": "Tiu Keng Leng",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:YAT",
+      "line": "KTL",
+      "stationCode": "YAT",
+      "stationId": "48",
+      "chineseName": "油塘",
+      "englishName": "Yau Tong",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:LAT",
+      "line": "KTL",
+      "stationCode": "LAT",
+      "stationId": "38",
+      "chineseName": "藍田",
+      "englishName": "Lam Tin",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:KWT",
+      "line": "KTL",
+      "stationCode": "KWT",
+      "stationId": "15",
+      "chineseName": "觀塘",
+      "englishName": "Kwun Tong",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:NTK",
+      "line": "KTL",
+      "stationCode": "NTK",
+      "stationId": "14",
+      "chineseName": "牛頭角",
+      "englishName": "Ngau Tau Kok",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:KOB",
+      "line": "KTL",
+      "stationCode": "KOB",
+      "stationId": "13",
+      "chineseName": "九龍灣",
+      "englishName": "Kowloon Bay",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:CHH",
+      "line": "KTL",
+      "stationCode": "CHH",
+      "stationId": "12",
+      "chineseName": "彩虹",
+      "englishName": "Choi Hung",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:DIH",
+      "line": "KTL",
+      "stationCode": "DIH",
+      "stationId": "11",
+      "chineseName": "鑽石山",
+      "englishName": "Diamond Hill",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:WTS",
+      "line": "KTL",
+      "stationCode": "WTS",
+      "stationId": "10",
+      "chineseName": "黃大仙",
+      "englishName": "Wong Tai Sin",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:LOF",
+      "line": "KTL",
+      "stationCode": "LOF",
+      "stationId": "9",
+      "chineseName": "樂富",
+      "englishName": "Lok Fu",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:KOT",
+      "line": "KTL",
+      "stationCode": "KOT",
+      "stationId": "8",
+      "chineseName": "九龍塘",
+      "englishName": "Kowloon Tong",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:SKM",
+      "line": "KTL",
+      "stationCode": "SKM",
+      "stationId": "7",
+      "chineseName": "石硤尾",
+      "englishName": "Shek Kip Mei",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:PRE",
+      "line": "KTL",
+      "stationCode": "PRE",
+      "stationId": "16",
+      "chineseName": "太子",
+      "englishName": "Prince Edward",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:MOK",
+      "line": "KTL",
+      "stationCode": "MOK",
+      "stationId": "6",
+      "chineseName": "旺角",
+      "englishName": "Mong Kok",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:YMT",
+      "line": "KTL",
+      "stationCode": "YMT",
+      "stationId": "5",
+      "chineseName": "油麻地",
+      "englishName": "Yau Ma Tei",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:HOM",
+      "line": "KTL",
+      "stationCode": "HOM",
+      "stationId": "84",
+      "chineseName": "何文田",
+      "englishName": "Ho Man Tin",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "KTL:WHA",
+      "line": "KTL",
+      "stationCode": "WHA",
+      "stationId": "85",
+      "chineseName": "黃埔",
+      "englishName": "Whampoa",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TML:WKS",
+      "line": "TML",
+      "stationCode": "WKS",
+      "stationId": "103",
+      "chineseName": "烏溪沙",
+      "englishName": "Wu Kai Sha",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:MOS",
+      "line": "TML",
+      "stationCode": "MOS",
+      "stationId": "102",
+      "chineseName": "馬鞍山",
+      "englishName": "Ma On Shan",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:HEO",
+      "line": "TML",
+      "stationCode": "HEO",
+      "stationId": "101",
+      "chineseName": "恆安",
+      "englishName": "Heng On",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:TSH",
+      "line": "TML",
+      "stationCode": "TSH",
+      "stationId": "100",
+      "chineseName": "大水坑",
+      "englishName": "Tai Shui Hang",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:SHM",
+      "line": "TML",
+      "stationCode": "SHM",
+      "stationId": "99",
+      "chineseName": "石門",
+      "englishName": "Shek Mun",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:CIO",
+      "line": "TML",
+      "stationCode": "CIO",
+      "stationId": "98",
+      "chineseName": "第一城",
+      "englishName": "City One",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:STW",
+      "line": "TML",
+      "stationCode": "STW",
+      "stationId": "97",
+      "chineseName": "沙田圍",
+      "englishName": "Sha Tin Wai",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:CKT",
+      "line": "TML",
+      "stationCode": "CKT",
+      "stationId": "96",
+      "chineseName": "車公廟",
+      "englishName": "Che Kung Temple",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:TAW",
+      "line": "TML",
+      "stationCode": "TAW",
+      "stationId": "67",
+      "chineseName": "大圍",
+      "englishName": "Tai Wai",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:HIK",
+      "line": "TML",
+      "stationCode": "HIK",
+      "stationId": "90",
+      "chineseName": "顯徑",
+      "englishName": "Hin Keng",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:DIH",
+      "line": "TML",
+      "stationCode": "DIH",
+      "stationId": "11",
+      "chineseName": "鑽石山",
+      "englishName": "Diamond Hill",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:KAT",
+      "line": "TML",
+      "stationCode": "KAT",
+      "stationId": "91",
+      "chineseName": "啟德",
+      "englishName": "Kai Tak",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:SUW",
+      "line": "TML",
+      "stationCode": "SUW",
+      "stationId": "92",
+      "chineseName": "宋皇臺",
+      "englishName": "Sung Wong Toi",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:TKW",
+      "line": "TML",
+      "stationCode": "TKW",
+      "stationId": "93",
+      "chineseName": "土瓜灣",
+      "englishName": "To Kwa Wan",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:HOM",
+      "line": "TML",
+      "stationCode": "HOM",
+      "stationId": "84",
+      "chineseName": "何文田",
+      "englishName": "Ho Man Tin",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:HUH",
+      "line": "TML",
+      "stationCode": "HUH",
+      "stationId": "64",
+      "chineseName": "紅磡",
+      "englishName": "Hung Hom",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:ETS",
+      "line": "TML",
+      "stationCode": "ETS",
+      "stationId": "80",
+      "chineseName": "尖東",
+      "englishName": "East Tsim Sha Tsui",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:AUS",
+      "line": "TML",
+      "stationCode": "AUS",
+      "stationId": "111",
+      "chineseName": "柯士甸",
+      "englishName": "Austin",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:NAC",
+      "line": "TML",
+      "stationCode": "NAC",
+      "stationId": "53",
+      "chineseName": "南昌",
+      "englishName": "Nam Cheong",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:MEF",
+      "line": "TML",
+      "stationCode": "MEF",
+      "stationId": "20",
+      "chineseName": "美孚",
+      "englishName": "Mei Foo",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:TWW",
+      "line": "TML",
+      "stationCode": "TWW",
+      "stationId": "114",
+      "chineseName": "荃灣西",
+      "englishName": "Tsuen Wan West",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:KSR",
+      "line": "TML",
+      "stationCode": "KSR",
+      "stationId": "115",
+      "chineseName": "錦上路",
+      "englishName": "Kam Sheung Road",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:YUL",
+      "line": "TML",
+      "stationCode": "YUL",
+      "stationId": "116",
+      "chineseName": "元朗",
+      "englishName": "Yuen Long",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:LOP",
+      "line": "TML",
+      "stationCode": "LOP",
+      "stationId": "117",
+      "chineseName": "朗屏",
+      "englishName": "Long Ping",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:TIS",
+      "line": "TML",
+      "stationCode": "TIS",
+      "stationId": "118",
+      "chineseName": "天水圍",
+      "englishName": "Tin Shui Wai",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:SIH",
+      "line": "TML",
+      "stationCode": "SIH",
+      "stationId": "119",
+      "chineseName": "兆康",
+      "englishName": "Siu Hong",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TML:TUM",
+      "line": "TML",
+      "stationCode": "TUM",
+      "stationId": "120",
+      "chineseName": "屯門",
+      "englishName": "Tuen Mun",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "TCL:TUC",
+      "line": "TCL",
+      "stationCode": "TUC",
+      "stationId": "43",
+      "chineseName": "東涌",
+      "englishName": "Tung Chung",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TCL:SUN",
+      "line": "TCL",
+      "stationCode": "SUN",
+      "stationId": "54",
+      "chineseName": "欣澳",
+      "englishName": "Sunny Bay",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TCL:TSY",
+      "line": "TCL",
+      "stationCode": "TSY",
+      "stationId": "42",
+      "chineseName": "青衣",
+      "englishName": "Tsing Yi",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TCL:LAK",
+      "line": "TCL",
+      "stationCode": "LAK",
+      "stationId": "21",
+      "chineseName": "茘景",
+      "englishName": "Lai King",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TCL:NAC",
+      "line": "TCL",
+      "stationCode": "NAC",
+      "stationId": "53",
+      "chineseName": "南昌",
+      "englishName": "Nam Cheong",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TCL:OLY",
+      "line": "TCL",
+      "stationCode": "OLY",
+      "stationId": "41",
+      "chineseName": "奧運",
+      "englishName": "Olympic",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TCL:KOW",
+      "line": "TCL",
+      "stationCode": "KOW",
+      "stationId": "40",
+      "chineseName": "九龍",
+      "englishName": "Kowloon",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TCL:HOK",
+      "line": "TCL",
+      "stationCode": "HOK",
+      "stationId": "39",
+      "chineseName": "香港",
+      "englishName": "Hong Kong",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TKL:POA",
+      "line": "TKL",
+      "stationCode": "POA",
+      "stationId": "52",
+      "chineseName": "寶琳",
+      "englishName": "Po Lam",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TKL:HAH",
+      "line": "TKL",
+      "stationCode": "HAH",
+      "stationId": "51",
+      "chineseName": "坑口",
+      "englishName": "Hang Hau",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TKL:TKO",
+      "line": "TKL",
+      "stationCode": "TKO",
+      "stationId": "50",
+      "chineseName": "將軍澳",
+      "englishName": "Tseung Kwan O",
+      "directions": [
+        "DT",
+        "TKS-DT",
+        "TKS-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TKL:TIK",
+      "line": "TKL",
+      "stationCode": "TIK",
+      "stationId": "49",
+      "chineseName": "調景嶺",
+      "englishName": "Tiu Keng Leng",
+      "directions": [
+        "DT",
+        "TKS-DT",
+        "TKS-UT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TKL:YAT",
+      "line": "TKL",
+      "stationCode": "YAT",
+      "stationId": "48",
+      "chineseName": "油塘",
+      "englishName": "Yau Tong",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TKL:QUB",
+      "line": "TKL",
+      "stationCode": "QUB",
+      "stationId": "32",
+      "chineseName": "鰂魚涌",
+      "englishName": "Quarry Bay",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TKL:NOP",
+      "line": "TKL",
+      "stationCode": "NOP",
+      "stationId": "31",
+      "chineseName": "北角",
+      "englishName": "North Point",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TKL:LHP",
+      "line": "TKL",
+      "stationCode": "LHP",
+      "stationId": "57",
+      "chineseName": "康城",
+      "englishName": "LOHAS Park",
+      "directions": [
+        "TKS-DT",
+        "TKS-UT"
+      ]
+    },
+    {
+      "key": "TWL:TSW",
+      "line": "TWL",
+      "stationCode": "TSW",
+      "stationId": "25",
+      "chineseName": "荃灣",
+      "englishName": "Tsuen Wan",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:TWH",
+      "line": "TWL",
+      "stationCode": "TWH",
+      "stationId": "24",
+      "chineseName": "大窩口",
+      "englishName": "Tai Wo Hau",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:KWH",
+      "line": "TWL",
+      "stationCode": "KWH",
+      "stationId": "23",
+      "chineseName": "葵興",
+      "englishName": "Kwai Hing",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:KWF",
+      "line": "TWL",
+      "stationCode": "KWF",
+      "stationId": "22",
+      "chineseName": "葵芳",
+      "englishName": "Kwai Fong",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:LAK",
+      "line": "TWL",
+      "stationCode": "LAK",
+      "stationId": "21",
+      "chineseName": "茘景",
+      "englishName": "Lai King",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:MEF",
+      "line": "TWL",
+      "stationCode": "MEF",
+      "stationId": "20",
+      "chineseName": "美孚",
+      "englishName": "Mei Foo",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:LCK",
+      "line": "TWL",
+      "stationCode": "LCK",
+      "stationId": "19",
+      "chineseName": "茘枝角",
+      "englishName": "Lai Chi Kok",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:CSW",
+      "line": "TWL",
+      "stationCode": "CSW",
+      "stationId": "18",
+      "chineseName": "長沙灣",
+      "englishName": "Cheung Sha Wan",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:SSP",
+      "line": "TWL",
+      "stationCode": "SSP",
+      "stationId": "17",
+      "chineseName": "深水埗",
+      "englishName": "Sham Shui Po",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:PRE",
+      "line": "TWL",
+      "stationCode": "PRE",
+      "stationId": "16",
+      "chineseName": "太子",
+      "englishName": "Prince Edward",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:MOK",
+      "line": "TWL",
+      "stationCode": "MOK",
+      "stationId": "6",
+      "chineseName": "旺角",
+      "englishName": "Mong Kok",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:YMT",
+      "line": "TWL",
+      "stationCode": "YMT",
+      "stationId": "5",
+      "chineseName": "油麻地",
+      "englishName": "Yau Ma Tei",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:JOR",
+      "line": "TWL",
+      "stationCode": "JOR",
+      "stationId": "4",
+      "chineseName": "佐敦",
+      "englishName": "Jordan",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:TST",
+      "line": "TWL",
+      "stationCode": "TST",
+      "stationId": "3",
+      "chineseName": "尖沙咀",
+      "englishName": "Tsim Sha Tsui",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:ADM",
+      "line": "TWL",
+      "stationCode": "ADM",
+      "stationId": "2",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "TWL:CEN",
+      "line": "TWL",
+      "stationCode": "CEN",
+      "stationId": "1",
+      "chineseName": "中環",
+      "englishName": "Central",
+      "directions": [
+        "DT",
+        "UT"
+      ]
+    },
+    {
+      "key": "SIL:ADM",
+      "line": "SIL",
+      "stationCode": "ADM",
+      "stationId": "2",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "SIL:OCP",
+      "line": "SIL",
+      "stationCode": "OCP",
+      "stationId": "86",
+      "chineseName": "海洋公園",
+      "englishName": "Ocean Park",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "SIL:WCH",
+      "line": "SIL",
+      "stationCode": "WCH",
+      "stationId": "87",
+      "chineseName": "黃竹坑",
+      "englishName": "Wong Chuk Hang",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "SIL:LET",
+      "line": "SIL",
+      "stationCode": "LET",
+      "stationId": "88",
+      "chineseName": "利東",
+      "englishName": "Lei Tung",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    },
+    {
+      "key": "SIL:SOH",
+      "line": "SIL",
+      "stationCode": "SOH",
+      "stationId": "89",
+      "chineseName": "海怡半島",
+      "englishName": "South Horizons",
+      "directions": [
+        "UT",
+        "DT"
+      ]
+    }
+  ],
+  "interchanges": [
+    {
+      "members": [
+        "AEL:TSY",
+        "TCL:TSY"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "AEL:KOW",
+        "TCL:KOW"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "AEL:HOK",
+        "TCL:HOK"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "DRL:SUN",
+        "TCL:SUN"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "EAL:TAW",
+        "TML:TAW"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "EAL:KOT",
+        "KTL:KOT"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "EAL:HUH",
+        "TML:HUH"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "EAL:ADM",
+        "ISL:ADM",
+        "SIL:ADM",
+        "TWL:ADM"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "ISL:QUB",
+        "TKL:QUB"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "ISL:NOP",
+        "TKL:NOP"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "ISL:CEN",
+        "TWL:CEN"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "KTL:TIK",
+        "TKL:TIK"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "KTL:YAT",
+        "TKL:YAT"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "KTL:DIH",
+        "TML:DIH"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "KTL:PRE",
+        "TWL:PRE"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "KTL:MOK",
+        "TWL:MOK"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "KTL:YMT",
+        "TWL:YMT"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "KTL:HOM",
+        "TML:HOM"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "TCL:NAC",
+        "TML:NAC"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "TML:MEF",
+        "TWL:MEF"
+      ],
+      "method": "code-and-chinese-name"
+    },
+    {
+      "members": [
+        "TCL:LAK",
+        "TWL:LAK"
+      ],
+      "method": "code-and-chinese-name"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "CROSS_CODE_INTERCHANGES_UNVERIFIED",
+      "message": "Different station codes are never merged automatically. Cross-code interchange paths require verified manual overrides."
+    }
+  ]
+}

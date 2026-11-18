@@ -1,0 +1,473 @@
+{
+  "elements": 31,
+  "keys": {
+    "brand": 23,
+    "brand:en": 23,
+    "brand:wikidata": 23,
+    "brand:zh": 23,
+    "colour": 23,
+    "from": 29,
+    "name": 31,
+    "name:en": 26,
+    "name:zh": 25,
+    "network": 23,
+    "network:en": 23,
+    "network:wikidata": 23,
+    "network:zh": 23,
+    "operator": 31,
+    "operator:en": 31,
+    "operator:type": 23,
+    "operator:wikidata": 31,
+    "operator:zh": 31,
+    "owner": 29,
+    "owner:en": 29,
+    "owner:wikidata": 29,
+    "owner:zh": 29,
+    "ownership": 31,
+    "public_transport:network": 23,
+    "public_transport:network:en": 23,
+    "public_transport:network:wikidata": 23,
+    "public_transport:network:zh": 23,
+    "public_transport:version": 25,
+    "railway:network": 23,
+    "railway:network:en": 23,
+    "railway:network:wikidata": 23,
+    "railway:network:zh": 23,
+    "ref": 23,
+    "route": 31,
+    "to": 29,
+    "type": 31,
+    "wikidata": 25,
+    "wikipedia": 25,
+    "roundtrip": 2,
+    "network:zh-Hans": 1,
+    "network:zh-Hant": 1,
+    "operator:zh-Hans": 9,
+    "operator:zh-Hant": 9,
+    "level": 1,
+    "light_rail": 8,
+    "no:brand": 7,
+    "no:network": 7,
+    "not:brand": 7,
+    "not:brand:en": 7,
+    "not:brand:wikidata": 7,
+    "not:brand:zh": 7,
+    "not:network": 7,
+    "not:network:en": 7,
+    "not:network:wikidata": 7,
+    "not:network:zh": 7,
+    "access": 6,
+    "access:conditional": 6,
+    "automated": 6,
+    "disused:via": 2,
+    "disused:via:en": 2,
+    "disused:via:zh": 2,
+    "fee": 6,
+    "from:en": 6,
+    "from:zh": 6,
+    "name:ja": 2,
+    "opening_hours": 6,
+    "passenger": 6,
+    "security_area": 6,
+    "supervised": 6,
+    "surveillance": 6,
+    "to:en": 6,
+    "to:zh": 6,
+    "via": 2,
+    "via:en": 2,
+    "via:zh": 2
+  },
+  "values": {
+    "brand": {
+      "輕鐵 Light Rail": 23
+    },
+    "brand:en": {
+      "Light Rail": 22,
+      "輕鐵 Light Rail": 1
+    },
+    "brand:wikidata": {
+      "Q3083033": 23
+    },
+    "brand:zh": {
+      "輕鐵": 22,
+      "輕鐵 Light Rail": 1
+    },
+    "colour": {
+      "#F58C14": 2,
+      "#000000": 3,
+      "#8CC022": 1,
+      "#BA85BB": 1,
+      "#70147B": 2,
+      "#E6180A": 2,
+      "#1A8539": 2,
+      "#8D3219": 2,
+      "#44ADC3": 2,
+      "#F4E619": 2,
+      "#F4858D": 2,
+      "#006684": 2
+    },
+    "from": {
+      "天逸 Tin Yat": 4,
+      "天水圍 Tin Shui Wai": 3,
+      "元朗 Yuen Long": 4,
+      "兆康 Siu Hong": 3,
+      "屯門碼頭 Tuen Mun Ferry Pier": 6,
+      "三聖 Sam Shing": 1,
+      "田景 Tin King": 1,
+      "友愛 Yau Oi": 1,
+      "海天客運碼頭 SkyPier": 1,
+      "東大堂 East Hall": 1,
+      "T1 中場客運廊 T1 Midfield Concourse": 2,
+      "T1 西大堂 T1 West Hall": 1,
+      "T1 東大堂 T1 East Hall": 1
+    },
+    "name": {
+      "輕鐵751綫 Light Rail 751 (天逸 Tin Yat → 友愛 Yau Oi)": 1,
+      "輕鐵751P綫 Light Rail 751P (天逸 Tin Yat → 天水圍 Tin Shui Wai)": 1,
+      "輕鐵705綫 Light Rail 705 (天水圍循環綫 Tin Shui Wai Circular)": 1,
+      "Light Rail 706 輕鐵706綫 (天水圍循環綫 Tin Shui Wai Circular)": 1,
+      "輕鐵761P綫 Light Rail 761P (元朗 Yuen Long → 天逸 Tin Yat)": 1,
+      "輕鐵505綫 Light Rail 505 (兆康 Siu Hong → 三聖 Sam Shing)": 1,
+      "輕鐵507綫 Light Rail 507 (屯門碼頭 Tuen Mun Ferry Pier → 田景 Tin King)": 1,
+      "輕鐵610綫 Light Rail 610 (屯門碼頭 Tuen Mun Ferry Pier → 元朗 Yuen Long)": 1,
+      "輕鐵614綫 Light Rail 614 (元朗 Yuen Long → 屯門碼頭 Tuen Mun Ferry Pier)": 1,
+      "Light Rail 615 (元朗 Yuen Long → 屯門碼頭 Tuen Mun Ferry Pier)": 1,
+      "輕鐵614P綫 Light Rail 614P (兆康 Siu Hong → 屯門碼頭 Tuen Mun Ferry Pier)": 1,
+      "輕鐵614P綫 Light Rail 614P (屯門碼頭 Tuen Mun Ferry Pier → 兆康 Siu Hong)": 1,
+      "輕鐵615P綫 Light Rail 615P (兆康 Siu Hong → 屯門碼頭 Tuen Mun Ferry Pier)": 1,
+      "輕鐵615P綫 Light Rail 615P (屯門碼頭 Tuen Mun Ferry Pier → 兆康 Siu Hong)": 1,
+      "輕鐵505綫 Light Rail 505 (三聖 Sam Shing → 兆康 Siu Hong)": 1,
+      "輕鐵507綫 Light Rail 507 (田景 Tin King → 屯門碼頭 Tuen Mun Ferry Pier)": 1,
+      "輕鐵610綫 Light Rail 610 (元朗 Yuen Long → 屯門碼頭 Tuen Mun Ferry Pier)": 1,
+      "輕鐵615綫 Light Rail 615 (屯門碼頭 Tuen Mun Ferry Pier → 元朗 Yuen Long)": 1,
+      "輕鐵614綫 Light Rail 614 (屯門碼頭 Tuen Mun Ferry Pier → 元朗 Yuen Long)": 1,
+      "輕鐵751綫 Light Rail 751 (友愛 Yau Oi → 天逸 Tin Yat)": 1,
+      "輕鐵751P綫 Light Rail 751P (天水圍 Tin Shui Wai → 天逸 Tin Yat)": 1,
+      "輕鐵761P綫 Light Rail 761P (天逸 Tin Yat → 元朗 Yuen Long)": 1,
+      "APM T2: to concourse": 1,
+      "輕鐵751P綫 Light Rail 751P (天逸 Tin Yat → 兆康 Siu Hong)": 1,
+      "香港國際機場旅客捷運系統 Hong Kong International Airport Automated People Mover": 2,
+      "APM T1: Midfield Concourse => West Hall": 1,
+      "APM T1: West Hall => Midfield Concourse": 1,
+      "APM T1: Midfield Concourse => East Hall": 1,
+      "APM T1: East Hall => Midfield Concourse": 1,
+      "APM T2: from concourse": 1
+    },
+    "name:en": {
+      "Light Rail 751 (Tin Yat → Yau Oi)": 1,
+      "Light Rail 751P (Tin Yat → Tin Shui Wai)": 1,
+      "Light Rail 705 (Tin Shui Wai Circular)": 1,
+      "Light Rail 706 (Tin Shui Wai Circular)": 1,
+      "Light Rail 761P (Yuen Long → Tin Yat)": 1,
+      "Light Rail 505 (Siu Hong → Sam Shing)": 1,
+      "Light Rail 507 (Tuen Mun Ferry Pier → Tin King)": 1,
+      "Light Rail 610 (Tuen Mun Ferry Pier → Yuen Long)": 1,
+      "Light Rail 614 (Yuen Long → Tuen Mun Ferry Pier)": 1,
+      "Light Rail 615 (Yuen Long → Tuen Mun Ferry Pier)": 1,
+      "Light Rail 614P (Siu Hong → Tuen Mun Ferry Pier)": 1,
+      "Light Rail 614P (Tuen Mun Ferry Pier → Siu Hong)": 1,
+      "Light Rail 615P (Siu Hong → Tuen Mun Ferry Pier)": 1,
+      "Light Rail 615P (Tuen Mun Ferry Pier → Siu Hong)": 1,
+      "Light Rail 505 (Sam Shing → Siu Hong)": 1,
+      "Light Rail 507 (Tin King → Tuen Mun Ferry Pier)": 1,
+      "Light Rail 610 (Yuen Long → Tuen Mun Ferry Pier)": 1,
+      "Light Rail 615 (Tuen Mun Ferry Pier → Yuen Long)": 1,
+      "Light Rail 614 (Tuen Mun Ferry Pier → Yuen Long)": 1,
+      "Light Rail 751 (Yau Oi → Tin Yat)": 1,
+      "Light Rail 751P (Tin Shui Wai → Tin Yat)": 1,
+      "Light Rail 761P (Tin Yat → Yuen Long)": 1,
+      "Light Rail 751P (Tin Yat → Siu Hong)": 1,
+      "Hong Kong International Airport Automated People Mover": 2,
+      "APM T1: Midfield Concourse => West Hall": 1
+    },
+    "name:zh": {
+      "輕鐵751綫（天逸 → 友愛）": 1,
+      "輕鐵751P綫（天逸 → 天水圍）": 1,
+      "輕鐵705綫（天水圍循環綫）": 1,
+      "輕鐵706綫（天水圍循環綫）": 1,
+      "輕鐵761P綫（元朗 → 天逸）": 1,
+      "輕鐵505綫（兆康 → 三聖）": 1,
+      "輕鐵507綫（屯門碼頭 → 田景）": 1,
+      "輕鐵610綫（屯門碼頭 → 元朗）": 1,
+      "輕鐵614綫（元朗 → 屯門碼頭）": 1,
+      "輕鐵615綫（元朗 → 屯門碼頭）": 1,
+      "輕鐵614P綫（兆康 → 屯門碼頭）": 1,
+      "輕鐵614P綫（屯門碼頭 → 兆康）": 1,
+      "輕鐵615P綫（兆康 → 屯門碼頭）": 1,
+      "輕鐵615P綫（屯門碼頭 → 兆康）": 1,
+      "輕鐵505綫（三聖 → 兆康）": 1,
+      "輕鐵507綫（田景 → 屯門碼頭）": 1,
+      "輕鐵610綫（元朗 → 屯門碼頭）": 1,
+      "輕鐵615綫（屯門碼頭 → 元朗）": 1,
+      "輕鐵614綫（屯門碼頭 → 元朗）": 1,
+      "輕鐵751綫（友愛 → 天逸）": 1,
+      "輕鐵751P綫（天水圍 → 天逸）": 1,
+      "輕鐵761P綫（天逸 → 元朗）": 1,
+      "輕鐵751P綫（天逸 → 兆康）": 1,
+      "香港國際機場旅客捷運系統": 2
+    },
+    "network": {
+      "輕鐵 Light Rail": 23
+    },
+    "network:en": {
+      "Light Rail": 23
+    },
+    "network:wikidata": {
+      "Q3083033": 23
+    },
+    "network:zh": {
+      "輕鐵": 23
+    },
+    "operator": {
+      "香港鐵路有限公司 MTR Corporation Limited": 31
+    },
+    "operator:en": {
+      "MTR Corporation Limited": 31
+    },
+    "operator:type": {
+      "private": 23
+    },
+    "operator:wikidata": {
+      "Q1479375": 31
+    },
+    "operator:zh": {
+      "香港鐵路有限公司": 31
+    },
+    "owner": {
+      "九廣鐵路公司 Kowloon-Canton Railway Corporation": 23,
+      "機場管理局 Airport Authority": 6
+    },
+    "owner:en": {
+      "Kowloon-Canton Railway Corporation": 23,
+      "Airport Authority": 6
+    },
+    "owner:wikidata": {
+      "Q838436": 23,
+      "Q4698894": 6
+    },
+    "owner:zh": {
+      "九廣鐵路公司": 23,
+      "機場管理局": 6
+    },
+    "ownership": {
+      "public": 31
+    },
+    "public_transport:network": {
+      "港鐵 MTR": 23
+    },
+    "public_transport:network:en": {
+      "MTR": 22,
+      "港鐵 MTR": 1
+    },
+    "public_transport:network:wikidata": {
+      "Q14751": 23
+    },
+    "public_transport:network:zh": {
+      "港鐵": 23
+    },
+    "public_transport:version": {
+      "2": 25
+    },
+    "railway:network": {
+      "輕鐵 Light Rail": 23
+    },
+    "railway:network:en": {
+      "Light Rail": 23
+    },
+    "railway:network:wikidata": {
+      "Q3083033": 23
+    },
+    "railway:network:zh": {
+      "輕鐵": 23
+    },
+    "ref": {
+      "751": 2,
+      "751P": 3,
+      "705": 1,
+      "706": 1,
+      "761P": 2,
+      "505": 2,
+      "507": 2,
+      "610": 2,
+      "614": 2,
+      "615": 2,
+      "614P": 2,
+      "615P": 2
+    },
+    "route": {
+      "light_rail": 31
+    },
+    "to": {
+      "友愛 Yau Oi": 1,
+      "天水圍 Tin Shui Wai": 3,
+      "天逸 Tin Yat": 3,
+      "三聖 Sam Shing": 1,
+      "田景 Tin King": 1,
+      "元朗 Yuen Long": 4,
+      "屯門碼頭 Tuen Mun Ferry Pier": 6,
+      "兆康 Siu Hong": 4,
+      "東大堂 East Hall": 1,
+      "海天客運碼頭 SkyPier": 1,
+      "T1 西大堂 T1 West Hall": 1,
+      "T1 中場客運廊 T1 Midfield Concourse": 2,
+      "T1 東大堂 T1 East Hall": 1
+    },
+    "type": {
+      "route": 31
+    },
+    "wikidata": {
+      "Q62127921": 2,
+      "Q15903000": 3,
+      "Q62127918": 1,
+      "Q62127919": 1,
+      "Q15909914": 2,
+      "Q13645607": 2,
+      "Q15917019": 2,
+      "Q15908713": 2,
+      "Q62127914": 2,
+      "Q62127916": 2,
+      "Q62127915": 2,
+      "Q62127917": 2,
+      "Q855390": 2
+    },
+    "wikipedia": {
+      "zh:香港輕鐵751、751P綫": 5,
+      "en:MTR Light Rail Routes 705 and 706": 1,
+      "en:MTR Light Rail Route 706": 1,
+      "zh:香港輕鐵761P綫": 2,
+      "zh:香港輕鐵505綫": 2,
+      "zh:香港輕鐵507綫": 2,
+      "zh:香港輕鐵610綫": 2,
+      "zh:香港輕鐵614、614P綫": 4,
+      "zh:香港輕鐵615、615P綫": 4,
+      "zh:香港國際機場旅客捷運系統": 2
+    },
+    "roundtrip": {
+      "yes": 2
+    },
+    "network:zh-Hans": {
+      "轻铁": 1
+    },
+    "network:zh-Hant": {
+      "輕鐵": 1
+    },
+    "operator:zh-Hans": {
+      "香港铁路有限公司": 9
+    },
+    "operator:zh-Hant": {
+      "香港鐵路有限公司": 9
+    },
+    "level": {
+      "-1": 1
+    },
+    "light_rail": {
+      "rubber_tyres": 8
+    },
+    "no:brand": {
+      "yes": 7
+    },
+    "no:network": {
+      "yes": 7
+    },
+    "not:brand": {
+      "輕鐵 Light Rail": 7
+    },
+    "not:brand:en": {
+      "Light Rail": 7
+    },
+    "not:brand:wikidata": {
+      "Q3083033": 7
+    },
+    "not:brand:zh": {
+      "輕鐵": 7
+    },
+    "not:network": {
+      "港鐵 MTR": 7
+    },
+    "not:network:en": {
+      "MTR": 7
+    },
+    "not:network:wikidata": {
+      "Q14751": 7
+    },
+    "not:network:zh": {
+      "港鐵": 7
+    },
+    "access": {
+      "permit": 6
+    },
+    "access:conditional": {
+      "yes @ (permit)": 6
+    },
+    "automated": {
+      "unattended": 6
+    },
+    "disused:via": {
+      "二號客運大樓 Terminal 2": 2
+    },
+    "disused:via:en": {
+      "Terminal 2": 2
+    },
+    "disused:via:zh": {
+      "二號客運大樓": 2
+    },
+    "fee": {
+      "no": 6
+    },
+    "from:en": {
+      "SkyPier": 1,
+      "East Hall": 1,
+      "T1 Midfield Concourse": 2,
+      "T1 West Hall": 1,
+      "T1 East Hall": 1
+    },
+    "from:zh": {
+      "海天客運碼頭": 1,
+      "東大堂": 1,
+      "T1 中場客運廊": 2,
+      "T1 西大堂": 1,
+      "T1 東大堂": 1
+    },
+    "name:ja": {
+      "香港国際空港新交通システム": 2
+    },
+    "opening_hours": {
+      "Mo-Su 05:54-00:48": 6
+    },
+    "passenger": {
+      "local": 6
+    },
+    "security_area": {
+      "yes": 6
+    },
+    "supervised": {
+      "yes": 6
+    },
+    "surveillance": {
+      "yes": 6
+    },
+    "to:en": {
+      "East Hall": 1,
+      "SkyPier": 1,
+      "T1 West Hall": 1,
+      "T1 Midfield Concourse": 2,
+      "T1 East Hall": 1
+    },
+    "to:zh": {
+      "東大堂": 1,
+      "海天客運碼頭": 1,
+      "T1 西大堂": 1,
+      "T1 中場客運廊": 2,
+      "T1 東大堂": 1
+    },
+    "via": {
+      "西大堂 West Hall": 2
+    },
+    "via:en": {
+      "West Hall": 2
+    },
+    "via:zh": {
+      "西大堂": 2
+    }
+  }
+}

@@ -1,0 +1,10 @@
+[build]
+  command = "npm run typecheck && npm run build --workspace apps/web && node --import tsx scripts/build-netlify.ts"
+  publish = "apps/web/dist"
+  functions = "dist/netlify-functions"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+[functions]
+  node_bundler = "esbuild"

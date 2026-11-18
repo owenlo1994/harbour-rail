@@ -1,0 +1,17 @@
+{
+  "name": "@hk-mtr/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@hk-mtr/shared": "*",
+    "maplibre-gl": "^5.12.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.181.0"
+  }
+}

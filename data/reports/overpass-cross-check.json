@@ -1,0 +1,7 @@
+{
+  "note": "Cross-validation only; never used to fill geometry.",
+  "pbfHeavyRelations": 54,
+  "overpassSubwayRelations": 54,
+  "onlyPbf": [],
+  "onlyOverpass": []
+}

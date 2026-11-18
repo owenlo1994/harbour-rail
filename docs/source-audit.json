@@ -1,0 +1,63 @@
+{
+  "source": "https://opendata.mtr.com.hk/data/mtr_lines_and_stations.csv",
+  "retrievedAt": "2026-11-16T05:52:50.178276+00:00",
+  "sha256": "e0e781152e2e6c5f6d7763262acbae76577b71ca4c66b4b7b72a97252175e0c3",
+  "columns": [
+    "Line Code",
+    "Direction",
+    "Station Code",
+    "Station ID",
+    "Chinese Name",
+    "English Name",
+    "Sequence"
+  ],
+  "records": 270,
+  "blankRecords": 3,
+  "stationCodes": 97,
+  "directions": {
+    "AEL": [
+      "DT",
+      "UT"
+    ],
+    "DRL": [
+      "DT",
+      "UT"
+    ],
+    "EAL": [
+      "DT",
+      "LMC-DT",
+      "LMC-UT",
+      "UT"
+    ],
+    "ISL": [
+      "DT",
+      "UT"
+    ],
+    "KTL": [
+      "DT",
+      "UT"
+    ],
+    "SIL": [
+      "DT",
+      "UT"
+    ],
+    "TCL": [
+      "DT",
+      "UT"
+    ],
+    "TKL": [
+      "DT",
+      "TKS-DT",
+      "TKS-UT",
+      "UT"
+    ],
+    "TML": [
+      "DT",
+      "UT"
+    ],
+    "TWL": [
+      "DT",
+      "UT"
+    ]
+  }
+}

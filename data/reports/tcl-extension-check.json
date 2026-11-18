@@ -1,0 +1,718 @@
+{
+  "sourceSha256": "adb3fab0be54bf52155ff98fc1d1f09195f634889c7da397ede3893ec851f9ad",
+  "sourceTimestamp": "2026-11-14T21:20:41Z",
+  "operatingStatus": "user-confirmed-new-alignment",
+  "sourceRelationChanged": false,
+  "animationOrderOverrideApplied": true,
+  "ways": [
+    {
+      "sourceWayId": 1176509649,
+      "status": "user-confirmed-alignment",
+      "bbox": [
+        113.9555194,
+        22.2953864,
+        113.9574959,
+        22.29689
+      ],
+      "lengthMetres": 265.7,
+      "endpoints": {
+        "startNode": 10930801895,
+        "endNode": 10930801903,
+        "start": [
+          113.9555194,
+          22.2953864
+        ],
+        "end": [
+          113.9574959,
+          22.29689
+        ]
+      },
+      "nearestStations": [
+        {
+          "key": "TCL:TUC",
+          "name": "東涌",
+          "sourceNodeId": 288376094,
+          "distanceMetres": 1608.9
+        },
+        {
+          "key": "AEL:AIR",
+          "name": "機場",
+          "sourceNodeId": 253333824,
+          "distanceMetres": 2992.5
+        },
+        {
+          "key": "AEL:AWE",
+          "name": "博覽館",
+          "sourceNodeId": 3304026514,
+          "distanceMetres": 3201.2
+        }
+      ],
+      "tags": {
+        "brand": "港鐵 MTR",
+        "brand:en": "MTR",
+        "brand:zh": "港鐵",
+        "description": "Tung Chung Line Extension (Construction)",
+        "description:en": "Tung Chung Line Extension (Construction)",
+        "description:zh": "東涌綫延綫 (興建中)",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1432",
+        "name": "港鐵東涌綫 MTR Tung Chung Line",
+        "name:en": "MTR Tung Chung Line",
+        "name:zh": "港鐵東涌綫",
+        "name:zh-Hans": "港铁东涌线",
+        "name:zh-Hant": "港鐵東涌綫",
+        "network": "港鐵 MTR",
+        "network:en": "MTR",
+        "network:wikidata": "Q14751",
+        "network:zh": "港鐵",
+        "not:tunnel": "yes",
+        "oneway": "reversible",
+        "operator": "香港鐵路有限公司 MTR Corporation Limited",
+        "operator:en": "MTR Corporation Limited",
+        "operator:wikidata": "Q1479375",
+        "operator:zh": "香港鐵路有限公司",
+        "owner": "香港鐵路有限公司 MTR Corporation Limited",
+        "owner:en": "MTR Corporation Limited",
+        "owner:wikidata": "Q1479375",
+        "owner:zh": "香港鐵路有限公司",
+        "passenger": "suburban",
+        "passenger_lines": "2",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "start_date": "2026-09-13",
+        "usage": "main",
+        "voltage": "1500"
+      },
+      "directRelationMemberships": [
+        {
+          "id": 5317704,
+          "ref": "TCL",
+          "route": "subway",
+          "name": "東涌綫 Tung Chung Line",
+          "from": "東涌 Tung Chung",
+          "to": "香港 Hong Kong",
+          "operator": "香港鐵路有限公司 MTR Corporation"
+        },
+        {
+          "id": 11923016,
+          "ref": null,
+          "route": "railway",
+          "name": "大嶼山及機場鐵路 Lantau and Airport Railway",
+          "from": null,
+          "to": null,
+          "operator": "香港鐵路有限公司 MTR Corporation Limited"
+        }
+      ],
+      "nearbyGeometryComparisons": [
+        {
+          "sourceWayId": 26321741,
+          "railway": "subway",
+          "name": "港鐵東涌綫 MTR Tung Chung Line",
+          "construction": null,
+          "description": null,
+          "minProbeDistanceMetres": 7.6,
+          "medianProbeDistanceMetres": 30.1,
+          "meanAcuteAngleDegrees": 8.3,
+          "sharedSourceEdges": 0,
+          "geometricComparison": "nearby-no-parallel-conclusion",
+          "inferred": true
+        },
+        {
+          "sourceWayId": 715059876,
+          "railway": "subway",
+          "name": "港鐵機場快綫 MTR Airport Express",
+          "construction": null,
+          "description": null,
+          "minProbeDistanceMetres": 18.1,
+          "medianProbeDistanceMetres": 41.9,
+          "meanAcuteAngleDegrees": 8.3,
+          "sharedSourceEdges": 0,
+          "geometricComparison": "nearby-no-parallel-conclusion",
+          "inferred": true
+        },
+        {
+          "sourceWayId": 4959070,
+          "railway": "subway",
+          "name": "港鐵機場快綫 MTR Airport Express",
+          "construction": null,
+          "description": null,
+          "minProbeDistanceMetres": 22.8,
+          "medianProbeDistanceMetres": 47,
+          "meanAcuteAngleDegrees": 8.4,
+          "sharedSourceEdges": 0,
+          "geometricComparison": "nearby-no-parallel-conclusion",
+          "inferred": true
+        }
+      ]
+    },
+    {
+      "sourceWayId": 1558652644,
+      "status": "user-confirmed-alignment",
+      "bbox": [
+        113.9574959,
+        22.29689,
+        113.9597266,
+        22.2977415
+      ],
+      "lengthMetres": 248.3,
+      "endpoints": {
+        "startNode": 10930801903,
+        "endNode": 13238819880,
+        "start": [
+          113.9574959,
+          22.29689
+        ],
+        "end": [
+          113.9597266,
+          22.2977415
+        ]
+      },
+      "nearestStations": [
+        {
+          "key": "TCL:TUC",
+          "name": "東涌",
+          "sourceNodeId": 288376094,
+          "distanceMetres": 1865.5
+        },
+        {
+          "key": "AEL:AIR",
+          "name": "機場",
+          "sourceNodeId": 253333824,
+          "distanceMetres": 3016.9
+        },
+        {
+          "key": "AEL:AWE",
+          "name": "博覽館",
+          "sourceNodeId": 3304026514,
+          "distanceMetres": 3203.7
+        }
+      ],
+      "tags": {
+        "brand": "港鐵 MTR",
+        "brand:en": "MTR",
+        "brand:zh": "港鐵",
+        "covered": "yes",
+        "description": "Tung Chung Line Extension (Construction)",
+        "description:en": "Tung Chung Line Extension (Construction)",
+        "description:zh": "東涌綫延綫 (興建中)",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1432",
+        "name": "港鐵東涌綫 MTR Tung Chung Line",
+        "name:en": "MTR Tung Chung Line",
+        "name:zh": "港鐵東涌綫",
+        "name:zh-Hans": "港铁东涌线",
+        "name:zh-Hant": "港鐵東涌綫",
+        "network": "港鐵 MTR",
+        "network:en": "MTR",
+        "network:wikidata": "Q14751",
+        "network:zh": "港鐵",
+        "not:tunnel": "yes",
+        "oneway": "reversible",
+        "operator": "香港鐵路有限公司 MTR Corporation Limited",
+        "operator:en": "MTR Corporation Limited",
+        "operator:wikidata": "Q1479375",
+        "operator:zh": "香港鐵路有限公司",
+        "owner": "香港鐵路有限公司 MTR Corporation Limited",
+        "owner:en": "MTR Corporation Limited",
+        "owner:wikidata": "Q1479375",
+        "owner:zh": "香港鐵路有限公司",
+        "passenger": "suburban",
+        "passenger_lines": "2",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "start_date": "2026-09-13",
+        "usage": "main",
+        "voltage": "1500"
+      },
+      "directRelationMemberships": [
+        {
+          "id": 5317704,
+          "ref": "TCL",
+          "route": "subway",
+          "name": "東涌綫 Tung Chung Line",
+          "from": "東涌 Tung Chung",
+          "to": "香港 Hong Kong",
+          "operator": "香港鐵路有限公司 MTR Corporation"
+        },
+        {
+          "id": 11923016,
+          "ref": null,
+          "route": "railway",
+          "name": "大嶼山及機場鐵路 Lantau and Airport Railway",
+          "from": null,
+          "to": null,
+          "operator": "香港鐵路有限公司 MTR Corporation Limited"
+        }
+      ],
+      "nearbyGeometryComparisons": [
+        {
+          "sourceWayId": 26321741,
+          "railway": "subway",
+          "name": "港鐵東涌綫 MTR Tung Chung Line",
+          "construction": null,
+          "description": null,
+          "minProbeDistanceMetres": 35.4,
+          "medianProbeDistanceMetres": 38.2,
+          "meanAcuteAngleDegrees": 1,
+          "sharedSourceEdges": 0,
+          "geometricComparison": "nearby-no-parallel-conclusion",
+          "inferred": true
+        }
+      ]
+    },
+    {
+      "sourceWayId": 1558652643,
+      "status": "user-confirmed-alignment",
+      "bbox": [
+        113.9597266,
+        22.2977415,
+        113.9623664,
+        22.2980654
+      ],
+      "lengthMetres": 275.9,
+      "endpoints": {
+        "startNode": 13238819880,
+        "endNode": 10931051406,
+        "start": [
+          113.9597266,
+          22.2977415
+        ],
+        "end": [
+          113.9623664,
+          22.2980654
+        ]
+      },
+      "nearestStations": [
+        {
+          "key": "TCL:TUC",
+          "name": "東涌",
+          "sourceNodeId": 288376094,
+          "distanceMetres": 2112.9
+        },
+        {
+          "key": "AEL:AIR",
+          "name": "機場",
+          "sourceNodeId": 253333824,
+          "distanceMetres": 3122.8
+        },
+        {
+          "key": "AEL:AWE",
+          "name": "博覽館",
+          "sourceNodeId": 3304026514,
+          "distanceMetres": 3243.1
+        }
+      ],
+      "tags": {
+        "brand": "港鐵 MTR",
+        "brand:en": "MTR",
+        "brand:zh": "港鐵",
+        "description": "Tung Chung Line Extension (Construction)",
+        "description:en": "Tung Chung Line Extension (Construction)",
+        "description:zh": "東涌綫延綫 (興建中)",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1432",
+        "name": "港鐵東涌綫 MTR Tung Chung Line",
+        "name:en": "MTR Tung Chung Line",
+        "name:zh": "港鐵東涌綫",
+        "name:zh-Hans": "港铁东涌线",
+        "name:zh-Hant": "港鐵東涌綫",
+        "network": "港鐵 MTR",
+        "network:en": "MTR",
+        "network:wikidata": "Q14751",
+        "network:zh": "港鐵",
+        "not:tunnel": "yes",
+        "oneway": "reversible",
+        "operator": "香港鐵路有限公司 MTR Corporation Limited",
+        "operator:en": "MTR Corporation Limited",
+        "operator:wikidata": "Q1479375",
+        "operator:zh": "香港鐵路有限公司",
+        "owner": "香港鐵路有限公司 MTR Corporation Limited",
+        "owner:en": "MTR Corporation Limited",
+        "owner:wikidata": "Q1479375",
+        "owner:zh": "香港鐵路有限公司",
+        "passenger": "suburban",
+        "passenger_lines": "2",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "start_date": "2026-09-13",
+        "usage": "main",
+        "voltage": "1500"
+      },
+      "directRelationMemberships": [
+        {
+          "id": 5317704,
+          "ref": "TCL",
+          "route": "subway",
+          "name": "東涌綫 Tung Chung Line",
+          "from": "東涌 Tung Chung",
+          "to": "香港 Hong Kong",
+          "operator": "香港鐵路有限公司 MTR Corporation"
+        },
+        {
+          "id": 11923016,
+          "ref": null,
+          "route": "railway",
+          "name": "大嶼山及機場鐵路 Lantau and Airport Railway",
+          "from": null,
+          "to": null,
+          "operator": "香港鐵路有限公司 MTR Corporation Limited"
+        }
+      ],
+      "nearbyGeometryComparisons": [
+        {
+          "sourceWayId": 26321741,
+          "railway": "subway",
+          "name": "港鐵東涌綫 MTR Tung Chung Line",
+          "construction": null,
+          "description": null,
+          "minProbeDistanceMetres": 19.3,
+          "medianProbeDistanceMetres": 34,
+          "meanAcuteAngleDegrees": 3.7,
+          "sharedSourceEdges": 0,
+          "geometricComparison": "nearby-no-parallel-conclusion",
+          "inferred": true
+        }
+      ]
+    },
+    {
+      "sourceWayId": 1558652640,
+      "status": "adjacent-source-way",
+      "bbox": [
+        113.9534697,
+        22.2940319,
+        113.9555194,
+        22.2953864
+      ],
+      "lengthMetres": 259.2,
+      "endpoints": {
+        "startNode": 2291194410,
+        "endNode": 10930801895,
+        "start": [
+          113.9534697,
+          22.2940319
+        ],
+        "end": [
+          113.9555194,
+          22.2953864
+        ]
+      },
+      "nearestStations": [
+        {
+          "key": "TCL:TUC",
+          "name": "東涌",
+          "sourceNodeId": 288376094,
+          "distanceMetres": 1354.4
+        },
+        {
+          "key": "AEL:AIR",
+          "name": "機場",
+          "sourceNodeId": 253333824,
+          "distanceMetres": 2988.9
+        },
+        {
+          "key": "AEL:AWE",
+          "name": "博覽館",
+          "sourceNodeId": 3304026514,
+          "distanceMetres": 3260
+        }
+      ],
+      "tags": {
+        "brand": "港鐵 MTR",
+        "brand:en": "MTR",
+        "brand:zh": "港鐵",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1432",
+        "name": "港鐵東涌綫 MTR Tung Chung Line",
+        "name:en": "MTR Tung Chung Line",
+        "name:zh": "港鐵東涌綫",
+        "name:zh-Hans": "港铁东涌线",
+        "name:zh-Hant": "港鐵東涌綫",
+        "network": "港鐵 MTR",
+        "network:en": "MTR",
+        "network:wikidata": "Q14751",
+        "network:zh": "港鐵",
+        "not:tunnel": "yes",
+        "oneway": "reversible",
+        "operator": "香港鐵路有限公司 MTR Corporation Limited",
+        "operator:en": "MTR Corporation Limited",
+        "operator:loc_name": "港鐵公司 MTR Corporation",
+        "operator:loc_name:en": "MTR Corporation",
+        "operator:loc_name:zh": "港鐵公司",
+        "operator:ref": "MTR",
+        "operator:short": "港鐵 MTRCL",
+        "operator:short:en": "MTRCL",
+        "operator:short:zh": "港鐵",
+        "operator:short_name": "港鐵 MTRCL",
+        "operator:short_name:en": "MTRCL",
+        "operator:short_name:zh": "港鐵",
+        "operator:wikidata": "Q1479375",
+        "operator:zh": "香港鐵路有限公司",
+        "operator:zh-Hans": "香港铁路有限公司",
+        "operator:zh-Hant": "香港鐵路有限公司",
+        "owner": "香港鐵路有限公司 MTR Corporation Limited",
+        "owner:en": "MTR Corporation Limited",
+        "owner:wikidata": "Q1479375",
+        "owner:zh": "香港鐵路有限公司",
+        "passenger": "suburban",
+        "passenger_lines": "2",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "start_date": "1998-06-21",
+        "usage": "main",
+        "voltage": "1500"
+      },
+      "directRelationMemberships": [
+        {
+          "id": 5317704,
+          "ref": "TCL",
+          "route": "subway",
+          "name": "東涌綫 Tung Chung Line",
+          "from": "東涌 Tung Chung",
+          "to": "香港 Hong Kong",
+          "operator": "香港鐵路有限公司 MTR Corporation"
+        },
+        {
+          "id": 11923016,
+          "ref": null,
+          "route": "railway",
+          "name": "大嶼山及機場鐵路 Lantau and Airport Railway",
+          "from": null,
+          "to": null,
+          "operator": "香港鐵路有限公司 MTR Corporation Limited"
+        }
+      ],
+      "nearbyGeometryComparisons": [
+        {
+          "sourceWayId": 1558652639,
+          "railway": "subway",
+          "name": "港鐵東涌綫 MTR Tung Chung Line",
+          "construction": null,
+          "description": null,
+          "minProbeDistanceMetres": 4.9,
+          "medianProbeDistanceMetres": 5.2,
+          "meanAcuteAngleDegrees": 0.1,
+          "sharedSourceEdges": 0,
+          "geometricComparison": "near-parallel-by-stated-threshold",
+          "inferred": true
+        },
+        {
+          "sourceWayId": 715059876,
+          "railway": "subway",
+          "name": "港鐵機場快綫 MTR Airport Express",
+          "construction": null,
+          "description": null,
+          "minProbeDistanceMetres": 17.4,
+          "medianProbeDistanceMetres": 20,
+          "meanAcuteAngleDegrees": 4.3,
+          "sharedSourceEdges": 0,
+          "geometricComparison": "near-parallel-by-stated-threshold",
+          "inferred": true
+        },
+        {
+          "sourceWayId": 4959070,
+          "railway": "subway",
+          "name": "港鐵機場快綫 MTR Airport Express",
+          "construction": null,
+          "description": null,
+          "minProbeDistanceMetres": 22.1,
+          "medianProbeDistanceMetres": 25.1,
+          "meanAcuteAngleDegrees": 4.3,
+          "sharedSourceEdges": 0,
+          "geometricComparison": "near-parallel-by-stated-threshold",
+          "inferred": true
+        }
+      ]
+    },
+    {
+      "sourceWayId": 1558652637,
+      "status": "adjacent-source-way",
+      "bbox": [
+        113.9623664,
+        22.2980654,
+        113.9675612,
+        22.2991797
+      ],
+      "lengthMetres": 548.9,
+      "endpoints": {
+        "startNode": 10931051406,
+        "endNode": 2291194457,
+        "start": [
+          113.9623664,
+          22.2980654
+        ],
+        "end": [
+          113.9675612,
+          22.2991797
+        ]
+      },
+      "nearestStations": [
+        {
+          "key": "TCL:TUC",
+          "name": "東涌",
+          "sourceNodeId": 288376094,
+          "distanceMetres": 2373.2
+        },
+        {
+          "key": "AEL:AIR",
+          "name": "機場",
+          "sourceNodeId": 253333824,
+          "distanceMetres": 3313
+        },
+        {
+          "key": "AEL:AWE",
+          "name": "博覽館",
+          "sourceNodeId": 3304026514,
+          "distanceMetres": 3372.9
+        }
+      ],
+      "tags": {
+        "brand": "港鐵 MTR",
+        "brand:en": "MTR",
+        "brand:zh": "港鐵",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1432",
+        "name": "港鐵東涌綫 MTR Tung Chung Line",
+        "name:en": "MTR Tung Chung Line",
+        "name:zh": "港鐵東涌綫",
+        "name:zh-Hans": "港铁东涌线",
+        "name:zh-Hant": "港鐵東涌綫",
+        "network": "港鐵 MTR",
+        "network:en": "MTR",
+        "network:wikidata": "Q14751",
+        "network:zh": "港鐵",
+        "not:tunnel": "yes",
+        "oneway": "reversible",
+        "operator": "香港鐵路有限公司 MTR Corporation Limited",
+        "operator:en": "MTR Corporation Limited",
+        "operator:loc_name": "港鐵公司 MTR Corporation",
+        "operator:loc_name:en": "MTR Corporation",
+        "operator:loc_name:zh": "港鐵公司",
+        "operator:ref": "MTR",
+        "operator:short": "港鐵 MTRCL",
+        "operator:short:en": "MTRCL",
+        "operator:short:zh": "港鐵",
+        "operator:short_name": "港鐵 MTRCL",
+        "operator:short_name:en": "MTRCL",
+        "operator:short_name:zh": "港鐵",
+        "operator:wikidata": "Q1479375",
+        "operator:zh": "香港鐵路有限公司",
+        "operator:zh-Hans": "香港铁路有限公司",
+        "operator:zh-Hant": "香港鐵路有限公司",
+        "owner": "香港鐵路有限公司 MTR Corporation Limited",
+        "owner:en": "MTR Corporation Limited",
+        "owner:wikidata": "Q1479375",
+        "owner:zh": "香港鐵路有限公司",
+        "passenger": "suburban",
+        "passenger_lines": "2",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "start_date": "1998-06-21",
+        "usage": "main",
+        "voltage": "1500"
+      },
+      "directRelationMemberships": [
+        {
+          "id": 5317704,
+          "ref": "TCL",
+          "route": "subway",
+          "name": "東涌綫 Tung Chung Line",
+          "from": "東涌 Tung Chung",
+          "to": "香港 Hong Kong",
+          "operator": "香港鐵路有限公司 MTR Corporation"
+        },
+        {
+          "id": 11923016,
+          "ref": null,
+          "route": "railway",
+          "name": "大嶼山及機場鐵路 Lantau and Airport Railway",
+          "from": null,
+          "to": null,
+          "operator": "香港鐵路有限公司 MTR Corporation Limited"
+        }
+      ],
+      "nearbyGeometryComparisons": [
+        {
+          "sourceWayId": 219994020,
+          "railway": "subway",
+          "name": "港鐵機場快綫 MTR Airport Express",
+          "construction": null,
+          "description": null,
+          "minProbeDistanceMetres": 5,
+          "medianProbeDistanceMetres": 7.4,
+          "meanAcuteAngleDegrees": 2.2,
+          "sharedSourceEdges": 0,
+          "geometricComparison": "near-parallel-by-stated-threshold",
+          "inferred": true
+        },
+        {
+          "sourceWayId": 219994038,
+          "railway": "subway",
+          "name": "港鐵機場快綫 MTR Airport Express",
+          "construction": null,
+          "description": null,
+          "minProbeDistanceMetres": 10.3,
+          "medianProbeDistanceMetres": 13.4,
+          "meanAcuteAngleDegrees": 2.2,
+          "sharedSourceEdges": 0,
+          "geometricComparison": "near-parallel-by-stated-threshold",
+          "inferred": true
+        },
+        {
+          "sourceWayId": 1558652638,
+          "railway": "subway",
+          "name": "港鐵東涌綫 MTR Tung Chung Line",
+          "construction": null,
+          "description": null,
+          "minProbeDistanceMetres": 15.4,
+          "medianProbeDistanceMetres": 22,
+          "meanAcuteAngleDegrees": 2.1,
+          "sharedSourceEdges": 0,
+          "geometricComparison": "near-parallel-by-stated-threshold",
+          "inferred": true
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "sourceIndices": "3→4",
+      "afterWay": 1558652640,
+      "beforeWay": 1558652637,
+      "afterNode": 10930801895,
+      "beforeNode": 10931051406,
+      "afterCoordinates": [
+        113.9555194,
+        22.2953864
+      ],
+      "beforeCoordinates": [
+        113.9623664,
+        22.2980654
+      ],
+      "distanceMetres": 764.8,
+      "inferred": true
+    },
+    {
+      "sourceIndices": "50→51",
+      "afterWay": 249196544,
+      "beforeWay": 1176509649,
+      "afterNode": 2557051037,
+      "beforeNode": 10930801895,
+      "afterCoordinates": [
+        114.1584546,
+        22.2851469
+      ],
+      "beforeCoordinates": [
+        113.9555194,
+        22.2953864
+      ],
+      "distanceMetres": 20910.2,
+      "inferred": true
+    }
+  ],
+  "method": "WGS84 local equirectangular distance (R=6371008.8m); lengths sum source segments; gaps are straight-line endpoint distance only. No gap geometry is created. Parallel check: segment midpoint probes vs other source polylines; median <=30m and mean acute angle <=15 degrees is a geometric flag, never operating-status evidence. Direct parent memberships across all PBF relations; not transitive ancestors."
+}

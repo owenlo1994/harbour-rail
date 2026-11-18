@@ -1,0 +1,17 @@
+{
+  "name": "@hk-mtr/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --import tsx src/index.ts",
+    "build": "esbuild src/index.ts --bundle --platform=node --format=esm --outfile=dist/index.js --external:@hono/node-server",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hk-mtr/shared": "*",
+    "@hono/node-server": "^1.19.6",
+    "@netlify/blobs": "^11.1.9",
+    "hono": "^4.10.4"
+  }
+}

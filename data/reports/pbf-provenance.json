@@ -1,0 +1,12 @@
+{
+  "sha256": "adb3fab0be54bf52155ff98fc1d1f09195f634889c7da397ede3893ec851f9ad",
+  "header": {
+    "osmosis_replication_timestamp": "2026-11-14T21:20:41Z"
+  },
+  "sourceFile": "hong-kong-261114.osm.pbf",
+  "sizeBytes": 37898384,
+  "md5": "a585484ef8ac2181d6dcce07f0e7bdba",
+  "reader": "pyosmium 4.2.0",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0"
+}

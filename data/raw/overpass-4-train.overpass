@@ -1,0 +1,1 @@
+[out:json][timeout:35];relation["type"="route"]["route"="train"]["operator"~"MTR|港鐵",i](22.15,113.80,22.57,114.45);out body geom;

@@ -1,0 +1,111 @@
+{
+  "url": "https://harbour-rail-hk.floralrabbit1.chatgpt.site",
+  "desktop": [
+    1440,
+    1000
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "pageErrors": [],
+  "feedSamples": [
+    {
+      "trains": 13,
+      "fresh": 8,
+      "total": 8,
+      "unmapped": 0
+    },
+    {
+      "trains": 13,
+      "fresh": 8,
+      "total": 8,
+      "unmapped": 0
+    },
+    {
+      "trains": 13,
+      "fresh": 8,
+      "total": 8,
+      "unmapped": 0
+    },
+    {
+      "trains": 13,
+      "fresh": 8,
+      "total": 8,
+      "unmapped": 0
+    },
+    {
+      "trains": 12,
+      "fresh": 8,
+      "total": 8,
+      "unmapped": 0
+    },
+    {
+      "trains": 8,
+      "fresh": 8,
+      "total": 8,
+      "unmapped": 0
+    },
+    {
+      "trains": 7,
+      "fresh": 8,
+      "total": 8,
+      "unmapped": 0
+    },
+    {
+      "trains": 7,
+      "fresh": 8,
+      "total": 8,
+      "unmapped": 0
+    },
+    {
+      "trains": 7,
+      "fresh": 8,
+      "total": 8,
+      "unmapped": 0
+    },
+    {
+      "trains": 7,
+      "fresh": 8,
+      "total": 8,
+      "unmapped": 0
+    },
+    {
+      "trains": 7,
+      "fresh": 8,
+      "total": 8,
+      "unmapped": 0
+    },
+    {
+      "trains": 7,
+      "fresh": 8,
+      "total": 8,
+      "unmapped": 0
+    }
+  ],
+  "checks": [
+    "real official multi-train API",
+    "mode separation and real-time 1x",
+    "manual live selection and continuous follow",
+    "representative train toy profiles",
+    "GPS permission granted + local marker + nearest predicted train",
+    "controlled network interruption with no simulation fallback",
+    "real browser geolocation permission denied",
+    "manual simulation selection and pause",
+    "mobile TKL live branches",
+    "no horizontal overflow",
+    "forecast versus GPS/vehicle identity disclosure"
+  ],
+  "checkedAt": "2026-11-18T02:33:18.051683+00:00",
+  "testedSourceCommit": "4e4e56d97c71862dc8199fb44a714343b66eb5f9",
+  "frontendAssets": [
+    {
+      "file": "index-BSVPm4dm.js",
+      "sha256": "90c1a1e79ba107aa4952e08c64c3ad813702a5ce28ba8270cf7fc437d9eac28b"
+    },
+    {
+      "file": "index-CZHGoF7z.css",
+      "sha256": "ab5ee10b982dc3989602ce09698f21258ecf81c6fd74702541d469a30f4ebc49"
+    }
+  ]
+}

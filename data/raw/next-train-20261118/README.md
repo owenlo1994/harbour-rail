@@ -1,0 +1,9 @@
+# Official API recordings, 2026-11-18 UTC
+
+Recorded directly from `https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=<LINE>&sta=<STA>&lang=TC`, not scraped. Files preserve returned JSON bytes. © MTR Corporation Limited, public Next Train Open Data API. Dictionary: https://opendata.mtr.com.hk/doc/Next_Train_DataDictionary_v1.7.pdf . The copyrighted dictionary PDF is read outside the repository and is not redistributed here.
+
+TWL ADM/TST, TKL TKO/TIK, EAL SHS/TAW/RAC, DRL SUN were captured around 01:00 UTC (09:00 Hong Kong). Error-invalid-station is the actual official response to TWL/ZZZ around 01:22 UTC. EAL actual response uses `timeType`; dictionary spells `timetype`. Both explicitly supported; conflicting/unknown meanings are not silently treated as arrivals. Dummy ttnt/valid/source are ignored for position and countdown.
+
+These recordings include branch destinations, opposite directions, terminal board asymmetry, empty RAC predictions and a real error. No actual delayed or departure-type response was observed in this capture. Delay Y, departure D, timeout and interruption cases in tests are **constructed scenarios**, clearly distinguished from the recordings; no test fixture is used as a production fallback.
+
+Additional recordings around 02:07 UTC: TML-AUS-short-turn.json genuinely contains UP→MEF and DOWN→DIH; KTL-MOK-later.json contains WHA only at that later time. Earlier KTL→HOM short turns are preserved as explicitly normalized official proxy-cache evidence in data/reports/observed-short-turns.json, including original observation/poll times and API URLs; that derived cache export is **not** presented as raw upstream bytes. ISL-ADM-missing-time.json is the real status1 / curr_time '-' / no direction rows response observed around02:02UTC. This is unavailable prediction data, not a claim that the line is closed.

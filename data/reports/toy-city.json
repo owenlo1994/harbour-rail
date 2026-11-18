@@ -1,0 +1,151 @@
+{
+  "buildingFootprintsSeen": 107933,
+  "buildings": 12535,
+  "roadWays": 25048,
+  "bridgeWays": 1704,
+  "hills": 465,
+  "greens": 2569,
+  "landmarks": [
+    {
+      "id": "node/567538779",
+      "kind": "temple",
+      "name": "黃大仙廟",
+      "coordinates": [
+        114.1954047,
+        22.3416498
+      ],
+      "rank": 1
+    },
+    {
+      "id": "way/25589595",
+      "kind": "ifc",
+      "name": "國際金融中心二期",
+      "coordinates": [
+        114.1592775,
+        22.2852971
+      ],
+      "rank": 2
+    },
+    {
+      "id": "way/37664345",
+      "kind": "tower",
+      "name": "香港文化中心",
+      "coordinates": [
+        114.1703387,
+        22.2938145
+      ],
+      "rank": 2
+    },
+    {
+      "id": "way/396857659",
+      "kind": "buddha",
+      "name": "天壇大佛",
+      "coordinates": [
+        113.9050151,
+        22.2539607
+      ],
+      "rank": 2
+    },
+    {
+      "id": "way/25604760",
+      "kind": "bank",
+      "name": "中銀大廈",
+      "coordinates": [
+        114.1615688,
+        22.2792677
+      ],
+      "rank": 2
+    },
+    {
+      "id": "node/2556736117",
+      "kind": "convention",
+      "name": "香港會議展覽中心",
+      "coordinates": [
+        114.1733047,
+        22.2772036
+      ],
+      "rank": 1
+    },
+    {
+      "id": "way/25590249",
+      "kind": "icc",
+      "name": "環球貿易廣場",
+      "coordinates": [
+        114.1602256,
+        22.3033785
+      ],
+      "rank": 2
+    },
+    {
+      "id": "way/37664321",
+      "kind": "clock",
+      "name": "尖沙咀鐘樓",
+      "coordinates": [
+        114.1695378,
+        22.2935926
+      ],
+      "rank": 2
+    },
+    {
+      "id": "way/184731574",
+      "kind": "space",
+      "name": "香港太空館",
+      "coordinates": [
+        114.1719122,
+        22.2942272
+      ],
+      "rank": 1
+    },
+    {
+      "id": "way/323202866",
+      "kind": "wheel",
+      "name": "香港摩天輪",
+      "coordinates": [
+        114.1617658,
+        22.2853328
+      ],
+      "rank": 1
+    },
+    {
+      "id": "way/609099609",
+      "kind": "stadium",
+      "name": "啟德主場館",
+      "coordinates": [
+        114.1973634,
+        22.3222275
+      ],
+      "rank": 1
+    },
+    {
+      "id": "way/802061958",
+      "kind": "castle",
+      "name": "奇妙夢想城堡",
+      "coordinates": [
+        114.0410847,
+        22.3126249
+      ],
+      "rank": 2
+    },
+    {
+      "id": "way/1483823682",
+      "kind": "ferry",
+      "name": "中環天星碼頭",
+      "coordinates": [
+        114.1612046,
+        22.2870741
+      ],
+      "rank": 2
+    }
+  ],
+  "metadata": {
+    "source": "Geofabrik Hong Kong OSM PBF",
+    "sourceFile": "hong-kong-261114.osm.pbf",
+    "timestamp": "2026-11-14T21:20:41Z",
+    "sha256": "adb3fab0be54bf52155ff98fc1d1f09195f634889c7da397ede3893ec851f9ad",
+    "attribution": "© OpenStreetMap contributors",
+    "license": "ODbL-1.0",
+    "appearance": "decorative-not-survey",
+    "inferred": true,
+    "anchorMethod": "Area centroid of actual source building ways; peaks and POIs retain source positions. Dimensions and heights are illustrative toy art, not measurements."
+  }
+}

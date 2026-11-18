@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-17",
+  "browser": "system Chromium via Playwright; software WebGL",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "checks": [
+    "120/120 keys in private audit",
+    "TCL and uncertain ways absent from dev payload",
+    "public outputs absent",
+    "no horizontal overflow",
+    "station official/OSM refs retained",
+    "line filter",
+    "rotation 30deg",
+    "pitch 55deg",
+    "Chinese/English switch",
+    "mobile search",
+    "real canvas station click",
+    "source attribution dialog"
+  ],
+  "screenshots": [
+    "desktop-network.png",
+    "desktop-tilted.png",
+    "mobile-network.png",
+    "mobile-station.png"
+  ],
+  "pageErrors": [],
+  "failedRequests": [],
+  "httpFailures": []
+}

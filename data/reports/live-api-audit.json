@@ -1,0 +1,253 @@
+{
+  "checkedAt": "2026-11-18T02:28:44Z",
+  "url": "https://harbour-rail-hk.floralrabbit1.chatgpt.site",
+  "stationKeysPolled": 121,
+  "coverage": {
+    "stationsTotal": 121,
+    "stationsLoaded": 108,
+    "stationsFresh": 93,
+    "nextCursor": 7,
+    "polledKeys": [
+      "TML:TUM",
+      "AEL:AWE",
+      "DRL:SUN",
+      "EAL:LOW",
+      "ISL:CHW",
+      "KTL:TIK",
+      "TML:WKS",
+      "TCL:TUC"
+    ]
+  },
+  "lines": [
+    {
+      "line": "AEL",
+      "state": "live",
+      "fresh": 5,
+      "total": 5,
+      "updatedAt": 1794968920000
+    },
+    {
+      "line": "DRL",
+      "state": "live",
+      "fresh": 2,
+      "total": 2,
+      "updatedAt": 1794968918000
+    },
+    {
+      "line": "EAL",
+      "state": "partial",
+      "fresh": 15,
+      "total": 16,
+      "updatedAt": 1794968917000
+    },
+    {
+      "line": "ISL",
+      "state": "unavailable",
+      "fresh": 0,
+      "total": 17,
+      "updatedAt": null,
+      "message": "官方目前未提供班次及有效資料時間"
+    },
+    {
+      "line": "KTL",
+      "state": "partial",
+      "fresh": 13,
+      "total": 17,
+      "updatedAt": 1794968919000
+    },
+    {
+      "line": "TML",
+      "state": "partial",
+      "fresh": 22,
+      "total": 27,
+      "updatedAt": 1794968918000
+    },
+    {
+      "line": "TCL",
+      "state": "live",
+      "fresh": 8,
+      "total": 8,
+      "updatedAt": 1794968916000
+    },
+    {
+      "line": "TKL",
+      "state": "live",
+      "fresh": 8,
+      "total": 8,
+      "updatedAt": 1794968895000
+    },
+    {
+      "line": "TWL",
+      "state": "live",
+      "fresh": 16,
+      "total": 16,
+      "updatedAt": 1794968892000
+    },
+    {
+      "line": "SIL",
+      "state": "partial",
+      "fresh": 4,
+      "total": 5,
+      "updatedAt": 1794968886000
+    }
+  ],
+  "predictedTripsByLine": {
+    "AEL": 5,
+    "DRL": 0,
+    "EAL": 27,
+    "ISL": 0,
+    "KTL": 24,
+    "SIL": 2,
+    "TCL": 12,
+    "TKL": 13,
+    "TML": 41,
+    "TWL": 24
+  },
+  "samples": [
+    {
+      "polled": 8,
+      "fresh": 7,
+      "trains": 0,
+      "ms": 2988,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 16,
+      "fresh": 14,
+      "trains": 7,
+      "ms": 2701,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 24,
+      "fresh": 21,
+      "trains": 22,
+      "ms": 2664,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 32,
+      "fresh": 28,
+      "trains": 42,
+      "ms": 2874,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 40,
+      "fresh": 35,
+      "trains": 54,
+      "ms": 2775,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 48,
+      "fresh": 42,
+      "trains": 63,
+      "ms": 3424,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 56,
+      "fresh": 48,
+      "trains": 74,
+      "ms": 3482,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 64,
+      "fresh": 55,
+      "trains": 84,
+      "ms": 2994,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 72,
+      "fresh": 62,
+      "trains": 93,
+      "ms": 3106,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 80,
+      "fresh": 68,
+      "trains": 108,
+      "ms": 3158,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 88,
+      "fresh": 68,
+      "trains": 108,
+      "ms": 1093,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 96,
+      "fresh": 79,
+      "trains": 124,
+      "ms": 3357,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 104,
+      "fresh": 84,
+      "trains": 129,
+      "ms": 2885,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 112,
+      "fresh": 84,
+      "trains": 129,
+      "ms": 854,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 120,
+      "fresh": 92,
+      "trains": 150,
+      "ms": 3286,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    },
+    {
+      "polled": 121,
+      "fresh": 93,
+      "trains": 148,
+      "ms": 3665,
+      "unmapped": 0,
+      "cache": "d1",
+      "examples": []
+    }
+  ],
+  "note": "Official API forecast/inferred trip count only; no GPS train-count ground truth."
+}

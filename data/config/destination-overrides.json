@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "exceptions": [
+    {
+      "line": "KTL",
+      "direction": "DOWN",
+      "dest": "HOM",
+      "source": [
+        "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=KTL&sta=MOK&lang=TC",
+        "data/reports/observed-short-turns.json"
+      ],
+      "reason": "2026-11-18 官方回應有何文田短途終點，v1.7 方向表沒有列出；只允許此已錄到的短途終點，仍須符合已審核 DOWN 路徑站序。"
+    },
+    {
+      "line": "TML",
+      "direction": "UP",
+      "dest": "MEF",
+      "source": [
+        "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TML&sta=AUS&lang=TC",
+        "data/raw/next-train-20261118/TML-AUS-short-turn.json"
+      ],
+      "reason": "2026-11-18 官方回應有美孚短途終點，v1.7 方向表沒有列出；只允許此明確例外，依原始路徑在 MEF 終止。"
+    },
+    {
+      "line": "TML",
+      "direction": "DOWN",
+      "dest": "DIH",
+      "source": [
+        "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TML&sta=AUS&lang=TC",
+        "data/raw/next-train-20261118/TML-AUS-short-turn.json"
+      ],
+      "reason": "2026-11-18 官方回應有鑽石山短途終點，v1.7 方向表沒有列出；只允許此明確例外，依原始路徑在 DIH 終止。"
+    }
+  ]
+}

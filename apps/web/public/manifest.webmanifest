@@ -1,0 +1,19 @@
+{
+  "name": "港鐵玩具城",
+  "short_name": "玩具城",
+  "description": "小小車長的香港鐵路探索玩具；玩具列車行程為模擬。",
+  "lang": "zh-HK",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f5ed",
+  "theme_color": "#4b7c5a",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

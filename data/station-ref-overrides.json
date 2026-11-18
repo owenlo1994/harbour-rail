@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "exceptions": [
+    {
+      "key": "TML:SUW",
+      "line": "TML",
+      "stationCode": "SUW",
+      "osmRef": "SWT",
+      "nodeIds": [2308404918, 2308405006],
+      "source": [
+        "https://opendata.mtr.com.hk/doc/Next_Train_DataDictionary_v1.6.pdf",
+        "港鐵宋皇臺站街道圖／位置圖：suw.pdf（使用者提供檔名依據，未猜測 URL）"
+      ],
+      "reason": "使用者於 2026-11-17 明確批准：官方 TML 列出 SUW Sung Wong Toi；OSM 兩個指定同名停站節點 ref=SWT 與官方不一致。只限此站此兩個節點，保留雙方原始碼。",
+      "approvedAt": "2026-11-17"
+    }
+  ]
+}

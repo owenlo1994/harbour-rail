@@ -1,0 +1,6 @@
+[
+  {
+    "code": "CROSS_CODE_INTERCHANGES_UNVERIFIED",
+    "message": "Different station codes are never merged automatically. Cross-code interchange paths require verified manual overrides."
+  }
+]

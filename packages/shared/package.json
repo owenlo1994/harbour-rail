@@ -1,0 +1,12 @@
+{
+  "name": "@hk-mtr/shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./network": "./src/network.ts",
+    "./toy": "./src/toy.ts",
+    "./live": "./src/live.ts"
+  }
+}

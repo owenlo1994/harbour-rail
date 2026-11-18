@@ -1,0 +1,758 @@
+[
+  {
+    "a": {
+      "key": "AEL:TSY",
+      "chineseName": "青衣",
+      "englishName": "Tsing Yi",
+      "sourceNodeId": 24357989
+    },
+    "b": {
+      "key": "TCL:TSY",
+      "chineseName": "青衣",
+      "englishName": "Tsing Yi",
+      "sourceNodeId": 288376916
+    },
+    "distanceMetres": 5.1,
+    "sameStopArea": true,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "AEL:KOW",
+      "chineseName": "九龍",
+      "englishName": "Kowloon",
+      "sourceNodeId": 288378895
+    },
+    "b": {
+      "key": "TML:AUS",
+      "chineseName": "柯士甸",
+      "englishName": "Austin",
+      "sourceNodeId": 262146161
+    },
+    "distanceMetres": 519.9,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "AEL:KOW",
+      "chineseName": "九龍",
+      "englishName": "Kowloon",
+      "sourceNodeId": 288378895
+    },
+    "b": {
+      "key": "TCL:KOW",
+      "chineseName": "九龍",
+      "englishName": "Kowloon",
+      "sourceNodeId": 278952085
+    },
+    "distanceMetres": 15.7,
+    "sameStopArea": true,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "AEL:HOK",
+      "chineseName": "香港",
+      "englishName": "Hong Kong",
+      "sourceNodeId": 2557051040
+    },
+    "b": {
+      "key": "ISL:CEN",
+      "chineseName": "中環",
+      "englishName": "Central",
+      "sourceNodeId": 2564544875
+    },
+    "distanceMetres": 358.7,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "AEL:HOK",
+      "chineseName": "香港",
+      "englishName": "Hong Kong",
+      "sourceNodeId": 2557051040
+    },
+    "b": {
+      "key": "TCL:HOK",
+      "chineseName": "香港",
+      "englishName": "Hong Kong",
+      "sourceNodeId": 2557051035
+    },
+    "distanceMetres": 12.6,
+    "sameStopArea": true,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "AEL:HOK",
+      "chineseName": "香港",
+      "englishName": "Hong Kong",
+      "sourceNodeId": 2557051040
+    },
+    "b": {
+      "key": "TWL:CEN",
+      "chineseName": "中環",
+      "englishName": "Central",
+      "sourceNodeId": 2556738364
+    },
+    "distanceMetres": 403.3,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "DRL:SUN",
+      "chineseName": "欣澳",
+      "englishName": "Sunny Bay",
+      "sourceNodeId": 1295654897
+    },
+    "b": {
+      "key": "TCL:SUN",
+      "chineseName": "欣澳",
+      "englishName": "Sunny Bay",
+      "sourceNodeId": 1295654804
+    },
+    "distanceMetres": 35.3,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "EAL:TAW",
+      "chineseName": "大圍",
+      "englishName": "Tai Wai",
+      "sourceNodeId": 243844966
+    },
+    "b": {
+      "key": "TML:TAW",
+      "chineseName": "大圍",
+      "englishName": "Tai Wai",
+      "sourceNodeId": 1506594356
+    },
+    "distanceMetres": 45.2,
+    "sameStopArea": true,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "EAL:KOT",
+      "chineseName": "九龍塘",
+      "englishName": "Kowloon Tong",
+      "sourceNodeId": 1295654891
+    },
+    "b": {
+      "key": "KTL:KOT",
+      "chineseName": "九龍塘",
+      "englishName": "Kowloon Tong",
+      "sourceNodeId": 288457559
+    },
+    "distanceMetres": 146.7,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "EAL:MKK",
+      "chineseName": "旺角東",
+      "englishName": "Mong Kok East",
+      "sourceNodeId": 243845056
+    },
+    "b": {
+      "key": "KTL:PRE",
+      "chineseName": "太子",
+      "englishName": "Prince Edward",
+      "sourceNodeId": 991294915
+    },
+    "distanceMetres": 518.2,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "EAL:MKK",
+      "chineseName": "旺角東",
+      "englishName": "Mong Kok East",
+      "sourceNodeId": 243845056
+    },
+    "b": {
+      "key": "KTL:MOK",
+      "chineseName": "旺角",
+      "englishName": "Mong Kok",
+      "sourceNodeId": 991294975
+    },
+    "distanceMetres": 441.4,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "EAL:MKK",
+      "chineseName": "旺角東",
+      "englishName": "Mong Kok East",
+      "sourceNodeId": 243845056
+    },
+    "b": {
+      "key": "TWL:PRE",
+      "chineseName": "太子",
+      "englishName": "Prince Edward",
+      "sourceNodeId": 288379264
+    },
+    "distanceMetres": 528,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "EAL:MKK",
+      "chineseName": "旺角東",
+      "englishName": "Mong Kok East",
+      "sourceNodeId": 243845056
+    },
+    "b": {
+      "key": "TWL:MOK",
+      "chineseName": "旺角",
+      "englishName": "Mong Kok",
+      "sourceNodeId": 288379318
+    },
+    "distanceMetres": 453.6,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "EAL:HUH",
+      "chineseName": "紅磡",
+      "englishName": "Hung Hom",
+      "sourceNodeId": 4515155553
+    },
+    "b": {
+      "key": "TML:HUH",
+      "chineseName": "紅磡",
+      "englishName": "Hung Hom",
+      "sourceNodeId": 2308404912
+    },
+    "distanceMetres": 3.5,
+    "sameStopArea": true,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "EAL:EXC",
+      "chineseName": "會展",
+      "englishName": "Exhibition Centre",
+      "sourceNodeId": 4515155551
+    },
+    "b": {
+      "key": "ISL:WAC",
+      "chineseName": "灣仔",
+      "englishName": "Wan Chai",
+      "sourceNodeId": 2564544993
+    },
+    "distanceMetres": 542.3,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "EAL:ADM",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "sourceNodeId": 9739308596
+    },
+    "b": {
+      "key": "ISL:ADM",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "sourceNodeId": 2564545101
+    },
+    "distanceMetres": 83.8,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "EAL:ADM",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "sourceNodeId": 9739308596
+    },
+    "b": {
+      "key": "TWL:ADM",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "sourceNodeId": 2556657209
+    },
+    "distanceMetres": 103.1,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "EAL:ADM",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "sourceNodeId": 9739308596
+    },
+    "b": {
+      "key": "SIL:ADM",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "sourceNodeId": 1295654882
+    },
+    "distanceMetres": 32.2,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "ISL:QUB",
+      "chineseName": "鰂魚涌",
+      "englishName": "Quarry Bay",
+      "sourceNodeId": 984741558
+    },
+    "b": {
+      "key": "TKL:QUB",
+      "chineseName": "鰂魚涌",
+      "englishName": "Quarry Bay",
+      "sourceNodeId": 2600841716
+    },
+    "distanceMetres": 144.1,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "ISL:NOP",
+      "chineseName": "北角",
+      "englishName": "North Point",
+      "sourceNodeId": 253288836
+    },
+    "b": {
+      "key": "TKL:NOP",
+      "chineseName": "北角",
+      "englishName": "North Point",
+      "sourceNodeId": 984409361
+    },
+    "distanceMetres": 65.6,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "ISL:ADM",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "sourceNodeId": 2564545101
+    },
+    "b": {
+      "key": "TWL:ADM",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "sourceNodeId": 2556657209
+    },
+    "distanceMetres": 25.8,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "ISL:ADM",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "sourceNodeId": 2564545101
+    },
+    "b": {
+      "key": "SIL:ADM",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "sourceNodeId": 1295654882
+    },
+    "distanceMetres": 114.8,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "ISL:CEN",
+      "chineseName": "中環",
+      "englishName": "Central",
+      "sourceNodeId": 2564544875
+    },
+    "b": {
+      "key": "TCL:HOK",
+      "chineseName": "香港",
+      "englishName": "Hong Kong",
+      "sourceNodeId": 2557051035
+    },
+    "distanceMetres": 347,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "ISL:CEN",
+      "chineseName": "中環",
+      "englishName": "Central",
+      "sourceNodeId": 2564544875
+    },
+    "b": {
+      "key": "TWL:CEN",
+      "chineseName": "中環",
+      "englishName": "Central",
+      "sourceNodeId": 2556738364
+    },
+    "distanceMetres": 155.3,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "KTL:TIK",
+      "chineseName": "調景嶺",
+      "englishName": "Tiu Keng Leng",
+      "sourceNodeId": 984741544
+    },
+    "b": {
+      "key": "TKL:TIK",
+      "chineseName": "調景嶺",
+      "englishName": "Tiu Keng Leng",
+      "sourceNodeId": 307394049
+    },
+    "distanceMetres": 14.4,
+    "sameStopArea": true,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "KTL:YAT",
+      "chineseName": "油塘",
+      "englishName": "Yau Tong",
+      "sourceNodeId": 288706017
+    },
+    "b": {
+      "key": "TKL:YAT",
+      "chineseName": "油塘",
+      "englishName": "Yau Tong",
+      "sourceNodeId": 991295084
+    },
+    "distanceMetres": 14,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "KTL:DIH",
+      "chineseName": "鑽石山",
+      "englishName": "Diamond Hill",
+      "sourceNodeId": 288704403
+    },
+    "b": {
+      "key": "TML:DIH",
+      "chineseName": "鑽石山",
+      "englishName": "Diamond Hill",
+      "sourceNodeId": 2308404910
+    },
+    "distanceMetres": 105.2,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "KTL:WTS",
+      "chineseName": "黃大仙",
+      "englishName": "Wong Tai Sin",
+      "sourceNodeId": 288704399
+    },
+    "b": {
+      "key": "TML:DIH",
+      "chineseName": "鑽石山",
+      "englishName": "Diamond Hill",
+      "sourceNodeId": 2308404910
+    },
+    "distanceMetres": 597.9,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "KTL:PRE",
+      "chineseName": "太子",
+      "englishName": "Prince Edward",
+      "sourceNodeId": 991294915
+    },
+    "b": {
+      "key": "TWL:PRE",
+      "chineseName": "太子",
+      "englishName": "Prince Edward",
+      "sourceNodeId": 288379264
+    },
+    "distanceMetres": 13.5,
+    "sameStopArea": true,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "KTL:PRE",
+      "chineseName": "太子",
+      "englishName": "Prince Edward",
+      "sourceNodeId": 991294915
+    },
+    "b": {
+      "key": "TWL:MOK",
+      "chineseName": "旺角",
+      "englishName": "Mong Kok",
+      "sourceNodeId": 288379318
+    },
+    "distanceMetres": 589.3,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "KTL:MOK",
+      "chineseName": "旺角",
+      "englishName": "Mong Kok",
+      "sourceNodeId": 991294975
+    },
+    "b": {
+      "key": "TWL:PRE",
+      "chineseName": "太子",
+      "englishName": "Prince Edward",
+      "sourceNodeId": 288379264
+    },
+    "distanceMetres": 589.2,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "KTL:MOK",
+      "chineseName": "旺角",
+      "englishName": "Mong Kok",
+      "sourceNodeId": 991294975
+    },
+    "b": {
+      "key": "TWL:MOK",
+      "chineseName": "旺角",
+      "englishName": "Mong Kok",
+      "sourceNodeId": 288379318
+    },
+    "distanceMetres": 14.2,
+    "sameStopArea": true,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "KTL:YMT",
+      "chineseName": "油麻地",
+      "englishName": "Yau Ma Tei",
+      "sourceNodeId": 991294660
+    },
+    "b": {
+      "key": "TWL:YMT",
+      "chineseName": "油麻地",
+      "englishName": "Yau Ma Tei",
+      "sourceNodeId": 288379179
+    },
+    "distanceMetres": 1.8,
+    "sameStopArea": true,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "KTL:HOM",
+      "chineseName": "何文田",
+      "englishName": "Ho Man Tin",
+      "sourceNodeId": 2319258377
+    },
+    "b": {
+      "key": "TML:HOM",
+      "chineseName": "何文田",
+      "englishName": "Ho Man Tin",
+      "sourceNodeId": 2308404964
+    },
+    "distanceMetres": 23.9,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "TML:ETS",
+      "chineseName": "尖東",
+      "englishName": "East Tsim Sha Tsui",
+      "sourceNodeId": 384143704
+    },
+    "b": {
+      "key": "TWL:TST",
+      "chineseName": "尖沙咀",
+      "englishName": "Tsim Sha Tsui",
+      "sourceNodeId": 2555388098
+    },
+    "distanceMetres": 356.3,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "TML:AUS",
+      "chineseName": "柯士甸",
+      "englishName": "Austin",
+      "sourceNodeId": 262146161
+    },
+    "b": {
+      "key": "TCL:KOW",
+      "chineseName": "九龍",
+      "englishName": "Kowloon",
+      "sourceNodeId": 278952085
+    },
+    "distanceMetres": 504.5,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "TML:AUS",
+      "chineseName": "柯士甸",
+      "englishName": "Austin",
+      "sourceNodeId": 262146161
+    },
+    "b": {
+      "key": "TWL:JOR",
+      "chineseName": "佐敦",
+      "englishName": "Jordan",
+      "sourceNodeId": 262119934
+    },
+    "distanceMetres": 531.5,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "TML:NAC",
+      "chineseName": "南昌",
+      "englishName": "Nam Cheong",
+      "sourceNodeId": 262146168
+    },
+    "b": {
+      "key": "TCL:NAC",
+      "chineseName": "南昌",
+      "englishName": "Nam Cheong",
+      "sourceNodeId": 279126413
+    },
+    "distanceMetres": 23.1,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "TML:MEF",
+      "chineseName": "美孚",
+      "englishName": "Mei Foo",
+      "sourceNodeId": 279126759
+    },
+    "b": {
+      "key": "TWL:MEF",
+      "chineseName": "美孚",
+      "englishName": "Mei Foo",
+      "sourceNodeId": 288379522
+    },
+    "distanceMetres": 293.8,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "TCL:LAK",
+      "chineseName": "茘景",
+      "englishName": "Lai King",
+      "sourceNodeId": 1295654768
+    },
+    "b": {
+      "key": "TWL:LAK",
+      "chineseName": "茘景",
+      "englishName": "Lai King",
+      "sourceNodeId": 288378585
+    },
+    "distanceMetres": 37.4,
+    "sameStopArea": true,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "TCL:HOK",
+      "chineseName": "香港",
+      "englishName": "Hong Kong",
+      "sourceNodeId": 2557051035
+    },
+    "b": {
+      "key": "TWL:CEN",
+      "chineseName": "中環",
+      "englishName": "Central",
+      "sourceNodeId": 2556738364
+    },
+    "distanceMetres": 394.4,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  },
+  {
+    "a": {
+      "key": "TWL:ADM",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "sourceNodeId": 2556657209
+    },
+    "b": {
+      "key": "SIL:ADM",
+      "chineseName": "金鐘",
+      "englishName": "Admiralty",
+      "sourceNodeId": 1295654882
+    },
+    "distanceMetres": 132.3,
+    "sameStopArea": false,
+    "confirmed": false,
+    "inferred": true
+  }
+]

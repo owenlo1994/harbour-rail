@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "line": "TCL",
+  "relationId": 5317704,
+  "reviewedWayIds": [1176509649, 1558652644, 1558652643],
+  "excludedWayIds": [],
+  "status": "user-confirmed-alignment",
+  "source": "使用者 2026-11-17 最新明確指示：東涌線現在是行新路線，只是新站未開通",
+  "reason": "使用指定原始節點相接的三段新路軌；保留 OSM description 興建中與 start_date 原值，不將使用者確認偽稱官方公告；未開通站獨立標示且無到站查詢。"
+}

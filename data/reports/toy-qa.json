@@ -1,0 +1,24 @@
+{
+  "desktop": [
+    1440,
+    1000
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "pageErrors": [],
+  "officialBoardState": "official",
+  "checks": [
+    "WebGL 3D toy layer",
+    "train following",
+    "speed and pause",
+    "station search",
+    "favorite",
+    "server-side official board",
+    "mobile route drawer",
+    "mobile station close unblocked",
+    "simulation disclosure",
+    "no horizontal overflow"
+  ]
+}

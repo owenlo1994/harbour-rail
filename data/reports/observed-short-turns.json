@@ -1,0 +1,199 @@
+{
+  "source": "Official Next Train API, normalized backend cache read from Sites D1. Not original upstream JSON bytes.",
+  "auditFileWrittenAt": "2026-11-18T02:04:38.728730+00:00",
+  "attribution": "© MTR Corporation Limited",
+  "entries": [
+    {
+      "key": "KTL:MOK",
+      "apiUrl": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=KTL&sta=MOK&lang=TC",
+      "cachedEntry": {
+        "result": {
+          "state": "official",
+          "line": "KTL",
+          "station": "MOK",
+          "updatedAt": "2026-11-18 10:01:15",
+          "fetchedAt": "2026-11-18T02:01:21.883Z",
+          "delay": "N",
+          "directions": {
+            "UP": [
+              {
+                "dest": "TIK",
+                "plat": "3",
+                "time": "2026-11-18 10:01:15",
+                "seq": 1,
+                "ttnt": "0",
+                "valid": "Y",
+                "source": "-"
+              },
+              {
+                "dest": "TIK",
+                "plat": "3",
+                "time": "2026-11-18 10:03:15",
+                "seq": 2,
+                "ttnt": "2",
+                "valid": "Y",
+                "source": "-"
+              },
+              {
+                "dest": "TIK",
+                "plat": "3",
+                "time": "2026-11-18 10:06:15",
+                "seq": 3,
+                "ttnt": "5",
+                "valid": "Y",
+                "source": "-"
+              },
+              {
+                "dest": "TIK",
+                "plat": "3",
+                "time": "2026-11-18 10:08:15",
+                "seq": 4,
+                "ttnt": "7",
+                "valid": "Y",
+                "source": "-"
+              }
+            ],
+            "DOWN": [
+              {
+                "dest": "HOM",
+                "plat": "4",
+                "time": "2026-11-18 10:02:15",
+                "seq": 1,
+                "ttnt": "1",
+                "valid": "Y",
+                "source": "-"
+              },
+              {
+                "dest": "WHA",
+                "plat": "4",
+                "time": "2026-11-18 10:04:15",
+                "seq": 2,
+                "ttnt": "3",
+                "valid": "Y",
+                "source": "-"
+              },
+              {
+                "dest": "WHA",
+                "plat": "4",
+                "time": "2026-11-18 10:07:15",
+                "seq": 3,
+                "ttnt": "6",
+                "valid": "Y",
+                "source": "-"
+              },
+              {
+                "dest": "WHA",
+                "plat": "4",
+                "time": "2026-11-18 10:11:15",
+                "seq": 4,
+                "ttnt": "10",
+                "valid": "Y",
+                "source": "-"
+              }
+            ]
+          }
+        },
+        "polledAt": 1794967281883,
+        "latencyMs": 235,
+        "expiresAt": 1794967296883
+      }
+    },
+    {
+      "key": "KTL:YMT",
+      "apiUrl": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=KTL&sta=YMT&lang=TC",
+      "cachedEntry": {
+        "result": {
+          "state": "official",
+          "line": "KTL",
+          "station": "YMT",
+          "updatedAt": "2026-11-18 10:01:15",
+          "fetchedAt": "2026-11-18T02:01:24.262Z",
+          "delay": "N",
+          "directions": {
+            "UP": [
+              {
+                "dest": "TIK",
+                "plat": "3",
+                "time": "2026-11-18 10:01:15",
+                "seq": 1,
+                "ttnt": "0",
+                "valid": "Y",
+                "source": "-"
+              },
+              {
+                "dest": "TIK",
+                "plat": "3",
+                "time": "2026-11-18 10:04:15",
+                "seq": 2,
+                "ttnt": "3",
+                "valid": "Y",
+                "source": "-"
+              },
+              {
+                "dest": "TIK",
+                "plat": "3",
+                "time": "2026-11-18 10:06:15",
+                "seq": 3,
+                "ttnt": "5",
+                "valid": "Y",
+                "source": "-"
+              },
+              {
+                "dest": "TIK",
+                "plat": "3",
+                "time": "2026-11-18 10:08:15",
+                "seq": 4,
+                "ttnt": "7",
+                "valid": "Y",
+                "source": "-"
+              }
+            ],
+            "DOWN": [
+              {
+                "dest": "WHA",
+                "plat": "4",
+                "time": "2026-11-18 10:02:15",
+                "seq": 1,
+                "ttnt": "1",
+                "valid": "Y",
+                "source": "-"
+              },
+              {
+                "dest": "HOM",
+                "plat": "4",
+                "time": "2026-11-18 10:04:15",
+                "seq": 2,
+                "ttnt": "3",
+                "valid": "Y",
+                "source": "-"
+              },
+              {
+                "dest": "WHA",
+                "plat": "4",
+                "time": "2026-11-18 10:06:15",
+                "seq": 3,
+                "ttnt": "5",
+                "valid": "Y",
+                "source": "-"
+              },
+              {
+                "dest": "WHA",
+                "plat": "4",
+                "time": "2026-11-18 10:09:15",
+                "seq": 4,
+                "ttnt": "8",
+                "valid": "Y",
+                "source": "-"
+              }
+            ]
+          }
+        },
+        "polledAt": 1794967284262,
+        "latencyMs": 270,
+        "expiresAt": 1794967299262
+      }
+    }
+  ],
+  "laterRecording": "data/raw/next-train-20261118/KTL-MOK-later.json",
+  "note": "Earlier cache contains HOM short turns; later raw response has WHA only. The app uses the destination actually present in each current observation, not a fixed short-turn timetable."
+}

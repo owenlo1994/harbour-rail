@@ -1,0 +1,741 @@
+{
+  "elements": 54,
+  "keys": {
+    "brand": 30,
+    "brand:en": 30,
+    "brand:zh": 30,
+    "colour": 54,
+    "from": 54,
+    "from:en": 46,
+    "from:zh": 46,
+    "name": 54,
+    "name:en": 54,
+    "name:zh": 54,
+    "network": 54,
+    "network:en": 54,
+    "network:wikidata": 51,
+    "network:zh": 54,
+    "network:zh-Hans": 54,
+    "network:zh-Hant": 54,
+    "operator": 54,
+    "operator:en": 54,
+    "operator:wikidata": 51,
+    "operator:zh": 51,
+    "operator:zh-Hans": 51,
+    "operator:zh-Hant": 51,
+    "owner": 28,
+    "owner:en": 28,
+    "owner:wikidata": 28,
+    "owner:zh": 28,
+    "passenger": 29,
+    "public_transport:version": 54,
+    "ref": 54,
+    "route": 54,
+    "service": 26,
+    "start_date": 6,
+    "to": 54,
+    "to:en": 45,
+    "to:zh": 45,
+    "type": 54,
+    "usage": 19,
+    "wikidata": 29,
+    "wikipedia": 10,
+    "brand:wikidata": 16,
+    "network:ref": 14,
+    "network:wikipedia": 19,
+    "via": 23,
+    "via:en": 21,
+    "via:zh": 21,
+    "description": 35,
+    "description:en": 35,
+    "description:zh": 35,
+    "direction:official_ref": 8,
+    "direction:official_ref:en": 8,
+    "direction:official_ref:zh": 8,
+    "direction:ref": 32,
+    "direction:ref:en": 32,
+    "direction:ref:zh": 32,
+    "railway:traffic_mode": 12,
+    "network:short": 8,
+    "note:route": 7,
+    "operator:wikipedia": 4,
+    "to:ref": 17,
+    "from:ref": 16,
+    "ownership": 7,
+    "not:network:wikidata": 3,
+    "opening_hours": 10,
+    "class": 6,
+    "frequency": 10,
+    "gauge": 10,
+    "maxspeed": 6,
+    "voltage": 10,
+    "air_conditioning": 4,
+    "electrified": 4,
+    "short_name": 4,
+    "short_name:en": 4,
+    "short_name:zh": 4,
+    "wheelchair": 4,
+    "old_name": 2,
+    "old_name:en": 2,
+    "old_name:zh": 2,
+    "train": 2,
+    "was:colour": 2,
+    "was:name": 2,
+    "was:name:en": 2,
+    "was:name:zh": 2,
+    "was:ref": 2,
+    "passenger_lines": 1,
+    "name:zh-Hans": 1,
+    "name:zh-Hant": 1
+  },
+  "values": {
+    "brand": {
+      "港鐵 MTR": 28,
+      "機場快綫 Airport Express": 2
+    },
+    "brand:en": {
+      "MTR": 28,
+      "Airport Express": 2
+    },
+    "brand:zh": {
+      "港鐵": 28,
+      "機場快綫": 2
+    },
+    "colour": {
+      "#ed1d24": 2,
+      "#7d499d": 6,
+      "#00ab4e": 7,
+      "#53b7e8": 23,
+      "#007dc5": 2,
+      "#f173ac": 2,
+      "#00888a": 2,
+      "#f7943e": 4,
+      "#923011": 4,
+      "#B6BD00": 2
+    },
+    "from": {
+      "荃灣 Tsuen Wan": 1,
+      "北角 North Point": 2,
+      "調景嶺 Tiu Keng Leng": 4,
+      "落馬洲 Lok Ma Chau": 2,
+      "羅湖 Lo Wu": 2,
+      "金鐘 Admiralty": 12,
+      "沙田 Sha Tin": 1,
+      "柴灣 Chai Wan": 1,
+      "堅尼地城 Kennedy Town": 1,
+      "欣澳 Sunny Bay": 1,
+      "迪士尼 Disneyland Resort": 1,
+      "博覽館 AsiaWorld-Expo": 1,
+      "香港 Hong Kong": 3,
+      "東涌 Tung Chung": 1,
+      "屯門 Tuen Mun": 2,
+      "烏溪沙 Wu Kai Sha": 1,
+      "黃埔 Whampoa": 2,
+      "紅磡 Hung Hom": 1,
+      "上水 Sheung Shui": 2,
+      "大埔墟 Tai Po Market": 2,
+      "火炭 Fo Tan": 1,
+      "馬場 Racecourse": 1,
+      "何文田 Ho Man Tin": 1,
+      "青衣 Tsing Yi": 1,
+      "海怡半島 South Horizons": 1,
+      "中環 Central": 1,
+      "康城 LOHAS Park": 2,
+      "將軍澳 Tseung Kwan O": 1,
+      "寶琳 Po Lam": 1,
+      "旺角東 Mong Kok East": 1
+    },
+    "from:en": {
+      "Tsuen Wan": 1,
+      "North Point": 2,
+      "Tiu Keng Leng": 4,
+      "Lok Ma Chau": 2,
+      "Lo Wu": 2,
+      "Admiralty": 11,
+      "Chai Wan": 1,
+      "Kennedy Town": 1,
+      "AsiaWorld-Expo": 1,
+      "Hong Kong": 2,
+      "Tung Chung": 1,
+      "Tuen Mun": 2,
+      "Wu Kai Sha": 1,
+      "Whampoa": 2,
+      "Hung Hom": 1,
+      "Sheung Shui": 2,
+      "Tai Po Market": 2,
+      "Fo Tan": 1,
+      "Ho Man Tin": 1,
+      "Tsing Yi": 1,
+      "Central": 1,
+      "LOHAS Park": 2,
+      "Tseung Kwan O": 1,
+      "Po Lam": 1
+    },
+    "from:zh": {
+      "荃灣": 1,
+      "北角": 2,
+      "調景嶺": 4,
+      "落馬洲": 2,
+      "羅湖": 2,
+      "金鐘": 11,
+      "柴灣": 1,
+      "堅尼地城": 1,
+      "博覽館": 1,
+      "香港": 2,
+      "東涌": 1,
+      "屯門": 2,
+      "烏溪沙": 1,
+      "黃埔": 2,
+      "紅磡": 1,
+      "上水": 2,
+      "大埔墟": 2,
+      "火炭": 1,
+      "何文田": 1,
+      "青衣": 1,
+      "中環": 1,
+      "康城": 2,
+      "將軍澳": 1,
+      "寶琳": 1
+    },
+    "name": {
+      "港鐵荃灣綫 MTR Tsuen Wan Line (南行 Southbound)": 1,
+      "港鐵將軍澳綫 MTR Tseung Kwan O Line": 6,
+      "港鐵觀塘綫 MTR Kwun Tong Line": 7,
+      "港鐵東鐵綫 MTR East Rail Line": 22,
+      "港鐵港島綫 MTR Island Line": 2,
+      "港鐵迪士尼綫 (下) MTR Disneyland Resort Line (南行 Southbound)": 1,
+      "港鐵迪士尼綫 (上) MTR Disneyland Resort Line (北行 Northbound)": 1,
+      "機場快綫 Airport Express": 2,
+      "東涌綫 Tung Chung Line": 4,
+      "港鐵屯馬綫 MTR Tuen Ma Line": 4,
+      "南港島綫 South Island Line (金鐘 Admiralty → 海怡半島 South Horizons)": 1,
+      "南港島綫 South Island Line (海怡半島 South Horizons → 金鐘 Admiralty)": 1,
+      "港鐵荃灣綫 MTR Tsuen Wan Line (北行 Northbound)": 1,
+      "東鐵綫 East Rail Line (旺角東 Mong Kok East → 落馬洲 Lok Ma Chau)": 1
+    },
+    "name:en": {
+      "MTR Tsuen Wan Line (Southbound)": 1,
+      "MTR Tseung Kwan O Line": 6,
+      "MTR Kwun Tong Line": 7,
+      "MTR East Rail Line": 22,
+      "MTR Island Line": 2,
+      "MTR Disneyland Resort Line (Southbound)": 1,
+      "MTR Disneyland Resort Line (Northbound)": 1,
+      "Airport Express": 2,
+      "Tung Chung Line": 4,
+      "MTR Tuen Ma Line": 4,
+      "South Island Line (Admiralty → South Horizons)": 1,
+      "South Island Line (South Horizons → Admiralty)": 1,
+      "MTR Tsuen Wan Line (Northbound)": 1,
+      "East Rail Line (Mong Kok East → Lok Ma Chau)": 1
+    },
+    "name:zh": {
+      "港鐵荃灣綫": 2,
+      "港鐵將軍澳綫": 6,
+      "港鐵觀塘綫": 7,
+      "港鐵東鐵綫": 22,
+      "港鐵港島綫": 2,
+      "港鐵迪士尼綫 (下)": 1,
+      "港鐵迪士尼綫 (上)": 1,
+      "機場快綫": 2,
+      "東涌綫": 4,
+      "港鐵屯馬綫": 4,
+      "南港島綫（金鐘 → 海怡半島）": 1,
+      "南港島綫（海怡半島 → 金鐘）": 1,
+      "東鐵綫（旺角東 → 落馬洲）": 1
+    },
+    "network": {
+      "港鐵 MTR": 54
+    },
+    "network:en": {
+      "MTR": 51,
+      "Hong Kong Metro": 3
+    },
+    "network:wikidata": {
+      "Q14751": 51
+    },
+    "network:zh": {
+      "港鐵": 54
+    },
+    "network:zh-Hans": {
+      "港铁": 54
+    },
+    "network:zh-Hant": {
+      "港鐵": 54
+    },
+    "operator": {
+      "香港鐵路有限公司 MTR Corporation": 54
+    },
+    "operator:en": {
+      "MTR Corporation": 54
+    },
+    "operator:wikidata": {
+      "Q1479375": 51
+    },
+    "operator:zh": {
+      "香港鐵路有限公司": 51
+    },
+    "operator:zh-Hans": {
+      "香港铁路有限公司": 51
+    },
+    "operator:zh-Hant": {
+      "香港鐵路有限公司": 51
+    },
+    "owner": {
+      "香港鐵路有限公司 MTR Corporation Limited": 21,
+      "九廣鐵路公司 Kowloon-Canton Railway Corporation": 7
+    },
+    "owner:en": {
+      "MTR Corporation Limited": 21,
+      "Kowloon-Canton Railway Corporation": 7
+    },
+    "owner:wikidata": {
+      "Q1479375": 21,
+      "Q838436": 7
+    },
+    "owner:zh": {
+      "香港鐵路有限公司": 21,
+      "九廣鐵路公司": 7
+    },
+    "passenger": {
+      "urban": 9,
+      "local": 7,
+      "suburban": 13
+    },
+    "public_transport:version": {
+      "2": 54
+    },
+    "ref": {
+      "TWL": 2,
+      "TKL": 6,
+      "KTL": 7,
+      "EAL": 23,
+      "ISL": 2,
+      "DRL": 2,
+      "AEL": 2,
+      "TCL": 4,
+      "TML": 4,
+      "SIL": 2
+    },
+    "route": {
+      "subway": 54
+    },
+    "service": {
+      "metro": 12,
+      "events": 8,
+      "premium": 2,
+      "regular": 4
+    },
+    "start_date": {
+      "1982-05-10": 2,
+      "2005-08-01": 2,
+      "2021-06-27": 2
+    },
+    "to": {
+      "中環 Central": 1,
+      "寶琳 Po Lam": 1,
+      "黃埔 Whampoa": 1,
+      "金鐘 Admiralty": 12,
+      "落馬洲 Lok Ma Chau": 3,
+      "羅湖 Lo Wu": 2,
+      "沙田 Sha Tin": 1,
+      "堅尼地城 Kennedy Town": 1,
+      "柴灣 Chai Wan": 1,
+      "迪士尼 Disneyland Resort": 1,
+      "欣澳 Sunny Bay": 1,
+      "香港 Hong Kong": 3,
+      "博覽館 AsiaWorld-Expo": 1,
+      "東涌 Tung Chung": 1,
+      "烏溪沙 Wu Kai Sha": 1,
+      "屯門 Tuen Mun": 2,
+      "調景嶺 Tiu Keng Leng": 2,
+      "紅磡 Hung Hom": 1,
+      "上水 Sheung Shui": 2,
+      "大埔墟 Tai Po Market": 2,
+      "火炭 Fo Tan": 1,
+      "馬場 Racecourse": 1,
+      "彩虹 Choi Hung": 1,
+      "觀塘 Kwun Tong": 2,
+      "何文田 Ho Man Tin": 1,
+      "青衣 Tsing Yi": 1,
+      "海怡半島 South Horizons": 1,
+      "荃灣 Tsuen Wan": 1,
+      "將軍澳 Tseung Kwan O": 1,
+      "康城 LOHAS Park": 2,
+      "北角 North Point": 2
+    },
+    "to:en": {
+      "Central": 1,
+      "Po Lam": 1,
+      "Whampoa": 1,
+      "Admiralty": 11,
+      "Lok Ma Chau": 2,
+      "Lo Wu": 2,
+      "Kennedy Town": 1,
+      "Chai Wan": 1,
+      "Hong Kong": 1,
+      "AsiaWorld-Expo": 1,
+      "Tung Chung": 1,
+      "Wu Kai Sha": 1,
+      "Tuen Mun": 2,
+      "Tiu Keng Leng": 2,
+      "Hung Hom": 1,
+      "Sheung Shui": 2,
+      "Tai Po Market": 2,
+      "Racecourse": 1,
+      "Choi Hung": 1,
+      "Kwun Tong": 2,
+      "Ho Man Tin": 1,
+      "Tsing Yi": 1,
+      "Tsuen Wan": 1,
+      "Tseung Kwan O": 1,
+      "LOHAS Park": 2,
+      "North Point": 2
+    },
+    "to:zh": {
+      "中環": 1,
+      "寶琳": 1,
+      "黃埔": 1,
+      "金鐘": 11,
+      "落馬洲": 2,
+      "羅湖": 2,
+      "堅尼地城": 1,
+      "柴灣": 1,
+      "香港": 1,
+      "博覽館": 1,
+      "東涌": 1,
+      "烏溪沙": 1,
+      "屯門": 2,
+      "調景嶺": 2,
+      "紅磡": 1,
+      "上水": 2,
+      "大埔墟": 2,
+      "馬場": 1,
+      "彩虹": 1,
+      "觀塘": 2,
+      "何文田": 1,
+      "青衣": 1,
+      "荃灣": 1,
+      "將軍澳": 1,
+      "康城": 2,
+      "北角": 2
+    },
+    "type": {
+      "route": 54
+    },
+    "usage": {
+      "main": 15,
+      "branch": 4
+    },
+    "wikidata": {
+      "Q1194568": 2,
+      "Q989347": 4,
+      "Q736412": 7,
+      "Q989316": 2,
+      "Q989330": 2,
+      "Q409036": 2,
+      "Q989358": 4,
+      "Q5329661": 2,
+      "Q989369": 2,
+      "Q2041013": 2
+    },
+    "wikipedia": {
+      "zh:荃灣綫": 2,
+      "zh:將軍澳綫": 4,
+      "en:Tuen Ma line": 2,
+      "zh:西鐵綫": 2
+    },
+    "brand:wikidata": {
+      "Q14751": 14,
+      "Q409036": 2
+    },
+    "network:ref": {
+      "MTR": 14
+    },
+    "network:wikipedia": {
+      "en:MTR": 14,
+      "zh:港鐵": 4,
+      "zh-yue:港鐵": 1
+    },
+    "via": {
+      "將軍澳 Tseung Kwan O": 4,
+      "觀塘 Kwun Tong": 5,
+      "馬場 Racecourse": 8,
+      "市區 City": 1,
+      "機場 Airport": 1,
+      "紅磡 Hung Hom; 馬鞍山 Ma On Shan": 1,
+      "馬鞍山 Ma On Shan;紅磡 Hung Hom": 1,
+      "海洋公園 Ocean Park": 2
+    },
+    "via:en": {
+      "Tseung Kwan O": 4,
+      "Kwun Tong": 5,
+      "Racecourse": 8,
+      "City": 1,
+      "Airport": 1,
+      "Hung Hom;Ma On Shan": 1,
+      "Ma On Shan;Hung Hom": 1
+    },
+    "via:zh": {
+      "將軍澳": 4,
+      "觀塘": 5,
+      "馬場": 8,
+      "市區": 1,
+      "機場": 1,
+      "紅磡;馬鞍山": 1,
+      "馬鞍山;紅磡": 1
+    },
+    "description": {
+      "Tiu Keng Leng → Whampoa": 1,
+      "東鐵綫 East Rail Line (落馬洲 Lok Ma Chau → 金鐘 Admiralty)": 1,
+      "東鐵綫 East Rail Line (羅湖 Lo Wu → 金鐘 Admiralty)": 1,
+      "東鐵綫 East Rail Line (金鐘 Admiralty → 落馬洲 Lok Ma Chau)": 1,
+      "東鐵綫 East Rail Line (金鐘 Admiralty → 羅湖 Lo Wu)": 1,
+      "東鐵綫 East Rail Line (落馬洲 Lok Ma Chau → 金鐘 Admiralty (經馬場 via Racecourse))": 1,
+      "東鐵綫 East Rail Line (羅湖 Lo Wu → 金鐘 Admiralty (經馬場 via Racecourse))": 1,
+      "東鐵綫 East Rail Line (金鐘 Admiralty → 落馬洲 Lok Ma Chau (經馬場 via Racecourse))": 1,
+      "東鐵綫 East Rail Line (金鐘 Admiralty → 羅湖 Lo Wu (經馬場 via Racecourse))": 1,
+      "東鐵綫 East Rail Line (沙田 Sha Tin → 金鐘 Admiralty)": 1,
+      "東鐵綫 East Rail Line (金鐘 Admiralty → 沙田 Sha Tin)": 1,
+      "MTR Island Line (Down/Westbound)": 1,
+      "MTR Island Line (Up/Eastbound)": 1,
+      "Tuen Ma Line ( 屯門 Tuen Mun → 烏溪沙 Wu Kai Sha)": 1,
+      "屯馬綫 Tuen Ma Line (烏溪沙 Wu Kai Sha → 屯門 Tuen Mun)": 1,
+      "Whampoa → Tiu Keng Leng": 1,
+      "Tuen Ma Line (Tuen Mun → Hung Hom )": 1,
+      "屯馬綫 Tuen Ma Line (紅磡 Hung Hom → 屯門 Tuen Mun)": 1,
+      "東鐵綫 East Rail Line (金鐘 Admiralty → 上水 Sheung Shui (經馬場 via Racecourse))": 1,
+      "東鐵綫 East Rail Line (金鐘 Admiralty → 上水 Sheung Shui)": 1,
+      "東鐵綫 East Rail Line (金鐘 Admiralty → 大埔墟 Tai Po Market)": 1,
+      "東鐵綫 East Rail Line (上水 Sheung Shui → 金鐘 Admiralty (經馬場 via Racecourse))": 1,
+      "東鐵綫 East Rail Line (上水 Sheung Shui → 金鐘 Admiralty)": 1,
+      "東鐵綫 East Rail Line (大埔墟 Tai Po Market → 金鐘 Admiralty)": 1,
+      "東鐵綫 East Rail Line (火炭 Fo Tan → 金鐘 Admiralty)": 1,
+      "東鐵綫 East Rail Line (金鐘 Admiralty → 火炭 Fo Tan)": 1,
+      "東鐵綫 East Rail Line (金鐘 Admiralty → 馬場 Racecourse)": 1,
+      "東鐵綫 East Rail Line (金鐘 Admiralty → 大埔墟 Tai Po Market (經馬場 via Racecourse))": 1,
+      "東鐵綫 East Rail Line (馬場 Racecourse → 金鐘 Admiralty)": 1,
+      "東鐵綫 East Rail Line (大埔墟 Tai Po Market → 金鐘 Admiralty (經馬場 via Racecourse))": 1,
+      "Tiu Keng Leng → Choi Hung": 1,
+      "Tiu Keng Leng → Kwun Tong": 1,
+      "Whampoa → Kwun Tong": 1,
+      "Ho Man Tin → Tiu Keng Leng": 1,
+      "Tiu Keng Leng → Ho Man Tin": 1
+    },
+    "description:en": {
+      "Tiu Keng Leng → Whampoa": 1,
+      "East Rail Line (Lok Ma Chau → Admiralty)": 1,
+      "East Rail Line (Lo Wu → Admiralty)": 1,
+      "East Rail Line (Admiralty → Lok Ma Chau)": 1,
+      "East Rail Line (Admiralty → Lo Wu)": 1,
+      "East Rail Line (Lok Ma Chau → Admiralty (via Racecourse))": 1,
+      "East Rail Line (Lo Wu → Admiralty (via Racecourse))": 1,
+      "East Rail Line (Admiralty → Lok Ma Chau (via Racecourse))": 1,
+      "East Rail Line (Admiralty → Lo Wu (via Racecourse))": 1,
+      "East Rail Line (Sha Tin → Admiralty)": 1,
+      "East Rail Line (Admiralty → Sha Tin)": 1,
+      "MTR Island Line (Down/Westbound)": 1,
+      "MTR Island Line (Up/Eastbound)": 1,
+      "Tuen Ma Line ( Tuen Mun → Wu Kai Sha)": 1,
+      "Tuen Ma Line (Wu Kai Sha → Tuen Mun)": 1,
+      "Whampoa → Tiu Keng Leng": 1,
+      "Tuen Ma Line (Tuen Mun → Hung Hom )": 1,
+      "屯馬綫 Tuen Ma Line (Hung Hom → Tuen Mun)": 1,
+      "East Rail Line (Admiralty → Sheung Shui (via Racecourse))": 1,
+      "East Rail Line (Admiralty → Sheung Shui)": 1,
+      "East Rail Line (Admiralty → Tai Po Market)": 1,
+      "East Rail Line (Sheung Shui → Admiralty (via Racecourse))": 1,
+      "East Rail Line (Sheung Shui → Admiralty)": 1,
+      "East Rail Line (Tai Po Market → Admiralty)": 1,
+      "East Rail Line (Fo Tan → Admiralty)": 1,
+      "East Rail Line (Admiralty → Fo Tan)": 1,
+      "East Rail Line (Admiralty → Racecourse)": 1,
+      "East Rail Line (Admiralty → Tai Po Market (via Racecourse))": 1,
+      "East Rail Line (Racecourse → Admiralty)": 1,
+      "East Rail Line (Tai Po Market → Admiralty (via Racecourse))": 1,
+      "Tiu Keng Leng → Choi Hung": 1,
+      "Tiu Keng Leng → Kwun Tong": 1,
+      "Whampoa → Kwun Tong": 1,
+      "Ho Man Tin → Tiu Keng Leng": 1,
+      "Tiu Keng Leng → Ho Man Tin": 1
+    },
+    "description:zh": {
+      "調景嶺 → 黃埔": 1,
+      "東鐵綫（落馬洲 → 金鐘）": 1,
+      "東鐵綫（羅湖 → 金鐘）": 1,
+      "東鐵綫（金鐘 → 落馬洲）": 1,
+      "東鐵綫（金鐘 → 羅湖）": 1,
+      "東鐵綫（落馬洲 → 金鐘（經馬場））": 1,
+      "東鐵綫（羅湖 → 金鐘（經馬場））": 1,
+      "東鐵綫（金鐘 → 落馬洲（經馬場））": 1,
+      "東鐵綫（金鐘 → 羅湖（經馬場））": 1,
+      "東鐵綫（沙田 → 金鐘）": 1,
+      "東鐵綫（金鐘 → 沙田）": 1,
+      "港鐵港島綫 (下/西行)": 1,
+      "港鐵港島綫 (上/東行)": 1,
+      "屯馬綫（屯門 → 烏溪沙）": 1,
+      "屯馬綫（烏溪沙 → 屯門）": 1,
+      "黃埔 → 調景嶺": 1,
+      "屯馬綫（ 屯門 → 紅磡）": 1,
+      "屯馬綫（紅磡 → 屯門）": 1,
+      "東鐵綫（金鐘 → 上水（經馬場））": 1,
+      "東鐵綫（金鐘 → 上水）": 1,
+      "東鐵綫（金鐘 → 大埔墟）": 1,
+      "東鐵綫（上水 → 金鐘（經馬場））": 1,
+      "東鐵綫（上水 → 金鐘）": 1,
+      "東鐵綫（大埔墟 → 金鐘）": 1,
+      "東鐵綫（火炭 → 金鐘）": 1,
+      "東鐵綫（金鐘 → 火炭）": 1,
+      "東鐵綫（金鐘 → 馬場）": 1,
+      "東鐵綫（金鐘 → 大埔墟（經馬場））": 1,
+      "東鐵綫（馬場 → 金鐘）": 1,
+      "東鐵綫（大埔墟 → 金鐘（經馬場））": 1,
+      "調景嶺 → 彩虹": 1,
+      "調景嶺 → 觀塘": 1,
+      "黃埔 → 觀塘": 1,
+      "何文田 → 調景嶺": 1,
+      "調景嶺 → 何文田": 1
+    },
+    "direction:official_ref": {
+      "下行 Down": 5,
+      "上行 Up": 3
+    },
+    "direction:official_ref:en": {
+      "Down": 5,
+      "Up": 3
+    },
+    "direction:official_ref:zh": {
+      "下行": 5,
+      "上行": 3
+    },
+    "direction:ref": {
+      "西行 Westbound": 5,
+      "下行 Down": 12,
+      "上行 Up": 12,
+      "東行 Eastbound": 3
+    },
+    "direction:ref:en": {
+      "Westbound": 5,
+      "Down": 12,
+      "Up": 12,
+      "Eastbound": 3
+    },
+    "direction:ref:zh": {
+      "西行": 5,
+      "下行": 12,
+      "上行": 12,
+      "東行": 3
+    },
+    "railway:traffic_mode": {
+      "passenger": 12
+    },
+    "network:short": {
+      "MTR": 8
+    },
+    "note:route": {
+      "train": 7
+    },
+    "operator:wikipedia": {
+      "zh:港鐵公司": 4
+    },
+    "to:ref": {
+      "ADM": 11,
+      "KET": 1,
+      "CHW": 1,
+      "WKS": 1,
+      "TUM": 2,
+      "HUH": 1
+    },
+    "from:ref": {
+      "ADM": 11,
+      "CHW": 1,
+      "KET": 1,
+      "TUM": 2,
+      "WKS": 1
+    },
+    "ownership": {
+      "public": 7
+    },
+    "not:network:wikidata": {
+      "Q14751": 3
+    },
+    "opening_hours": {
+      "\"Horse-racing days\"": 8,
+      "06:11-01:05": 1,
+      "06:00-00:42": 1
+    },
+    "class": {
+      "express": 2,
+      "local": 4
+    },
+    "frequency": {
+      "0": 6,
+      "50": 4
+    },
+    "gauge": {
+      "1432": 6,
+      "1435": 4
+    },
+    "maxspeed": {
+      "135": 6
+    },
+    "voltage": {
+      "1500": 6,
+      "25000": 4
+    },
+    "air_conditioning": {
+      "yes": 4
+    },
+    "electrified": {
+      "contact_line": 4
+    },
+    "short_name": {
+      "屯馬綫 Tuen Ma Line": 4
+    },
+    "short_name:en": {
+      "Tuen Ma Line": 4
+    },
+    "short_name:zh": {
+      "屯馬綫": 4
+    },
+    "wheelchair": {
+      "limited": 4
+    },
+    "old_name": {
+      "港鐵西鐵綫 MTR West Rail Line": 2
+    },
+    "old_name:en": {
+      "MTR West Rail Line": 2
+    },
+    "old_name:zh": {
+      "港鐵西鐵綫": 2
+    },
+    "train": {
+      "yes": 2
+    },
+    "was:colour": {
+      "#a3238f": 2
+    },
+    "was:name": {
+      "港鐵西鐵綫 MTR West Rail Line": 2
+    },
+    "was:name:en": {
+      "MTR West Rail Line": 2
+    },
+    "was:name:zh": {
+      "港鐵西鐵綫": 2
+    },
+    "was:ref": {
+      "WRL": 2
+    },
+    "passenger_lines": {
+      "2": 1
+    },
+    "name:zh-Hans": {
+      "港铁荃湾线": 1
+    },
+    "name:zh-Hant": {
+      "港鐵荃灣綫": 1
+    }
+  }
+}

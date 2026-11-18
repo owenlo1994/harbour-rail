@@ -1,0 +1,25 @@
+{
+  "status": "toy-ready",
+  "outputsWritten": false,
+  "developmentPreviewWritten": true,
+  "source": "geofabrik-local-pbf",
+  "matchedStationKeys": 120,
+  "expectedStationKeys": 120,
+  "pendingLine": null,
+  "fatal": [],
+  "knownGapsKept": [
+    {
+      "after": 1558652640,
+      "before": 1558652637,
+      "reason": "unshared-endpoint"
+    },
+    {
+      "after": 249196544,
+      "before": 1176509649,
+      "reason": "unshared-endpoint"
+    }
+  ],
+  "excludedWayIds": [],
+  "colour_source": "osm-unverified",
+  "overpassFallback": false
+}

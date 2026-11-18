@@ -1,0 +1,3774 @@
+[
+  {
+    "code": "ROUTE_GAP",
+    "message": "TCL relation 5317704: unshared-endpoint (1558652640 → 1558652637); no join created.",
+    "sourceIds": [
+      5317704,
+      1558652640,
+      1558652637
+    ]
+  },
+  {
+    "code": "ROUTE_GAP",
+    "message": "TCL relation 5317704: unshared-endpoint (249196544 → 1176509649); no join created.",
+    "sourceIds": [
+      5317704,
+      249196544,
+      1176509649
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/247050522: missing-tags; TWL",
+    "sourceIds": [
+      247050522
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/903242166: missing-tags; TWL",
+    "sourceIds": [
+      903242166
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/903242169: missing-tags; TWL",
+    "sourceIds": [
+      903242169
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/247202452: missing-tags; TWL",
+    "sourceIds": [
+      247202452
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1467983927: missing-tags; TWL",
+    "sourceIds": [
+      1467983927
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/485648071: relative-layer-only-needs-review; TKL",
+    "sourceIds": [
+      485648071
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/24268461: missing-tags; TKL",
+    "sourceIds": [
+      24268461
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/916017845: missing-tags; EAL",
+    "sourceIds": [
+      916017845
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/227628826: missing-tags; EAL",
+    "sourceIds": [
+      227628826
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/442528382: missing-tags; EAL",
+    "sourceIds": [
+      442528382
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1444277730: missing-tags; EAL",
+    "sourceIds": [
+      1444277730
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/315758425: missing-tags; EAL",
+    "sourceIds": [
+      315758425
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458961481: missing-tags; EAL",
+    "sourceIds": [
+      458961481
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458961474: missing-tags; EAL",
+    "sourceIds": [
+      458961474
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/694071415: missing-tags; EAL",
+    "sourceIds": [
+      694071415
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458961482: missing-tags; EAL",
+    "sourceIds": [
+      458961482
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1189927858: missing-tags; EAL",
+    "sourceIds": [
+      1189927858
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458961475: missing-tags; EAL",
+    "sourceIds": [
+      458961475
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/209138672: missing-tags; EAL",
+    "sourceIds": [
+      209138672
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/208029664: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      208029664
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/190670651: missing-tags; EAL",
+    "sourceIds": [
+      190670651
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/316650902: missing-tags; EAL",
+    "sourceIds": [
+      316650902
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/435488868: missing-tags; EAL",
+    "sourceIds": [
+      435488868
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609357239: missing-tags; EAL",
+    "sourceIds": [
+      609357239
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609357236: missing-tags; EAL",
+    "sourceIds": [
+      609357236
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/146471081: missing-tags; EAL",
+    "sourceIds": [
+      146471081
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208653961: missing-tags; EAL",
+    "sourceIds": [
+      208653961
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1442742847: missing-tags; EAL",
+    "sourceIds": [
+      1442742847
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208047845: missing-tags; EAL",
+    "sourceIds": [
+      208047845
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208047839: missing-tags; EAL",
+    "sourceIds": [
+      208047839
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/261505410: missing-tags; EAL",
+    "sourceIds": [
+      261505410
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1442308350: missing-tags; EAL",
+    "sourceIds": [
+      1442308350
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/723796958: missing-tags; EAL",
+    "sourceIds": [
+      723796958
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/261505414: missing-tags; EAL",
+    "sourceIds": [
+      261505414
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1442603916: missing-tags; EAL",
+    "sourceIds": [
+      1442603916
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458959993: missing-tags; EAL",
+    "sourceIds": [
+      458959993
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1442603918: missing-tags; EAL",
+    "sourceIds": [
+      1442603918
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/584589622: missing-tags; EAL",
+    "sourceIds": [
+      584589622
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458959994: missing-tags; EAL",
+    "sourceIds": [
+      458959994
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1442603920: missing-tags; EAL",
+    "sourceIds": [
+      1442603920
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/315893587: missing-tags; EAL",
+    "sourceIds": [
+      315893587
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/211914591: missing-tags; EAL",
+    "sourceIds": [
+      211914591
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/211914595: missing-tags; EAL",
+    "sourceIds": [
+      211914595
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/208232731: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      208232731
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232732: missing-tags; EAL",
+    "sourceIds": [
+      208232732
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/37588961: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      37588961
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/223642270: missing-tags; EAL",
+    "sourceIds": [
+      223642270
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/487140303: missing-tags; EAL",
+    "sourceIds": [
+      487140303
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208064885: missing-tags; EAL",
+    "sourceIds": [
+      208064885
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/315893589: missing-tags; EAL",
+    "sourceIds": [
+      315893589
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/88594524: missing-tags; EAL",
+    "sourceIds": [
+      88594524
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/315753703: missing-tags; EAL",
+    "sourceIds": [
+      315753703
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232738: missing-tags; EAL",
+    "sourceIds": [
+      208232738
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/37554415: missing-tags; EAL",
+    "sourceIds": [
+      37554415
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/37554439: missing-tags; EAL",
+    "sourceIds": [
+      37554439
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/272317119: missing-tags; EAL",
+    "sourceIds": [
+      272317119
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609356564: missing-tags; EAL",
+    "sourceIds": [
+      609356564
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/406777237: missing-tags; EAL",
+    "sourceIds": [
+      406777237
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/407671784: missing-tags; EAL",
+    "sourceIds": [
+      407671784
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609356549: missing-tags; EAL",
+    "sourceIds": [
+      609356549
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609356554: missing-tags; EAL",
+    "sourceIds": [
+      609356554
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609356563: missing-tags; EAL",
+    "sourceIds": [
+      609356563
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609356558: missing-tags; EAL",
+    "sourceIds": [
+      609356558
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/229266290: missing-tags; EAL",
+    "sourceIds": [
+      229266290
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/1442603921: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      1442603921
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/247783832: missing-tags; EAL",
+    "sourceIds": [
+      247783832
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208241886: missing-tags; EAL",
+    "sourceIds": [
+      208241886
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/37517679: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      37517679
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/208659326: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      208659326
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/459153879: missing-tags; EAL",
+    "sourceIds": [
+      459153879
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208663094: missing-tags; EAL",
+    "sourceIds": [
+      208663094
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609356566: missing-tags; EAL",
+    "sourceIds": [
+      609356566
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/459153875: missing-tags; EAL",
+    "sourceIds": [
+      459153875
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1060045025: missing-tags; EAL",
+    "sourceIds": [
+      1060045025
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/455061422: missing-tags; EAL",
+    "sourceIds": [
+      455061422
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1384191871: missing-tags; EAL",
+    "sourceIds": [
+      1384191871
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1384191870: missing-tags; EAL",
+    "sourceIds": [
+      1384191870
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1384191869: missing-tags; EAL",
+    "sourceIds": [
+      1384191869
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/222248685: missing-tags; EAL",
+    "sourceIds": [
+      222248685
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/485664321: missing-tags; EAL",
+    "sourceIds": [
+      485664321
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/279957949: missing-tags; EAL",
+    "sourceIds": [
+      279957949
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/211914586: missing-tags; EAL",
+    "sourceIds": [
+      211914586
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208551663: missing-tags; EAL",
+    "sourceIds": [
+      208551663
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/616866532: missing-tags; EAL",
+    "sourceIds": [
+      616866532
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1384191868: missing-tags; EAL",
+    "sourceIds": [
+      1384191868
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1384191867: missing-tags; EAL",
+    "sourceIds": [
+      1384191867
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1384191872: missing-tags; EAL",
+    "sourceIds": [
+      1384191872
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/545399648: missing-tags; EAL",
+    "sourceIds": [
+      545399648
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1060045024: missing-tags; EAL",
+    "sourceIds": [
+      1060045024
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208426139: missing-tags; EAL",
+    "sourceIds": [
+      208426139
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/459153874: missing-tags; EAL",
+    "sourceIds": [
+      459153874
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609356562: missing-tags; EAL",
+    "sourceIds": [
+      609356562
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/459153876: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      459153876
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/290474736: missing-tags; EAL",
+    "sourceIds": [
+      290474736
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/208659324: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      208659324
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/459154091: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      459154091
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208426138: missing-tags; EAL",
+    "sourceIds": [
+      208426138
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458959996: missing-tags; EAL",
+    "sourceIds": [
+      458959996
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1442603922: missing-tags; EAL",
+    "sourceIds": [
+      1442603922
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208414254: missing-tags; EAL",
+    "sourceIds": [
+      208414254
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/229266299: missing-tags; EAL",
+    "sourceIds": [
+      229266299
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609356560: missing-tags; EAL",
+    "sourceIds": [
+      609356560
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609356556: missing-tags; EAL",
+    "sourceIds": [
+      609356556
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609356557: missing-tags; EAL",
+    "sourceIds": [
+      609356557
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/617548264: missing-tags; EAL",
+    "sourceIds": [
+      617548264
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609356551: missing-tags; EAL",
+    "sourceIds": [
+      609356551
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208246161: missing-tags; EAL",
+    "sourceIds": [
+      208246161
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609356553: missing-tags; EAL",
+    "sourceIds": [
+      609356553
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232725: missing-tags; EAL",
+    "sourceIds": [
+      208232725
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/272317122: missing-tags; EAL",
+    "sourceIds": [
+      272317122
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/315893590: missing-tags; EAL",
+    "sourceIds": [
+      315893590
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/272325735: missing-tags; EAL",
+    "sourceIds": [
+      272325735
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232748: missing-tags; EAL",
+    "sourceIds": [
+      208232748
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/487140308: missing-tags; EAL",
+    "sourceIds": [
+      487140308
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/208232744: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      208232744
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208064887: missing-tags; EAL",
+    "sourceIds": [
+      208064887
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/208232728: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      208232728
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232747: missing-tags; EAL",
+    "sourceIds": [
+      208232747
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/315893591: missing-tags; EAL",
+    "sourceIds": [
+      315893591
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1442742849: missing-tags; EAL",
+    "sourceIds": [
+      1442742849
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458959995: missing-tags; EAL",
+    "sourceIds": [
+      458959995
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1442603919: missing-tags; EAL",
+    "sourceIds": [
+      1442603919
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/584589619: missing-tags; EAL",
+    "sourceIds": [
+      584589619
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1442603917: missing-tags; EAL",
+    "sourceIds": [
+      1442603917
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458959992: missing-tags; EAL",
+    "sourceIds": [
+      458959992
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/263929821: missing-tags; EAL",
+    "sourceIds": [
+      263929821
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/723796957: missing-tags; EAL",
+    "sourceIds": [
+      723796957
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1442308349: missing-tags; EAL",
+    "sourceIds": [
+      1442308349
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/263929820: missing-tags; EAL",
+    "sourceIds": [
+      263929820
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208047844: missing-tags; EAL",
+    "sourceIds": [
+      208047844
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208047838: missing-tags; EAL",
+    "sourceIds": [
+      208047838
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1442742845: missing-tags; EAL",
+    "sourceIds": [
+      1442742845
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208653963: missing-tags; EAL",
+    "sourceIds": [
+      208653963
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/49181852: missing-tags; EAL",
+    "sourceIds": [
+      49181852
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609357234: missing-tags; EAL",
+    "sourceIds": [
+      609357234
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/609357238: missing-tags; EAL",
+    "sourceIds": [
+      609357238
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/435488871: missing-tags; EAL",
+    "sourceIds": [
+      435488871
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/316650908: missing-tags; EAL",
+    "sourceIds": [
+      316650908
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1444660669: missing-tags; EAL",
+    "sourceIds": [
+      1444660669
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/49181853: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      49181853
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/209138673: missing-tags; EAL",
+    "sourceIds": [
+      209138673
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208551662: missing-tags; EAL",
+    "sourceIds": [
+      208551662
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458961480: missing-tags; EAL",
+    "sourceIds": [
+      458961480
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1184774883: missing-tags; EAL",
+    "sourceIds": [
+      1184774883
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458961479: missing-tags; EAL",
+    "sourceIds": [
+      458961479
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458961477: missing-tags; EAL",
+    "sourceIds": [
+      458961477
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458961478: missing-tags; EAL",
+    "sourceIds": [
+      458961478
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1444277729: missing-tags; EAL",
+    "sourceIds": [
+      1444277729
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/442528387: missing-tags; EAL",
+    "sourceIds": [
+      442528387
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/458961476: missing-tags; EAL",
+    "sourceIds": [
+      458961476
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/227628825: missing-tags; EAL",
+    "sourceIds": [
+      227628825
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/921346987: missing-tags; EAL",
+    "sourceIds": [
+      921346987
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/315758422: missing-tags; EAL",
+    "sourceIds": [
+      315758422
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/616866530: missing-tags; EAL",
+    "sourceIds": [
+      616866530
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/906447971: missing-tags; EAL",
+    "sourceIds": [
+      906447971
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/211914594: missing-tags; EAL",
+    "sourceIds": [
+      211914594
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/279957948: missing-tags; EAL",
+    "sourceIds": [
+      279957948
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/279957947: missing-tags; EAL",
+    "sourceIds": [
+      279957947
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/453483171: missing-tags; EAL",
+    "sourceIds": [
+      453483171
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/453779519: missing-tags; EAL",
+    "sourceIds": [
+      453779519
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1488468934: missing-tags; EAL",
+    "sourceIds": [
+      1488468934
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232746: missing-tags; EAL",
+    "sourceIds": [
+      208232746
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232717: missing-tags; EAL",
+    "sourceIds": [
+      208232717
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/442530898: missing-tags; EAL",
+    "sourceIds": [
+      442530898
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232753: missing-tags; EAL",
+    "sourceIds": [
+      208232753
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1355633339: missing-tags; EAL",
+    "sourceIds": [
+      1355633339
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1355633338: missing-tags; EAL",
+    "sourceIds": [
+      1355633338
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/37554483: missing-tags; EAL",
+    "sourceIds": [
+      37554483
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232713: missing-tags; EAL",
+    "sourceIds": [
+      208232713
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/37554485: missing-tags; EAL",
+    "sourceIds": [
+      37554485
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/28808000: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      28808000
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/211907304: missing-tags; EAL",
+    "sourceIds": [
+      211907304
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232723: missing-tags; EAL",
+    "sourceIds": [
+      208232723
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232726: missing-tags; EAL",
+    "sourceIds": [
+      208232726
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/223642271: missing-tags; EAL",
+    "sourceIds": [
+      223642271
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208047840: missing-tags; EAL",
+    "sourceIds": [
+      208047840
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232710: missing-tags; EAL",
+    "sourceIds": [
+      208232710
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232707: missing-tags; EAL",
+    "sourceIds": [
+      208232707
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232711: missing-tags; EAL",
+    "sourceIds": [
+      208232711
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/211907308: relative-layer-only-needs-review; EAL",
+    "sourceIds": [
+      211907308
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/442530899: missing-tags; EAL",
+    "sourceIds": [
+      442530899
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232709: missing-tags; EAL",
+    "sourceIds": [
+      208232709
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/313920283: missing-tags; EAL",
+    "sourceIds": [
+      313920283
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/211907306: missing-tags; EAL",
+    "sourceIds": [
+      211907306
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/272317115: missing-tags; EAL",
+    "sourceIds": [
+      272317115
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232752: missing-tags; EAL",
+    "sourceIds": [
+      208232752
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/250286825: missing-tags; ISL",
+    "sourceIds": [
+      250286825
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/250286817: missing-tags; ISL",
+    "sourceIds": [
+      250286817
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/321035041: missing-tags; ISL",
+    "sourceIds": [
+      321035041
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/26322258: missing-tags; ISL",
+    "sourceIds": [
+      26322258
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/321035040: missing-tags; ISL",
+    "sourceIds": [
+      321035040
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/31889960: missing-tags; DRL",
+    "sourceIds": [
+      31889960
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/31975849: missing-tags; DRL",
+    "sourceIds": [
+      31975849
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/636569538: missing-tags; DRL",
+    "sourceIds": [
+      636569538
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/636569540: missing-tags; DRL",
+    "sourceIds": [
+      636569540
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/220247469: missing-tags; DRL",
+    "sourceIds": [
+      220247469
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1376711947: missing-tags; DRL",
+    "sourceIds": [
+      1376711947
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/636569542: missing-tags; DRL",
+    "sourceIds": [
+      636569542
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/636569541: missing-tags; DRL",
+    "sourceIds": [
+      636569541
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/220247465: missing-tags; DRL",
+    "sourceIds": [
+      220247465
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/636569537: missing-tags; DRL",
+    "sourceIds": [
+      636569537
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/160185424: missing-tags; DRL",
+    "sourceIds": [
+      160185424
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219997166: missing-tags; DRL",
+    "sourceIds": [
+      219997166
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/636569539: missing-tags; DRL",
+    "sourceIds": [
+      636569539
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993738: missing-tags; AEL",
+    "sourceIds": [
+      219993738
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1345701712: missing-tags; AEL",
+    "sourceIds": [
+      1345701712
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993744: missing-tags; AEL",
+    "sourceIds": [
+      219993744
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1345701718: missing-tags; AEL",
+    "sourceIds": [
+      1345701718
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/790974288: missing-tags; AEL",
+    "sourceIds": [
+      790974288
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1345701715: missing-tags; AEL",
+    "sourceIds": [
+      1345701715
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/790974289: missing-tags; AEL",
+    "sourceIds": [
+      790974289
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1345701713: missing-tags; AEL",
+    "sourceIds": [
+      1345701713
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/715059876: missing-tags; AEL",
+    "sourceIds": [
+      715059876
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219994020: missing-tags; AEL",
+    "sourceIds": [
+      219994020
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993752: missing-tags; AEL",
+    "sourceIds": [
+      219993752
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993763: missing-tags; AEL",
+    "sourceIds": [
+      219993763
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993789: missing-tags; AEL",
+    "sourceIds": [
+      219993789
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219994059: missing-tags; AEL",
+    "sourceIds": [
+      219994059
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993851: missing-tags; AEL",
+    "sourceIds": [
+      219993851
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993794: missing-tags; AEL",
+    "sourceIds": [
+      219993794
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993841: missing-tags; AEL",
+    "sourceIds": [
+      219993841
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993715: missing-tags; AEL",
+    "sourceIds": [
+      219993715
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993718: missing-tags; AEL",
+    "sourceIds": [
+      219993718
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1466757756: conflicting-tunnel-and-bridge; AEL",
+    "sourceIds": [
+      1466757756
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/220096056: missing-tags; AEL",
+    "sourceIds": [
+      220096056
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/333556777: missing-tags; AEL",
+    "sourceIds": [
+      333556777
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/26322051: missing-tags; AEL",
+    "sourceIds": [
+      26322051
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/333556779: missing-tags; AEL",
+    "sourceIds": [
+      333556779
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/636356916: conflicting-tunnel-and-bridge; AEL",
+    "sourceIds": [
+      636356916
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/220096048: missing-tags; AEL",
+    "sourceIds": [
+      220096048
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219994068: missing-tags; AEL",
+    "sourceIds": [
+      219994068
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993831: missing-tags; AEL",
+    "sourceIds": [
+      219993831
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/334664289: missing-tags; AEL",
+    "sourceIds": [
+      334664289
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993991: missing-tags; AEL",
+    "sourceIds": [
+      219993991
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219994084: missing-tags; AEL",
+    "sourceIds": [
+      219994084
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993906: missing-tags; AEL",
+    "sourceIds": [
+      219993906
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219994022: missing-tags; AEL",
+    "sourceIds": [
+      219994022
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219994040: missing-tags; AEL",
+    "sourceIds": [
+      219994040
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993778: missing-tags; AEL",
+    "sourceIds": [
+      219993778
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219994038: missing-tags; AEL",
+    "sourceIds": [
+      219994038
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/4959070: missing-tags; AEL",
+    "sourceIds": [
+      4959070
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1345701714: missing-tags; AEL",
+    "sourceIds": [
+      1345701714
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/715059878: missing-tags; AEL",
+    "sourceIds": [
+      715059878
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1345701716: missing-tags; AEL",
+    "sourceIds": [
+      1345701716
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/790974286: missing-tags; AEL",
+    "sourceIds": [
+      790974286
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1345701717: missing-tags; AEL",
+    "sourceIds": [
+      1345701717
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/790974287: missing-tags; AEL",
+    "sourceIds": [
+      790974287
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1345701711: missing-tags; AEL",
+    "sourceIds": [
+      1345701711
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/35927225: missing-tags; AEL",
+    "sourceIds": [
+      35927225
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1558652640: missing-tags; TCL",
+    "sourceIds": [
+      1558652640
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1558652637: missing-tags; TCL",
+    "sourceIds": [
+      1558652637
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993983: missing-tags; TCL",
+    "sourceIds": [
+      219993983
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219994031: missing-tags; TCL",
+    "sourceIds": [
+      219994031
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993786: missing-tags; TCL",
+    "sourceIds": [
+      219993786
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219994128: missing-tags; TCL",
+    "sourceIds": [
+      219994128
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993851: missing-tags; TCL",
+    "sourceIds": [
+      219993851
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993794: missing-tags; TCL",
+    "sourceIds": [
+      219993794
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993841: missing-tags; TCL",
+    "sourceIds": [
+      219993841
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993825: missing-tags; TCL",
+    "sourceIds": [
+      219993825
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993718: missing-tags; TCL",
+    "sourceIds": [
+      219993718
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1466757756: conflicting-tunnel-and-bridge; TCL",
+    "sourceIds": [
+      1466757756
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/25609005: missing-tags; TCL",
+    "sourceIds": [
+      25609005
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/333556781: missing-tags; TCL",
+    "sourceIds": [
+      333556781
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1176509649: missing-tags; TCL",
+    "sourceIds": [
+      1176509649
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1558652644: missing-tags; TCL",
+    "sourceIds": [
+      1558652644
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1558652643: missing-tags; TCL",
+    "sourceIds": [
+      1558652643
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/220096053: missing-tags; TCL",
+    "sourceIds": [
+      220096053
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/333556783: missing-tags; TCL",
+    "sourceIds": [
+      333556783
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/636356916: conflicting-tunnel-and-bridge; TCL",
+    "sourceIds": [
+      636356916
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/220096048: missing-tags; TCL",
+    "sourceIds": [
+      220096048
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993856: missing-tags; TCL",
+    "sourceIds": [
+      219993856
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/334664290: missing-tags; TCL",
+    "sourceIds": [
+      334664290
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993831: missing-tags; TCL",
+    "sourceIds": [
+      219993831
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/334664289: missing-tags; TCL",
+    "sourceIds": [
+      334664289
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993991: missing-tags; TCL",
+    "sourceIds": [
+      219993991
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219994084: missing-tags; TCL",
+    "sourceIds": [
+      219994084
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993808: missing-tags; TCL",
+    "sourceIds": [
+      219993808
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219993881: missing-tags; TCL",
+    "sourceIds": [
+      219993881
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219994063: missing-tags; TCL",
+    "sourceIds": [
+      219994063
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/219994014: missing-tags; TCL",
+    "sourceIds": [
+      219994014
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1558652638: missing-tags; TCL",
+    "sourceIds": [
+      1558652638
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/26321741: missing-tags; TCL",
+    "sourceIds": [
+      26321741
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1558652639: missing-tags; TCL",
+    "sourceIds": [
+      1558652639
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/916238727: missing-tags; TML",
+    "sourceIds": [
+      916238727
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/207698347: missing-tags; TML",
+    "sourceIds": [
+      207698347
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/455727414: missing-tags; TML",
+    "sourceIds": [
+      455727414
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/455727421: missing-tags; TML",
+    "sourceIds": [
+      455727421
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/230711825: missing-tags; TML",
+    "sourceIds": [
+      230711825
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/224486662: missing-tags; TML",
+    "sourceIds": [
+      224486662
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/222092399: missing-tags; TML",
+    "sourceIds": [
+      222092399
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/407237852: missing-tags; TML",
+    "sourceIds": [
+      407237852
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/229266298: missing-tags; TML",
+    "sourceIds": [
+      229266298
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/230103339: missing-tags; TML",
+    "sourceIds": [
+      230103339
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/519449250: missing-tags; TML",
+    "sourceIds": [
+      519449250
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1549092873: missing-tags; TML",
+    "sourceIds": [
+      1549092873
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1549092872: missing-tags; TML",
+    "sourceIds": [
+      1549092872
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/519449251: missing-tags; TML",
+    "sourceIds": [
+      519449251
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/230103341: missing-tags; TML",
+    "sourceIds": [
+      230103341
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/617548333: missing-tags; TML",
+    "sourceIds": [
+      617548333
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/407237853: missing-tags; TML",
+    "sourceIds": [
+      407237853
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/222092401: missing-tags; TML",
+    "sourceIds": [
+      222092401
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/958446611: missing-tags; TML",
+    "sourceIds": [
+      958446611
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/230711824: missing-tags; TML",
+    "sourceIds": [
+      230711824
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/455727426: missing-tags; TML",
+    "sourceIds": [
+      455727426
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/455727418: missing-tags; TML",
+    "sourceIds": [
+      455727418
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/207698345: missing-tags; TML",
+    "sourceIds": [
+      207698345
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/916238728: missing-tags; TML",
+    "sourceIds": [
+      916238728
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208029657: missing-tags; EAL",
+    "sourceIds": [
+      208029657
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/190670650: missing-tags; EAL",
+    "sourceIds": [
+      190670650
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/442528383: missing-tags; EAL",
+    "sourceIds": [
+      442528383
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208653959: missing-tags; EAL",
+    "sourceIds": [
+      208653959
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/442530900: missing-tags; EAL",
+    "sourceIds": [
+      442530900
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/442530901: missing-tags; EAL",
+    "sourceIds": [
+      442530901
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232730: missing-tags; EAL",
+    "sourceIds": [
+      208232730
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/208232718: missing-tags; EAL",
+    "sourceIds": [
+      208232718
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1467983926: missing-tags; TWL",
+    "sourceIds": [
+      1467983926
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/247170561: missing-tags; TWL",
+    "sourceIds": [
+      247170561
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/903242168: missing-tags; TWL",
+    "sourceIds": [
+      903242168
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/903242167: missing-tags; TWL",
+    "sourceIds": [
+      903242167
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/485648060: missing-tags; TKL",
+    "sourceIds": [
+      485648060
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/485648059: missing-tags; TKL",
+    "sourceIds": [
+      485648059
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/28380070: missing-tags; TKL",
+    "sourceIds": [
+      28380070
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/819328203: missing-tags; TKL",
+    "sourceIds": [
+      819328203
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1428980098: missing-tags; TKL",
+    "sourceIds": [
+      1428980098
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/819328204: relative-layer-only-needs-review; TKL",
+    "sourceIds": [
+      819328204
+    ]
+  },
+  {
+    "code": "LAYER_RELATIVE_ONLY",
+    "message": "way/485648061: relative-layer-only-needs-review; TKL",
+    "sourceIds": [
+      485648061
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1507719412: missing-tags; TKL",
+    "sourceIds": [
+      1507719412
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/485648062: missing-tags; TKL",
+    "sourceIds": [
+      485648062
+    ]
+  },
+  {
+    "code": "LAYER_UNKNOWN",
+    "message": "way/1507719409: missing-tags; TKL",
+    "sourceIds": [
+      1507719409
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "AEL:AWE: retained original OSM node 3304026514, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "AEL:AWE"
+    ],
+    "sourceIds": [
+      3304026514,
+      738427429
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "AEL:AIR: retained original OSM node 253333824, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "AEL:AIR"
+    ],
+    "sourceIds": [
+      253333824,
+      2291194921
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "AEL:TSY: retained original OSM node 24357989, 5 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "AEL:TSY"
+    ],
+    "sourceIds": [
+      24357989,
+      2292179606,
+      288376916,
+      1295654775,
+      2703686815
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "AEL:KOW: retained original OSM node 288378895, 5 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "AEL:KOW"
+    ],
+    "sourceIds": [
+      288378895,
+      1295654836,
+      278952085,
+      2292548102,
+      6586975227
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "AEL:HOK: retained original OSM node 2557051040, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "AEL:HOK"
+    ],
+    "sourceIds": [
+      2557051040,
+      2557051035,
+      2557051037
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "DRL:SUN: retained original OSM node 1295654897, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "DRL:SUN"
+    ],
+    "sourceIds": [
+      1295654897,
+      6612064022
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:LOW: retained original OSM node 243844812, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:LOW"
+    ],
+    "sourceIds": [
+      243844812,
+      2312304840,
+      11093802917
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:SHS: retained original OSM node 243844834, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:SHS"
+    ],
+    "sourceIds": [
+      243844834,
+      644564532,
+      5441594278
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:FAN: retained original OSM node 243844839, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:FAN"
+    ],
+    "sourceIds": [
+      243844839,
+      2181592163
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:TWO: retained original OSM node 623891093, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:TWO"
+    ],
+    "sourceIds": [
+      623891093,
+      2183425923
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:TAP: retained original OSM node 243844884, 4 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:TAP"
+    ],
+    "sourceIds": [
+      243844884,
+      1703859087,
+      2183425830,
+      4338478841
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:UNI: retained original OSM node 243844926, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:UNI"
+    ],
+    "sourceIds": [
+      243844926,
+      2183425988,
+      5098496689
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:FOT: retained original OSM node 243844947, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:FOT"
+    ],
+    "sourceIds": [
+      243844947,
+      2185507514,
+      2185507515
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:SHT: retained original OSM node 243844957, 4 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:SHT"
+    ],
+    "sourceIds": [
+      243844957,
+      2185507410,
+      2185507473,
+      2185507487
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:TAW: retained original OSM node 243844966, 4 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:TAW"
+    ],
+    "sourceIds": [
+      243844966,
+      1295654784,
+      1506594356,
+      2031291969
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:KOT: retained original OSM node 1295654891, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:KOT"
+    ],
+    "sourceIds": [
+      1295654891,
+      2185546183,
+      1634974083
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:MKK: retained original OSM node 243845056, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:MKK"
+    ],
+    "sourceIds": [
+      243845056,
+      2187196164,
+      2187196185
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:HUH: retained original OSM node 4515155553, 5 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:HUH"
+    ],
+    "sourceIds": [
+      4515155553,
+      4515155554,
+      2308404912,
+      2308405037,
+      7900305742
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:EXC: retained original OSM node 4515155551, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:EXC"
+    ],
+    "sourceIds": [
+      4515155551,
+      4515155552,
+      9739308598
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:ADM: retained original OSM node 9739308596, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:ADM"
+    ],
+    "sourceIds": [
+      9739308596,
+      9739308597
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "EAL:LMC: retained original OSM node 316729749, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "EAL:LMC"
+    ],
+    "sourceIds": [
+      316729749,
+      1492217236
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:CHW: retained original OSM node 253288867, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:CHW"
+    ],
+    "sourceIds": [
+      253288867,
+      2567717542,
+      5444489721
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:HFC: retained original OSM node 253288859, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:HFC"
+    ],
+    "sourceIds": [
+      253288859,
+      2567717556,
+      5444474759
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:SKW: retained original OSM node 984409448, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:SKW"
+    ],
+    "sourceIds": [
+      984409448,
+      2564544849,
+      2566265627
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:SWH: retained original OSM node 253288849, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:SWH"
+    ],
+    "sourceIds": [
+      253288849,
+      2564544862,
+      2566130974
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:TAK: retained original OSM node 278943742, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:TAK"
+    ],
+    "sourceIds": [
+      278943742,
+      2564544949,
+      2566130977
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:QUB: retained original OSM node 984741558, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:QUB"
+    ],
+    "sourceIds": [
+      984741558,
+      2564545121,
+      6610705648
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:NOP: retained original OSM node 253288836, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:NOP"
+    ],
+    "sourceIds": [
+      253288836,
+      2564544838,
+      2566102950
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:FOH: retained original OSM node 2564545127, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:FOH"
+    ],
+    "sourceIds": [
+      2564545127,
+      2564639695,
+      253288735
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:TIH: retained original OSM node 2564545093, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:TIH"
+    ],
+    "sourceIds": [
+      2564545093,
+      3303947368,
+      5446027239
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:CAB: retained original OSM node 2564544830, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:CAB"
+    ],
+    "sourceIds": [
+      2564544830,
+      4275578360
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:WAC: retained original OSM node 2564544993, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:WAC"
+    ],
+    "sourceIds": [
+      2564544993,
+      2564545153,
+      5444483688
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:ADM: retained original OSM node 2564545101, 4 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:ADM"
+    ],
+    "sourceIds": [
+      2564545101,
+      2564545111,
+      2556738383,
+      2556657209
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:CEN: retained original OSM node 2564544875, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:CEN"
+    ],
+    "sourceIds": [
+      2564544875,
+      2564545056
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:SHW: retained original OSM node 2561063241, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:SHW"
+    ],
+    "sourceIds": [
+      2561063241,
+      2564545163
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:SYP: retained original OSM node 2561063247, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:SYP"
+    ],
+    "sourceIds": [
+      2561063247,
+      2569844158,
+      3791000798
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:HKU: retained original OSM node 515673758, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:HKU"
+    ],
+    "sourceIds": [
+      515673758,
+      2569844130,
+      6135479158
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "ISL:KET: retained original OSM node 515677041, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "ISL:KET"
+    ],
+    "sourceIds": [
+      515677041,
+      2569844151
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:TIK: retained original OSM node 984741544, 5 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:TIK"
+    ],
+    "sourceIds": [
+      984741544,
+      4331931870,
+      307394050,
+      307394049,
+      1295654865
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:YAT: retained original OSM node 288706017, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:YAT"
+    ],
+    "sourceIds": [
+      288706017,
+      2674392736,
+      6610130700
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:LAT: retained original OSM node 2674392727, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:LAT"
+    ],
+    "sourceIds": [
+      2674392727,
+      2674392732
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:KWT: retained original OSM node 288705614, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:KWT"
+    ],
+    "sourceIds": [
+      288705614,
+      2674335289
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:NTK: retained original OSM node 288705608, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:NTK"
+    ],
+    "sourceIds": [
+      288705608,
+      2674335290
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:KOB: retained original OSM node 288705599, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:KOB"
+    ],
+    "sourceIds": [
+      288705599,
+      2674335288
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:CHH: retained original OSM node 288704409, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:CHH"
+    ],
+    "sourceIds": [
+      288704409,
+      4331931864,
+      4348591408
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:DIH: retained original OSM node 288704403, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:DIH"
+    ],
+    "sourceIds": [
+      288704403,
+      4331887005
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:WTS: retained original OSM node 288704399, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:WTS"
+    ],
+    "sourceIds": [
+      288704399,
+      4331931871
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:LOF: retained original OSM node 288703656, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:LOF"
+    ],
+    "sourceIds": [
+      288703656,
+      4331931866,
+      13415026713
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:KOT: retained original OSM node 288457559, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:KOT"
+    ],
+    "sourceIds": [
+      288457559,
+      4331931865
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:SKM: retained original OSM node 288699135, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:SKM"
+    ],
+    "sourceIds": [
+      288699135,
+      4331887067
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:PRE: retained original OSM node 991294915, 5 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:PRE"
+    ],
+    "sourceIds": [
+      991294915,
+      4331931868,
+      6610142561,
+      288379264,
+      2550864623
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:MOK: retained original OSM node 991294975, 4 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:MOK"
+    ],
+    "sourceIds": [
+      991294975,
+      4331931867,
+      288379318,
+      2550864624
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:YMT: retained original OSM node 991294660, 4 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:YMT"
+    ],
+    "sourceIds": [
+      991294660,
+      4331931872,
+      2550881705,
+      288379179
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "KTL:HOM: retained original OSM node 2319258377, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "KTL:HOM"
+    ],
+    "sourceIds": [
+      2319258377,
+      4460375639
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:WKS: retained original OSM node 262135162, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:WKS"
+    ],
+    "sourceIds": [
+      262135162,
+      2031291951
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:MOS: retained original OSM node 262135171, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:MOS"
+    ],
+    "sourceIds": [
+      262135171,
+      2031291916
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:HEO: retained original OSM node 2031291900, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:HEO"
+    ],
+    "sourceIds": [
+      2031291900,
+      4095567044
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:TSH: retained original OSM node 4087914607, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:TSH"
+    ],
+    "sourceIds": [
+      4087914607,
+      4087914608
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:SHM: retained original OSM node 2031291862, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:SHM"
+    ],
+    "sourceIds": [
+      2031291862,
+      2031292042
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:CIO: retained original OSM node 2031291917, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:CIO"
+    ],
+    "sourceIds": [
+      2031291917,
+      4092981296
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:STW: retained original OSM node 262135570, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:STW"
+    ],
+    "sourceIds": [
+      262135570,
+      4087334644
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:CKT: retained original OSM node 262135577, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:CKT"
+    ],
+    "sourceIds": [
+      262135577,
+      2031292033
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:TAW: retained original OSM node 1506594356, 4 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:TAW"
+    ],
+    "sourceIds": [
+      1506594356,
+      2031291969,
+      243844966,
+      1295654784
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:HIK: retained original OSM node 2308404965, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:HIK"
+    ],
+    "sourceIds": [
+      2308404965,
+      2308405061
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:DIH: retained original OSM node 2308404910, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:DIH"
+    ],
+    "sourceIds": [
+      2308404910,
+      2308405110
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:KAT: retained original OSM node 2524919263, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:KAT"
+    ],
+    "sourceIds": [
+      2524919263,
+      2524919264
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:SUW: retained original OSM node 2308404918, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:SUW"
+    ],
+    "sourceIds": [
+      2308404918,
+      2308405006
+    ]
+  },
+  {
+    "code": "STATION_REF_OVERRIDE_APPROVED",
+    "message": "TML:SUW: approved node-specific ref SWT; original official code and OSM ref retained.",
+    "stationKeys": [
+      "TML:SUW"
+    ],
+    "sourceIds": [
+      2308404918
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:TKW: retained original OSM node 2308404957, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:TKW"
+    ],
+    "sourceIds": [
+      2308404957,
+      2308405024,
+      8868542170
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:HOM: retained original OSM node 2308404964, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:HOM"
+    ],
+    "sourceIds": [
+      2308404964,
+      2308405057
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:HUH: retained original OSM node 2308404912, 5 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:HUH"
+    ],
+    "sourceIds": [
+      2308404912,
+      2308405037,
+      4515155553,
+      4515155554,
+      7900305742
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:ETS: retained original OSM node 384143704, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:ETS"
+    ],
+    "sourceIds": [
+      384143704,
+      2179557425,
+      2546436295
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:AUS: retained original OSM node 262146161, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:AUS"
+    ],
+    "sourceIds": [
+      262146161,
+      2179557419,
+      6610744414
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:NAC: retained original OSM node 262146168, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:NAC"
+    ],
+    "sourceIds": [
+      262146168,
+      2179557427,
+      6605772868
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:MEF: retained original OSM node 279126759, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:MEF"
+    ],
+    "sourceIds": [
+      279126759,
+      2179527342,
+      13050511450
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:TWW: retained original OSM node 2163048344, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:TWW"
+    ],
+    "sourceIds": [
+      2163048344,
+      2179527380
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:KSR: retained original OSM node 279130944, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:KSR"
+    ],
+    "sourceIds": [
+      279130944,
+      2179507704
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:YUL: retained original OSM node 279244979, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:YUL"
+    ],
+    "sourceIds": [
+      279244979,
+      2179507624
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:LOP: retained original OSM node 279248191, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:LOP"
+    ],
+    "sourceIds": [
+      279248191,
+      2179507764
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:TIS: retained original OSM node 279248202, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:TIS"
+    ],
+    "sourceIds": [
+      279248202,
+      2179507646
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:SIH: retained original OSM node 279248223, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:SIH"
+    ],
+    "sourceIds": [
+      279248223,
+      2179507660
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TML:TUM: retained original OSM node 279248230, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TML:TUM"
+    ],
+    "sourceIds": [
+      279248230,
+      2179507747
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TCL:TUC: retained original OSM node 288376094, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TCL:TUC"
+    ],
+    "sourceIds": [
+      288376094,
+      2291194993,
+      6610342222
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TCL:SUN: retained original OSM node 1295654804, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TCL:SUN"
+    ],
+    "sourceIds": [
+      1295654804,
+      2291195552,
+      6612064022
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TCL:TSY: retained original OSM node 288376916, 5 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TCL:TSY"
+    ],
+    "sourceIds": [
+      288376916,
+      1295654775,
+      24357989,
+      2292179606,
+      2703686815
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TCL:LAK: retained original OSM node 1295654768, 4 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TCL:LAK"
+    ],
+    "sourceIds": [
+      1295654768,
+      2292179656,
+      2541359360,
+      288378585
+    ]
+  },
+  {
+    "code": "CHINESE_NAME_VARIANT",
+    "message": "TCL:LAK: CSV 茘景; OSM 荔景; matched using English and route evidence.",
+    "stationKeys": [
+      "TCL:LAK"
+    ],
+    "sourceIds": [
+      1295654768
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TCL:NAC: retained original OSM node 279126413, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TCL:NAC"
+    ],
+    "sourceIds": [
+      279126413,
+      506479328,
+      6605772868
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TCL:OLY: retained original OSM node 279126405, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TCL:OLY"
+    ],
+    "sourceIds": [
+      279126405,
+      2292179609
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TCL:KOW: retained original OSM node 278952085, 5 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TCL:KOW"
+    ],
+    "sourceIds": [
+      278952085,
+      2292548102,
+      1295654836,
+      288378895,
+      6586975227
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TCL:HOK: retained original OSM node 2557051035, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TCL:HOK"
+    ],
+    "sourceIds": [
+      2557051035,
+      2557051037,
+      2557051040
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TKL:HAH: retained original OSM node 2562413275, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TKL:HAH"
+    ],
+    "sourceIds": [
+      2562413275,
+      2562413325,
+      6606594903
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TKL:TKO: retained original OSM node 307391103, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TKL:TKO"
+    ],
+    "sourceIds": [
+      307391103,
+      4784243684
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TKL:TIK: retained original OSM node 307394049, 5 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TKL:TIK"
+    ],
+    "sourceIds": [
+      307394049,
+      307394050,
+      984741544,
+      4331931870,
+      1295654865
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TKL:YAT: retained original OSM node 991295084, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TKL:YAT"
+    ],
+    "sourceIds": [
+      991295084,
+      2600847825,
+      6610130700
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TKL:QUB: retained original OSM node 2600841716, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TKL:QUB"
+    ],
+    "sourceIds": [
+      2600841716,
+      2600841717,
+      6610705648
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TKL:NOP: retained original OSM node 984409361, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TKL:NOP"
+    ],
+    "sourceIds": [
+      984409361,
+      2600839185,
+      2566102950
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TKL:LHP: retained original OSM node 4784241742, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TKL:LHP"
+    ],
+    "sourceIds": [
+      4784241742,
+      4784241743,
+      361384199
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:TSW: retained original OSM node 2541019163, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:TSW"
+    ],
+    "sourceIds": [
+      2541019163,
+      2550870768
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:TWH: retained original OSM node 2541019066, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:TWH"
+    ],
+    "sourceIds": [
+      2541019066,
+      2550870767
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:KWH: retained original OSM node 288379617, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:KWH"
+    ],
+    "sourceIds": [
+      288379617,
+      2541331746
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:KWF: retained original OSM node 288379611, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:KWF"
+    ],
+    "sourceIds": [
+      288379611,
+      2541331790
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:LAK: retained original OSM node 288378585, 4 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:LAK"
+    ],
+    "sourceIds": [
+      288378585,
+      2541359360,
+      2292179656,
+      1295654768
+    ]
+  },
+  {
+    "code": "CHINESE_NAME_VARIANT",
+    "message": "TWL:LAK: CSV 茘景; OSM 荔景; matched using English and route evidence.",
+    "stationKeys": [
+      "TWL:LAK"
+    ],
+    "sourceIds": [
+      288378585
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:MEF: retained original OSM node 288379522, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:MEF"
+    ],
+    "sourceIds": [
+      288379522,
+      2541384250,
+      13050511451
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:LCK: retained original OSM node 288379517, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:LCK"
+    ],
+    "sourceIds": [
+      288379517,
+      2543036319,
+      12596366142
+    ]
+  },
+  {
+    "code": "CHINESE_NAME_VARIANT",
+    "message": "TWL:LCK: CSV 茘枝角; OSM 荔枝角; matched using English and route evidence.",
+    "stationKeys": [
+      "TWL:LCK"
+    ],
+    "sourceIds": [
+      288379517
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:CSW: retained original OSM node 288379339, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:CSW"
+    ],
+    "sourceIds": [
+      288379339,
+      2544686394,
+      2544686378
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:SSP: retained original OSM node 288379363, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:SSP"
+    ],
+    "sourceIds": [
+      288379363,
+      2544686360
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:PRE: retained original OSM node 288379264, 5 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:PRE"
+    ],
+    "sourceIds": [
+      288379264,
+      2550864623,
+      6610142561,
+      991294915,
+      4331931868
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:MOK: retained original OSM node 288379318, 4 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:MOK"
+    ],
+    "sourceIds": [
+      288379318,
+      2550864624,
+      991294975,
+      4331931867
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:YMT: retained original OSM node 288379179, 4 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:YMT"
+    ],
+    "sourceIds": [
+      288379179,
+      2550881705,
+      4331931872,
+      991294660
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:JOR: retained original OSM node 262119934, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:JOR"
+    ],
+    "sourceIds": [
+      262119934,
+      2554379407
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:TST: retained original OSM node 2555388098, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:TST"
+    ],
+    "sourceIds": [
+      2555388098,
+      2555388100
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:ADM: retained original OSM node 2556657209, 4 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:ADM"
+    ],
+    "sourceIds": [
+      2556657209,
+      2556738383,
+      2564545111,
+      2564545101
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "TWL:CEN: retained original OSM node 2556738364, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "TWL:CEN"
+    ],
+    "sourceIds": [
+      2556738364,
+      262119858
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "SIL:ADM: retained original OSM node 1295654882, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "SIL:ADM"
+    ],
+    "sourceIds": [
+      1295654882,
+      3943626057
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "SIL:OCP: retained original OSM node 2176979623, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "SIL:OCP"
+    ],
+    "sourceIds": [
+      2176979623,
+      3943626059
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "SIL:WCH: retained original OSM node 2176979857, 3 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "SIL:WCH"
+    ],
+    "sourceIds": [
+      2176979857,
+      3778450149,
+      9824199724
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "SIL:LET: retained original OSM node 2176980003, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "SIL:LET"
+    ],
+    "sourceIds": [
+      2176980003,
+      3943626058
+    ]
+  },
+  {
+    "code": "PLATFORM_REPRESENTATIVE",
+    "message": "SIL:SOH: retained original OSM node 3943626060, 2 matching station/platform nodes; no averaging.",
+    "stationKeys": [
+      "SIL:SOH"
+    ],
+    "sourceIds": [
+      3943626060,
+      3943626061
+    ]
+  },
+  {
+    "code": "INTERCHANGE_CONFIRMATION_REQUIRED",
+    "message": "42 unconfirmed candidates are not treated as interchanges."
+  },
+  {
+    "code": "LIGHT_RAIL_PHASE_2",
+    "message": "Light rail and high-speed relations are audited but excluded from the heavy rail network."
+  },
+  {
+    "code": "TCL_SOURCE_ORDER_OVERRIDE",
+    "message": "User confirms TCL uses the new alignment. Only relation 5317704 moves ways 1176509649,1558652644,1558652643 between exact source-node neighbours; source-order gaps remain in the raw audit. Original OSM construction descriptions retained. Toy simulation only; colour_source=osm-unverified."
+  },
+  {
+    "code": "TCL_SOURCE_DESCRIPTION_RETAINED",
+    "message": "OSM descriptions on the three reviewed ways still say Construction; latest in-service alignment status comes from user confirmation, not an independently verified official notice. No raw source tags were rewritten.",
+    "sourceIds": [
+      1176509649,
+      1558652644,
+      1558652643
+    ]
+  },
+  {
+    "code": "UPCOMING_STATIONS_NOT_OPEN",
+    "message": "Tung Chung East and Tung Chung West use original construction=station nodes; displayed as not open, separate from official CSV keys, no invented station codes, API boards or connecting geometry.",
+    "sourceIds": [
+      11039819034,
+      11039819033
+    ]
+  }
+]

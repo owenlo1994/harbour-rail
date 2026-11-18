@@ -1,0 +1,21 @@
+node_modules/
+**/dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+
+# User-supplied Geofabrik extract; never commit the full PBF.
+/data/raw/hong-kong-latest.osm.pbf
+/.venv/
+/data/raw/*.osm.pbf
+/data/raw/*.osm.pbf.part
+/data/reports/osm-extract.json
+/data/reports/osm-tags.json
+
+# Local development map payload, never published or bundled.
+/data/reports/development-map.json
+
+.netlify/

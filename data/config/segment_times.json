@@ -1,0 +1,2374 @@
+{
+  "version": 1,
+  "source": "model-parameter-not-official",
+  "defaults": {
+    "cruiseSpeedMps": 15,
+    "minTravelSeconds": 45,
+    "dwellSeconds": 25
+  },
+  "segments": [
+    {
+      "line": "AEL",
+      "from": "AIR",
+      "to": "AWE",
+      "distanceMetres": 1147,
+      "travelSeconds": 77,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317239-UP"]
+    },
+    {
+      "line": "AEL",
+      "from": "AIR",
+      "to": "TSY",
+      "distanceMetres": 22351,
+      "travelSeconds": 1491,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317238-DOWN"]
+    },
+    {
+      "line": "AEL",
+      "from": "AWE",
+      "to": "AIR",
+      "distanceMetres": 1136,
+      "travelSeconds": 76,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317238-DOWN"]
+    },
+    {
+      "line": "AEL",
+      "from": "HOK",
+      "to": "KOW",
+      "distanceMetres": 2599,
+      "travelSeconds": 174,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317239-UP"]
+    },
+    {
+      "line": "AEL",
+      "from": "KOW",
+      "to": "HOK",
+      "distanceMetres": 2588,
+      "travelSeconds": 173,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317238-DOWN"]
+    },
+    {
+      "line": "AEL",
+      "from": "KOW",
+      "to": "TSY",
+      "distanceMetres": 8851,
+      "travelSeconds": 591,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317239-UP"]
+    },
+    {
+      "line": "AEL",
+      "from": "TSY",
+      "to": "AIR",
+      "distanceMetres": 22355,
+      "travelSeconds": 1491,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317239-UP"]
+    },
+    {
+      "line": "AEL",
+      "from": "TSY",
+      "to": "KOW",
+      "distanceMetres": 8861,
+      "travelSeconds": 591,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317238-DOWN"]
+    },
+    {
+      "line": "DRL",
+      "from": "DIS",
+      "to": "SUN",
+      "distanceMetres": 3089,
+      "travelSeconds": 206,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4709541-UP"]
+    },
+    {
+      "line": "DRL",
+      "from": "SUN",
+      "to": "DIS",
+      "distanceMetres": 3087,
+      "travelSeconds": 206,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4709540-DOWN"]
+    },
+    {
+      "line": "EAL",
+      "from": "ADM",
+      "to": "EXC",
+      "distanceMetres": 1123,
+      "travelSeconds": 75,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248591-UP",
+        "live-4248592-UP",
+        "live-4250434-UP-RAC",
+        "live-4250435-UP-RAC",
+        "live-6587848-UP-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "EXC",
+      "to": "ADM",
+      "distanceMetres": 1113,
+      "travelSeconds": 75,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248589-DOWN",
+        "live-4248590-DOWN",
+        "live-4250432-DOWN-RAC",
+        "live-4250433-DOWN-RAC",
+        "live-6587852-DOWN-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "EXC",
+      "to": "HUH",
+      "distanceMetres": 3122,
+      "travelSeconds": 209,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248591-UP",
+        "live-4248592-UP",
+        "live-4250434-UP-RAC",
+        "live-4250435-UP-RAC",
+        "live-6587848-UP-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "FAN",
+      "to": "SHS",
+      "distanceMetres": 1483,
+      "travelSeconds": 99,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248591-UP",
+        "live-4248592-UP",
+        "live-4250434-UP-RAC",
+        "live-4250435-UP-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "FAN",
+      "to": "TWO",
+      "distanceMetres": 6177,
+      "travelSeconds": 412,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248589-DOWN",
+        "live-4248590-DOWN",
+        "live-4250432-DOWN-RAC",
+        "live-4250433-DOWN-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "FOT",
+      "to": "SHT",
+      "distanceMetres": 1780,
+      "travelSeconds": 119,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4248589-DOWN", "live-4248590-DOWN"]
+    },
+    {
+      "line": "EAL",
+      "from": "FOT",
+      "to": "UNI",
+      "distanceMetres": 2584,
+      "travelSeconds": 173,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4248591-UP", "live-4248592-UP"]
+    },
+    {
+      "line": "EAL",
+      "from": "HUH",
+      "to": "EXC",
+      "distanceMetres": 3138,
+      "travelSeconds": 210,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248589-DOWN",
+        "live-4248590-DOWN",
+        "live-4250432-DOWN-RAC",
+        "live-4250433-DOWN-RAC",
+        "live-6587852-DOWN-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "HUH",
+      "to": "MKK",
+      "distanceMetres": 2402,
+      "travelSeconds": 161,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248591-UP",
+        "live-4248592-UP",
+        "live-4250434-UP-RAC",
+        "live-4250435-UP-RAC",
+        "live-6587848-UP-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "KOT",
+      "to": "MKK",
+      "distanceMetres": 1779,
+      "travelSeconds": 119,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248589-DOWN",
+        "live-4248590-DOWN",
+        "live-4250432-DOWN-RAC",
+        "live-4250433-DOWN-RAC",
+        "live-6587852-DOWN-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "KOT",
+      "to": "TAW",
+      "distanceMetres": 4436,
+      "travelSeconds": 296,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248591-UP",
+        "live-4248592-UP",
+        "live-4250434-UP-RAC",
+        "live-4250435-UP-RAC",
+        "live-6587848-UP-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "LMC",
+      "to": "SHS",
+      "distanceMetres": 7383,
+      "travelSeconds": 493,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4248589-DOWN", "live-4250432-DOWN-RAC"]
+    },
+    {
+      "line": "EAL",
+      "from": "LOW",
+      "to": "SHS",
+      "distanceMetres": 3557,
+      "travelSeconds": 238,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4248590-DOWN", "live-4250433-DOWN-RAC"]
+    },
+    {
+      "line": "EAL",
+      "from": "MKK",
+      "to": "HUH",
+      "distanceMetres": 2405,
+      "travelSeconds": 161,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248589-DOWN",
+        "live-4248590-DOWN",
+        "live-4250432-DOWN-RAC",
+        "live-4250433-DOWN-RAC",
+        "live-6587852-DOWN-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "MKK",
+      "to": "KOT",
+      "distanceMetres": 1777,
+      "travelSeconds": 119,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248591-UP",
+        "live-4248592-UP",
+        "live-4250434-UP-RAC",
+        "live-4250435-UP-RAC",
+        "live-6587848-UP-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "RAC",
+      "to": "SHT",
+      "distanceMetres": 2527,
+      "travelSeconds": 169,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4250432-DOWN-RAC",
+        "live-4250433-DOWN-RAC",
+        "live-6587852-DOWN-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "RAC",
+      "to": "UNI",
+      "distanceMetres": 1829,
+      "travelSeconds": 122,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4250434-UP-RAC", "live-4250435-UP-RAC"]
+    },
+    {
+      "line": "EAL",
+      "from": "SHS",
+      "to": "FAN",
+      "distanceMetres": 1483,
+      "travelSeconds": 99,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248589-DOWN",
+        "live-4248590-DOWN",
+        "live-4250432-DOWN-RAC",
+        "live-4250433-DOWN-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "SHS",
+      "to": "LMC",
+      "distanceMetres": 7376,
+      "travelSeconds": 492,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4248591-UP", "live-4250434-UP-RAC"]
+    },
+    {
+      "line": "EAL",
+      "from": "SHS",
+      "to": "LOW",
+      "distanceMetres": 3568,
+      "travelSeconds": 238,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4248592-UP", "live-4250435-UP-RAC"]
+    },
+    {
+      "line": "EAL",
+      "from": "SHT",
+      "to": "FOT",
+      "distanceMetres": 1780,
+      "travelSeconds": 119,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4248591-UP", "live-4248592-UP"]
+    },
+    {
+      "line": "EAL",
+      "from": "SHT",
+      "to": "RAC",
+      "distanceMetres": 2527,
+      "travelSeconds": 169,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4250434-UP-RAC",
+        "live-4250435-UP-RAC",
+        "live-6587848-UP-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "SHT",
+      "to": "TAW",
+      "distanceMetres": 1446,
+      "travelSeconds": 97,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248589-DOWN",
+        "live-4248590-DOWN",
+        "live-4250432-DOWN-RAC",
+        "live-4250433-DOWN-RAC",
+        "live-6587852-DOWN-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "TAP",
+      "to": "TWO",
+      "distanceMetres": 1280,
+      "travelSeconds": 86,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248591-UP",
+        "live-4248592-UP",
+        "live-4250434-UP-RAC",
+        "live-4250435-UP-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "TAP",
+      "to": "UNI",
+      "distanceMetres": 6336,
+      "travelSeconds": 423,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248589-DOWN",
+        "live-4248590-DOWN",
+        "live-4250432-DOWN-RAC",
+        "live-4250433-DOWN-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "TAW",
+      "to": "KOT",
+      "distanceMetres": 4430,
+      "travelSeconds": 296,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248589-DOWN",
+        "live-4248590-DOWN",
+        "live-4250432-DOWN-RAC",
+        "live-4250433-DOWN-RAC",
+        "live-6587852-DOWN-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "TAW",
+      "to": "SHT",
+      "distanceMetres": 1445,
+      "travelSeconds": 97,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248591-UP",
+        "live-4248592-UP",
+        "live-4250434-UP-RAC",
+        "live-4250435-UP-RAC",
+        "live-6587848-UP-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "TWO",
+      "to": "FAN",
+      "distanceMetres": 6177,
+      "travelSeconds": 412,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248591-UP",
+        "live-4248592-UP",
+        "live-4250434-UP-RAC",
+        "live-4250435-UP-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "TWO",
+      "to": "TAP",
+      "distanceMetres": 1270,
+      "travelSeconds": 85,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248589-DOWN",
+        "live-4248590-DOWN",
+        "live-4250432-DOWN-RAC",
+        "live-4250433-DOWN-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "UNI",
+      "to": "FOT",
+      "distanceMetres": 2586,
+      "travelSeconds": 173,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4248589-DOWN", "live-4248590-DOWN"]
+    },
+    {
+      "line": "EAL",
+      "from": "UNI",
+      "to": "RAC",
+      "distanceMetres": 1830,
+      "travelSeconds": 123,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4250432-DOWN-RAC",
+        "live-4250433-DOWN-RAC"
+      ]
+    },
+    {
+      "line": "EAL",
+      "from": "UNI",
+      "to": "TAP",
+      "distanceMetres": 6332,
+      "travelSeconds": 423,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": [
+        "live-4248591-UP",
+        "live-4248592-UP",
+        "live-4250434-UP-RAC",
+        "live-4250435-UP-RAC"
+      ]
+    },
+    {
+      "line": "ISL",
+      "from": "ADM",
+      "to": "CEN",
+      "distanceMetres": 848,
+      "travelSeconds": 57,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "ADM",
+      "to": "WAC",
+      "distanceMetres": 823,
+      "travelSeconds": 55,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "CAB",
+      "to": "TIH",
+      "distanceMetres": 879,
+      "travelSeconds": 59,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "CAB",
+      "to": "WAC",
+      "distanceMetres": 1181,
+      "travelSeconds": 79,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "CEN",
+      "to": "ADM",
+      "distanceMetres": 848,
+      "travelSeconds": 57,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "CEN",
+      "to": "SHW",
+      "distanceMetres": 808,
+      "travelSeconds": 54,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "CHW",
+      "to": "HFC",
+      "distanceMetres": 1474,
+      "travelSeconds": 99,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "FOH",
+      "to": "NOP",
+      "distanceMetres": 884,
+      "travelSeconds": 59,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "FOH",
+      "to": "TIH",
+      "distanceMetres": 625,
+      "travelSeconds": 45,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "HFC",
+      "to": "CHW",
+      "distanceMetres": 1485,
+      "travelSeconds": 100,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "HFC",
+      "to": "SKW",
+      "distanceMetres": 1270,
+      "travelSeconds": 85,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "HKU",
+      "to": "KET",
+      "distanceMetres": 807,
+      "travelSeconds": 54,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "HKU",
+      "to": "SYP",
+      "distanceMetres": 819,
+      "travelSeconds": 55,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "KET",
+      "to": "HKU",
+      "distanceMetres": 812,
+      "travelSeconds": 55,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "NOP",
+      "to": "FOH",
+      "distanceMetres": 863,
+      "travelSeconds": 58,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "NOP",
+      "to": "QUB",
+      "distanceMetres": 928,
+      "travelSeconds": 62,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "QUB",
+      "to": "NOP",
+      "distanceMetres": 900,
+      "travelSeconds": 60,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "QUB",
+      "to": "TAK",
+      "distanceMetres": 1036,
+      "travelSeconds": 70,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "SHW",
+      "to": "CEN",
+      "distanceMetres": 812,
+      "travelSeconds": 55,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "SHW",
+      "to": "SYP",
+      "distanceMetres": 1077,
+      "travelSeconds": 72,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "SKW",
+      "to": "HFC",
+      "distanceMetres": 1293,
+      "travelSeconds": 87,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "SKW",
+      "to": "SWH",
+      "distanceMetres": 762,
+      "travelSeconds": 51,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "SWH",
+      "to": "SKW",
+      "distanceMetres": 755,
+      "travelSeconds": 51,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "SWH",
+      "to": "TAK",
+      "distanceMetres": 757,
+      "travelSeconds": 51,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "SYP",
+      "to": "HKU",
+      "distanceMetres": 833,
+      "travelSeconds": 56,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "SYP",
+      "to": "SHW",
+      "distanceMetres": 1090,
+      "travelSeconds": 73,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "TAK",
+      "to": "QUB",
+      "distanceMetres": 1046,
+      "travelSeconds": 70,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "TAK",
+      "to": "SWH",
+      "distanceMetres": 773,
+      "travelSeconds": 52,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "TIH",
+      "to": "CAB",
+      "distanceMetres": 882,
+      "travelSeconds": 59,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "TIH",
+      "to": "FOH",
+      "distanceMetres": 628,
+      "travelSeconds": 45,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "ISL",
+      "from": "WAC",
+      "to": "ADM",
+      "distanceMetres": 825,
+      "travelSeconds": 56,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432665-DOWN"]
+    },
+    {
+      "line": "ISL",
+      "from": "WAC",
+      "to": "CAB",
+      "distanceMetres": 1178,
+      "travelSeconds": 79,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-4432666-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "CHH",
+      "to": "DIH",
+      "distanceMetres": 1061,
+      "travelSeconds": 71,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "CHH",
+      "to": "KOB",
+      "distanceMetres": 1330,
+      "travelSeconds": 89,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "DIH",
+      "to": "CHH",
+      "distanceMetres": 1062,
+      "travelSeconds": 71,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "DIH",
+      "to": "WTS",
+      "distanceMetres": 711,
+      "travelSeconds": 48,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "HOM",
+      "to": "WHA",
+      "distanceMetres": 873,
+      "travelSeconds": 59,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "HOM",
+      "to": "YMT",
+      "distanceMetres": 1843,
+      "travelSeconds": 123,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "KOB",
+      "to": "CHH",
+      "distanceMetres": 1306,
+      "travelSeconds": 88,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "KOB",
+      "to": "NTK",
+      "distanceMetres": 1180,
+      "travelSeconds": 79,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "KOT",
+      "to": "LOF",
+      "distanceMetres": 1093,
+      "travelSeconds": 73,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "KOT",
+      "to": "SKM",
+      "distanceMetres": 1119,
+      "travelSeconds": 75,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "KWT",
+      "to": "LAT",
+      "distanceMetres": 924,
+      "travelSeconds": 62,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "KWT",
+      "to": "NTK",
+      "distanceMetres": 824,
+      "travelSeconds": 55,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "LAT",
+      "to": "KWT",
+      "distanceMetres": 921,
+      "travelSeconds": 62,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "LAT",
+      "to": "YAT",
+      "distanceMetres": 1119,
+      "travelSeconds": 75,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "LOF",
+      "to": "KOT",
+      "distanceMetres": 1098,
+      "travelSeconds": 74,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "LOF",
+      "to": "WTS",
+      "distanceMetres": 918,
+      "travelSeconds": 62,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "MOK",
+      "to": "PRE",
+      "distanceMetres": 590,
+      "travelSeconds": 45,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "MOK",
+      "to": "YMT",
+      "distanceMetres": 700,
+      "travelSeconds": 47,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "NTK",
+      "to": "KOB",
+      "distanceMetres": 1192,
+      "travelSeconds": 80,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "NTK",
+      "to": "KWT",
+      "distanceMetres": 827,
+      "travelSeconds": 56,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "PRE",
+      "to": "MOK",
+      "distanceMetres": 589,
+      "travelSeconds": 45,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "PRE",
+      "to": "SKM",
+      "distanceMetres": 955,
+      "travelSeconds": 64,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "SKM",
+      "to": "KOT",
+      "distanceMetres": 1141,
+      "travelSeconds": 77,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "SKM",
+      "to": "PRE",
+      "distanceMetres": 958,
+      "travelSeconds": 64,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "TIK",
+      "to": "YAT",
+      "distanceMetres": 2131,
+      "travelSeconds": 143,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "WHA",
+      "to": "HOM",
+      "distanceMetres": 873,
+      "travelSeconds": 59,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "WTS",
+      "to": "DIH",
+      "distanceMetres": 720,
+      "travelSeconds": 48,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "WTS",
+      "to": "LOF",
+      "distanceMetres": 913,
+      "travelSeconds": 61,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "YAT",
+      "to": "LAT",
+      "distanceMetres": 1097,
+      "travelSeconds": 74,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "YAT",
+      "to": "TIK",
+      "distanceMetres": 2149,
+      "travelSeconds": 144,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "KTL",
+      "from": "YMT",
+      "to": "HOM",
+      "distanceMetres": 1860,
+      "travelSeconds": 125,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-272125-DOWN"]
+    },
+    {
+      "line": "KTL",
+      "from": "YMT",
+      "to": "MOK",
+      "distanceMetres": 700,
+      "travelSeconds": 47,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6452935-UP"]
+    },
+    {
+      "line": "SIL",
+      "from": "ADM",
+      "to": "OCP",
+      "distanceMetres": 3921,
+      "travelSeconds": 262,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6827211-UP"]
+    },
+    {
+      "line": "SIL",
+      "from": "LET",
+      "to": "SOH",
+      "distanceMetres": 882,
+      "travelSeconds": 59,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6827211-UP"]
+    },
+    {
+      "line": "SIL",
+      "from": "LET",
+      "to": "WCH",
+      "distanceMetres": 1427,
+      "travelSeconds": 96,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6827212-DOWN"]
+    },
+    {
+      "line": "SIL",
+      "from": "OCP",
+      "to": "ADM",
+      "distanceMetres": 3921,
+      "travelSeconds": 262,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6827212-DOWN"]
+    },
+    {
+      "line": "SIL",
+      "from": "OCP",
+      "to": "WCH",
+      "distanceMetres": 722,
+      "travelSeconds": 49,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6827211-UP"]
+    },
+    {
+      "line": "SIL",
+      "from": "SOH",
+      "to": "LET",
+      "distanceMetres": 860,
+      "travelSeconds": 58,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6827212-DOWN"]
+    },
+    {
+      "line": "SIL",
+      "from": "WCH",
+      "to": "LET",
+      "distanceMetres": 1424,
+      "travelSeconds": 95,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6827211-UP"]
+    },
+    {
+      "line": "SIL",
+      "from": "WCH",
+      "to": "OCP",
+      "distanceMetres": 723,
+      "travelSeconds": 49,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6827212-DOWN"]
+    },
+    {
+      "line": "TCL",
+      "from": "HOK",
+      "to": "KOW",
+      "distanceMetres": 2589,
+      "travelSeconds": 173,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-UP"]
+    },
+    {
+      "line": "TCL",
+      "from": "KOW",
+      "to": "HOK",
+      "distanceMetres": 2589,
+      "travelSeconds": 173,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-DOWN"]
+    },
+    {
+      "line": "TCL",
+      "from": "KOW",
+      "to": "OLY",
+      "distanceMetres": 1496,
+      "travelSeconds": 100,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-UP"]
+    },
+    {
+      "line": "TCL",
+      "from": "LAK",
+      "to": "NAC",
+      "distanceMetres": 3919,
+      "travelSeconds": 262,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-DOWN"]
+    },
+    {
+      "line": "TCL",
+      "from": "LAK",
+      "to": "TSY",
+      "distanceMetres": 2275,
+      "travelSeconds": 152,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-UP"]
+    },
+    {
+      "line": "TCL",
+      "from": "NAC",
+      "to": "LAK",
+      "distanceMetres": 3919,
+      "travelSeconds": 262,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-UP"]
+    },
+    {
+      "line": "TCL",
+      "from": "NAC",
+      "to": "OLY",
+      "distanceMetres": 1186,
+      "travelSeconds": 80,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-DOWN"]
+    },
+    {
+      "line": "TCL",
+      "from": "OLY",
+      "to": "KOW",
+      "distanceMetres": 1496,
+      "travelSeconds": 100,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-DOWN"]
+    },
+    {
+      "line": "TCL",
+      "from": "OLY",
+      "to": "NAC",
+      "distanceMetres": 1186,
+      "travelSeconds": 80,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-UP"]
+    },
+    {
+      "line": "TCL",
+      "from": "SUN",
+      "to": "TSY",
+      "distanceMetres": 8824,
+      "travelSeconds": 589,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-DOWN"]
+    },
+    {
+      "line": "TCL",
+      "from": "SUN",
+      "to": "TUC",
+      "distanceMetres": 10504,
+      "travelSeconds": 701,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-UP"]
+    },
+    {
+      "line": "TCL",
+      "from": "TSY",
+      "to": "LAK",
+      "distanceMetres": 2275,
+      "travelSeconds": 152,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-DOWN"]
+    },
+    {
+      "line": "TCL",
+      "from": "TSY",
+      "to": "SUN",
+      "distanceMetres": 8824,
+      "travelSeconds": 589,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-UP"]
+    },
+    {
+      "line": "TCL",
+      "from": "TUC",
+      "to": "SUN",
+      "distanceMetres": 10504,
+      "travelSeconds": 701,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-5317704-DOWN"]
+    },
+    {
+      "line": "TKL",
+      "from": "HAH",
+      "to": "POA",
+      "distanceMetres": 1029,
+      "travelSeconds": 69,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269672-UP"]
+    },
+    {
+      "line": "TKL",
+      "from": "HAH",
+      "to": "TKO",
+      "distanceMetres": 1198,
+      "travelSeconds": 80,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736611-DOWN"]
+    },
+    {
+      "line": "TKL",
+      "from": "LHP",
+      "to": "TKO",
+      "distanceMetres": 2991,
+      "travelSeconds": 200,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-13352938-DOWN"]
+    },
+    {
+      "line": "TKL",
+      "from": "NOP",
+      "to": "QUB",
+      "distanceMetres": 1019,
+      "travelSeconds": 68,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269672-UP", "live-13352937-UP"]
+    },
+    {
+      "line": "TKL",
+      "from": "POA",
+      "to": "HAH",
+      "distanceMetres": 1029,
+      "travelSeconds": 69,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736611-DOWN"]
+    },
+    {
+      "line": "TKL",
+      "from": "QUB",
+      "to": "NOP",
+      "distanceMetres": 1026,
+      "travelSeconds": 69,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736611-DOWN", "live-13352938-DOWN"]
+    },
+    {
+      "line": "TKL",
+      "from": "QUB",
+      "to": "YAT",
+      "distanceMetres": 3301,
+      "travelSeconds": 221,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269672-UP", "live-13352937-UP"]
+    },
+    {
+      "line": "TKL",
+      "from": "TIK",
+      "to": "TKO",
+      "distanceMetres": 877,
+      "travelSeconds": 59,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269672-UP", "live-13352937-UP"]
+    },
+    {
+      "line": "TKL",
+      "from": "TIK",
+      "to": "YAT",
+      "distanceMetres": 2160,
+      "travelSeconds": 144,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736611-DOWN", "live-13352938-DOWN"]
+    },
+    {
+      "line": "TKL",
+      "from": "TKO",
+      "to": "HAH",
+      "distanceMetres": 1176,
+      "travelSeconds": 79,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269672-UP"]
+    },
+    {
+      "line": "TKL",
+      "from": "TKO",
+      "to": "LHP",
+      "distanceMetres": 3197,
+      "travelSeconds": 214,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-13352937-UP"]
+    },
+    {
+      "line": "TKL",
+      "from": "TKO",
+      "to": "TIK",
+      "distanceMetres": 871,
+      "travelSeconds": 59,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736611-DOWN", "live-13352938-DOWN"]
+    },
+    {
+      "line": "TKL",
+      "from": "YAT",
+      "to": "QUB",
+      "distanceMetres": 3300,
+      "travelSeconds": 221,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736611-DOWN", "live-13352938-DOWN"]
+    },
+    {
+      "line": "TKL",
+      "from": "YAT",
+      "to": "TIK",
+      "distanceMetres": 2152,
+      "travelSeconds": 144,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269672-UP", "live-13352937-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "AUS",
+      "to": "ETS",
+      "distanceMetres": 1651,
+      "travelSeconds": 111,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "AUS",
+      "to": "NAC",
+      "distanceMetres": 2831,
+      "travelSeconds": 189,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "CIO",
+      "to": "SHM",
+      "distanceMetres": 723,
+      "travelSeconds": 49,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "CIO",
+      "to": "STW",
+      "distanceMetres": 1151,
+      "travelSeconds": 77,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "CKT",
+      "to": "STW",
+      "distanceMetres": 965,
+      "travelSeconds": 65,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "CKT",
+      "to": "TAW",
+      "distanceMetres": 805,
+      "travelSeconds": 54,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "DIH",
+      "to": "HIK",
+      "distanceMetres": 4335,
+      "travelSeconds": 289,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "DIH",
+      "to": "KAT",
+      "distanceMetres": 1374,
+      "travelSeconds": 92,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "ETS",
+      "to": "AUS",
+      "distanceMetres": 1668,
+      "travelSeconds": 112,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "ETS",
+      "to": "HUH",
+      "distanceMetres": 1171,
+      "travelSeconds": 79,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "HEO",
+      "to": "MOS",
+      "distanceMetres": 1107,
+      "travelSeconds": 74,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "HEO",
+      "to": "TSH",
+      "distanceMetres": 1052,
+      "travelSeconds": 71,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "HIK",
+      "to": "DIH",
+      "distanceMetres": 4335,
+      "travelSeconds": 290,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "HIK",
+      "to": "TAW",
+      "distanceMetres": 1335,
+      "travelSeconds": 89,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "HOM",
+      "to": "HUH",
+      "distanceMetres": 753,
+      "travelSeconds": 51,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "HOM",
+      "to": "TKW",
+      "distanceMetres": 1051,
+      "travelSeconds": 71,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "HUH",
+      "to": "ETS",
+      "distanceMetres": 1182,
+      "travelSeconds": 79,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "HUH",
+      "to": "HOM",
+      "distanceMetres": 752,
+      "travelSeconds": 51,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "KAT",
+      "to": "DIH",
+      "distanceMetres": 1404,
+      "travelSeconds": 94,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "KAT",
+      "to": "SUW",
+      "distanceMetres": 955,
+      "travelSeconds": 64,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "KSR",
+      "to": "TWW",
+      "distanceMetres": 8921,
+      "travelSeconds": 595,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "KSR",
+      "to": "YUL",
+      "distanceMetres": 3533,
+      "travelSeconds": 236,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "LOP",
+      "to": "TIS",
+      "distanceMetres": 2325,
+      "travelSeconds": 156,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "LOP",
+      "to": "YUL",
+      "distanceMetres": 1041,
+      "travelSeconds": 70,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "MEF",
+      "to": "NAC",
+      "distanceMetres": 2414,
+      "travelSeconds": 161,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "MEF",
+      "to": "TWW",
+      "distanceMetres": 4375,
+      "travelSeconds": 292,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "MOS",
+      "to": "HEO",
+      "distanceMetres": 1113,
+      "travelSeconds": 75,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "MOS",
+      "to": "WKS",
+      "distanceMetres": 1363,
+      "travelSeconds": 91,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "NAC",
+      "to": "AUS",
+      "distanceMetres": 2833,
+      "travelSeconds": 189,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "NAC",
+      "to": "MEF",
+      "distanceMetres": 2420,
+      "travelSeconds": 162,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "SHM",
+      "to": "CIO",
+      "distanceMetres": 722,
+      "travelSeconds": 49,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "SHM",
+      "to": "TSH",
+      "distanceMetres": 2910,
+      "travelSeconds": 195,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "SIH",
+      "to": "TIS",
+      "distanceMetres": 4976,
+      "travelSeconds": 332,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "SIH",
+      "to": "TUM",
+      "distanceMetres": 1932,
+      "travelSeconds": 129,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "STW",
+      "to": "CIO",
+      "distanceMetres": 1153,
+      "travelSeconds": 77,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "STW",
+      "to": "CKT",
+      "distanceMetres": 959,
+      "travelSeconds": 64,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "SUW",
+      "to": "KAT",
+      "distanceMetres": 962,
+      "travelSeconds": 65,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "SUW",
+      "to": "TKW",
+      "distanceMetres": 1187,
+      "travelSeconds": 80,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "TAW",
+      "to": "CKT",
+      "distanceMetres": 802,
+      "travelSeconds": 54,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "TAW",
+      "to": "HIK",
+      "distanceMetres": 1339,
+      "travelSeconds": 90,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "TIS",
+      "to": "LOP",
+      "distanceMetres": 2338,
+      "travelSeconds": 156,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "TIS",
+      "to": "SIH",
+      "distanceMetres": 4974,
+      "travelSeconds": 332,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "TKW",
+      "to": "HOM",
+      "distanceMetres": 1043,
+      "travelSeconds": 70,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "TKW",
+      "to": "SUW",
+      "distanceMetres": 1182,
+      "travelSeconds": 79,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "TSH",
+      "to": "HEO",
+      "distanceMetres": 1056,
+      "travelSeconds": 71,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "TSH",
+      "to": "SHM",
+      "distanceMetres": 2902,
+      "travelSeconds": 194,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "TUM",
+      "to": "SIH",
+      "distanceMetres": 1932,
+      "travelSeconds": 129,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "TWW",
+      "to": "KSR",
+      "distanceMetres": 8920,
+      "travelSeconds": 595,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "TWW",
+      "to": "MEF",
+      "distanceMetres": 4380,
+      "travelSeconds": 292,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "WKS",
+      "to": "MOS",
+      "distanceMetres": 1366,
+      "travelSeconds": 92,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TML",
+      "from": "YUL",
+      "to": "KSR",
+      "distanceMetres": 3543,
+      "travelSeconds": 237,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102298-DOWN"]
+    },
+    {
+      "line": "TML",
+      "from": "YUL",
+      "to": "LOP",
+      "distanceMetres": 1043,
+      "travelSeconds": 70,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-6102299-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "ADM",
+      "to": "CEN",
+      "distanceMetres": 672,
+      "travelSeconds": 45,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "ADM",
+      "to": "TST",
+      "distanceMetres": 2382,
+      "travelSeconds": 159,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "CEN",
+      "to": "ADM",
+      "distanceMetres": 676,
+      "travelSeconds": 46,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "CSW",
+      "to": "LCK",
+      "distanceMetres": 897,
+      "travelSeconds": 60,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "CSW",
+      "to": "SSP",
+      "distanceMetres": 845,
+      "travelSeconds": 57,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "JOR",
+      "to": "TST",
+      "distanceMetres": 882,
+      "travelSeconds": 59,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "JOR",
+      "to": "YMT",
+      "distanceMetres": 893,
+      "travelSeconds": 60,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "KWF",
+      "to": "KWH",
+      "distanceMetres": 796,
+      "travelSeconds": 54,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "KWF",
+      "to": "LAK",
+      "distanceMetres": 1069,
+      "travelSeconds": 72,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "KWH",
+      "to": "KWF",
+      "distanceMetres": 798,
+      "travelSeconds": 54,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "KWH",
+      "to": "TWH",
+      "distanceMetres": 1267,
+      "travelSeconds": 85,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "LAK",
+      "to": "KWF",
+      "distanceMetres": 1080,
+      "travelSeconds": 73,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "LAK",
+      "to": "MEF",
+      "distanceMetres": 1799,
+      "travelSeconds": 120,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "LCK",
+      "to": "CSW",
+      "distanceMetres": 911,
+      "travelSeconds": 61,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "LCK",
+      "to": "MEF",
+      "distanceMetres": 1009,
+      "travelSeconds": 68,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "MEF",
+      "to": "LAK",
+      "distanceMetres": 1813,
+      "travelSeconds": 121,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "MEF",
+      "to": "LCK",
+      "distanceMetres": 999,
+      "travelSeconds": 67,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "MOK",
+      "to": "PRE",
+      "distanceMetres": 589,
+      "travelSeconds": 45,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "MOK",
+      "to": "YMT",
+      "distanceMetres": 701,
+      "travelSeconds": 47,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "PRE",
+      "to": "MOK",
+      "distanceMetres": 589,
+      "travelSeconds": 45,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "PRE",
+      "to": "SSP",
+      "distanceMetres": 938,
+      "travelSeconds": 63,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "SSP",
+      "to": "CSW",
+      "distanceMetres": 845,
+      "travelSeconds": 57,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "SSP",
+      "to": "PRE",
+      "distanceMetres": 944,
+      "travelSeconds": 63,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "TST",
+      "to": "ADM",
+      "distanceMetres": 2393,
+      "travelSeconds": 160,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "TST",
+      "to": "JOR",
+      "distanceMetres": 882,
+      "travelSeconds": 59,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "TSW",
+      "to": "TWH",
+      "distanceMetres": 845,
+      "travelSeconds": 57,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "TWH",
+      "to": "KWH",
+      "distanceMetres": 1290,
+      "travelSeconds": 87,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "TWH",
+      "to": "TSW",
+      "distanceMetres": 856,
+      "travelSeconds": 58,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    },
+    {
+      "line": "TWL",
+      "from": "YMT",
+      "to": "JOR",
+      "distanceMetres": 895,
+      "travelSeconds": 60,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-269669-DOWN"]
+    },
+    {
+      "line": "TWL",
+      "from": "YMT",
+      "to": "MOK",
+      "distanceMetres": 700,
+      "travelSeconds": 47,
+      "dwellSeconds": 25,
+      "source": "model-parameter-not-official",
+      "geometrySourceRouteIds": ["live-9736530-UP"]
+    }
+  ]
+}

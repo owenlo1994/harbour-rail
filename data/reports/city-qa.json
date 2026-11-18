@@ -1,0 +1,27 @@
+{
+  "url": "https://harbour-rail-hk.floralrabbit1.chatgpt.site",
+  "desktop": [
+    1440,
+    1000
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "sourceBuildings": 12535,
+  "sourceLandmarkSculptures": 13,
+  "pageErrors": [],
+  "officialBoardState": "official",
+  "checks": [
+    "purpose-built cartoon geography style",
+    "instanced 3D toy city",
+    "double steel rails and sleepers",
+    "TCL train follow",
+    "East/West unopened search and cards",
+    "no API board for unopened stations",
+    "mobile route drawer",
+    "no horizontal overflow",
+    "independent official board",
+    "simulation/artistic-height disclosure"
+  ]
+}

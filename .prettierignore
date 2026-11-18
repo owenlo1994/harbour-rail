@@ -1,0 +1,25 @@
+node_modules
+**/dist
+coverage
+package-lock.json
+data/raw
+apps/web/public/data
+docs/source-audit.json
+
+# Generated offline reports; rebuilt by data:audit/data:network.
+data/reports
+# Deterministic generated PBF audit documents.
+docs/osm-tag-report.md
+docs/build-warnings.md
+public/data
+
+docs/tcl-extension-check.md
+
+# Deterministic source-backed live geometry assets.
+apps/api/src/generated
+docs/live-network-audit.md
+
+# Generated migration SQL/journals are immutable once applied.
+drizzle/
+
+**/.netlify
