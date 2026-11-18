@@ -309,6 +309,8 @@ export function MapView({
       maxPitch: 65,
     });
     map.current = m;
+    const resize = new ResizeObserver(() => m.resize());
+    resize.observe(m.getContainer());
     m.on('dragstart', onStopFollow);
     m.on('style.load', () => {
       // Repeating hand-drawn wavelets are a tiny original canvas texture, not map data.
@@ -531,6 +533,7 @@ export function MapView({
       onReady(true);
     });
     return () => {
+      resize.disconnect();
       onReady(false);
       m.remove();
       map.current = null;
@@ -572,10 +575,11 @@ export function MapView({
           const bounds = new maplibregl.LngLatBounds(points[0], points[0]);
           for (const p of points) bounds.extend(p);
           m.fitBounds(bounds, {
-            padding:
-              window.innerWidth < 760
-                ? { top: 130, bottom: 160, left: 50, right: 50 }
-                : { top: 100, bottom: 100, left: 100, right: 120 },
+            padding: Math.min(
+              88,
+              m.getContainer().clientHeight * 0.17,
+              m.getContainer().clientWidth * 0.16,
+            ),
             maxZoom: 12.4,
             pitch: 50,
             bearing: -20,
@@ -606,10 +610,11 @@ export function MapView({
           [114.28, 22.535],
         ],
         {
-          padding:
-            window.innerWidth < 760
-              ? { top: 95, bottom: 120, left: 25, right: 25 }
-              : { top: 60, bottom: 80, left: 70, right: 80 },
+          padding: Math.min(
+            68,
+            m.getContainer().clientHeight * 0.17,
+            m.getContainer().clientWidth * 0.12,
+          ),
           pitch: 45,
           bearing: -18,
           duration: 900,

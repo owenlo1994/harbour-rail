@@ -81,6 +81,7 @@ function App() {
     } | null>(null),
     [error, setError] = useState(''),
     [ready, setReady] = useState(false),
+    [mapExpanded, setMapExpanded] = useState(false),
     [active, setActive] = useState<LineCode | null>(null),
     [selected, setSelected] = useState<Station | null>(null),
     [upcoming, setUpcoming] = useState<UpcomingStation | null>(null),
@@ -195,12 +196,13 @@ function App() {
       if (e.key === 'Escape') {
         setModal(null);
         setRouteOpen(false);
+        if (!modal && !routeOpen && !query) setMapExpanded(false);
         setQuery('');
       }
     };
     window.addEventListener('keydown', close);
     return () => window.removeEventListener('keydown', close);
-  }, []);
+  }, [modal, routeOpen, query]);
   const command = (kind: typeof action.kind) =>
     setAction((a) => ({ kind, serial: a.serial + 1 }));
   const pick = useCallback((s: Station) => {
@@ -510,7 +512,10 @@ function App() {
         .slice(0, 3)
     : [];
   return (
-    <div className="app">
+    <div
+      className={'app' + (mapExpanded ? ' map-expanded' : '')}
+      data-hosted={location.hostname.endsWith('.netlify.app')}
+    >
       <header>
         <a className="brand" href="/">
           <ToyIcon />
@@ -637,471 +642,533 @@ function App() {
           data-map-ready={ready}
           data-train-mode={mode}
         >
-          <div className="mobile-search">{searchBox}</div>
-          <div className="map-heading">
-            <span className="map-heading-icon">⌁</span>
-            <div>
-              <b>{active ? lineInfo[active].zh : '一座會動的玩具城市'}</b>
-              <span>10 條路線 · {stations.length || 97} 個車站等你探索</span>
-            </div>
-          </div>
-          <div className="map-top-right">
-            <span className="simulation-pill">
-              <i />
-              {mode === 'live' ? '官方預報・位置推算' : '玩具行程・模擬中'}
-            </span>
-            <button
-              aria-label="切換音效"
-              className={sound ? 'sound active' : 'sound'}
-              onClick={() => {
-                setSound(!sound);
-                setToast(
-                  sound ? '已關閉音效' : '音效已開啟，下次出發會有叮叮聲！',
-                );
-              }}
-            >
-              {sound ? '♪' : '♫'}
-            </button>
-          </div>
-          {mode === 'live' && (
-            <div
-              className={'live-status ' + (liveError ? 'interrupted' : '')}
-              role="status"
-            >
-              <b>
-                {liveError ||
-                  (!liveFeed
-                    ? '正在更新官方預報…'
-                    : liveFeed.coverage.stationsFresh === 0
-                      ? '暫未有新鮮預報'
-                      : liveFeed.diagnostics.cacheState === 'persistence-error'
-                        ? '共享快取更新中・部分預報'
-                        : liveFeed.lines.some((l) => l.message)
-                          ? '部分預報暫缺・位置推算中'
-                          : '官方預報・列車位置推算')}
-              </b>
-              <span>
-                {liveFeed
-                  ? `${liveFeed.coverage.stationsFresh}/${liveFeed.coverage.stationsTotal} 站已更新 · ${trains.filter((t) => t.mode === 'live').length} 架推算列車 · ${liveFeed.lines.some((l) => l.updatedAt) ? hkClock(Math.max(...liveFeed.lines.map((l) => l.updatedAt ?? 0))) : '暫無資料時間'}`
-                  : '分批取得各站預報，唔會用模擬數據代替。'}
-              </span>
-              {liveFeed && liveFeed.diagnostics.unmappedObservations > 0 && (
-                <span>
-                  另有 {liveFeed.diagnostics.unmappedObservations}{' '}
-                  項預報路徑未能確認，暫未畫出
-                </span>
+          <div className="map-stage">
+            <div className="map-quickbar">
+              <div className="mobile-search">{searchBox}</div>
+              {mapExpanded && (
+                <>
+                  <button
+                    aria-label="揀路線"
+                    aria-expanded={routeOpen}
+                    onClick={() => setRouteOpen(!routeOpen)}
+                  >
+                    路線
+                  </button>
+                  <button
+                    aria-label={
+                      mode === 'live' ? '切換到模擬遊玩' : '切換到官方預報'
+                    }
+                    onClick={() =>
+                      changeMode(mode === 'live' ? 'simulation' : 'live')
+                    }
+                  >
+                    {mode === 'live' ? '預報' : '模擬'}
+                  </button>
+                </>
               )}
-            </div>
-          )}
-          {data && city ? (
-            <MapView
-              data={data}
-              city={city}
-              controls={{
-                mode,
-                liveFeed,
-                liveNetwork,
-                clockOffset,
-                paused,
-                speed,
-                active,
-                followId,
-              }}
-              selected={selected}
-              upcoming={upcoming}
-              onUpcoming={pickUpcoming}
-              onSelect={pick}
-              onTrain={pickTrain}
-              onTick={tick}
-              onReady={setReady}
-              onStopFollow={stopFollow}
-              action={action}
-              locationFix={locationFix}
-            />
-          ) : (
-            <div className="loading-world">
-              <ToyIcon big />
-              <h2>{error || '小火車準備出庫…'}</h2>
-              {error && (
-                <button onClick={() => location.reload()}>再試一次</button>
-              )}
-            </div>
-          )}
-          {!selected && !followId && !upcoming && (
-            <article className="welcome-card">
-              <span className="welcome-sticker">出發喇！</span>
-              <ToyIcon big color="#87a98a" />
-              <h2>下一站，開心！</h2>
-              <p>
-                點小火車可以跟住佢走，
-                <br />
-                點車站就會發現新地方。
-              </p>
-              <button onClick={start}>
-                {mode === 'live' ? '跟隨預報列車 ↗' : '隨機去探險 ↗'}
-              </button>
-              <button className="welcome-list" onClick={openTrainPicker}>
-                自己揀車 ≋
-              </button>
-            </article>
-          )}
-          {upcoming && (
-            <article className="station-card future-card">
               <button
-                className="card-close"
-                aria-label="關閉未開通車站資訊"
-                onClick={() => setUpcoming(null)}
+                className="expand-map"
+                aria-label={mapExpanded ? '退出全屏地圖' : '全屏地圖'}
+                title={mapExpanded ? '退出全屏地圖' : '全屏地圖'}
+                aria-pressed={mapExpanded}
+                onClick={() => {
+                  setRouteOpen(false);
+                  setMapExpanded(!mapExpanded);
+                }}
               >
-                ×
+                <svg
+                  viewBox="0 0 24 24"
+                  width="22"
+                  height="22"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d={
+                      mapExpanded
+                        ? 'M3 8h5V3m13 5h-5V3M3 16h5v5m13-5h-5v5'
+                        : 'M8 3H3v5m13-5h5v5M8 21H3v-5m13 5h5v-5'
+                    }
+                  />
+                </svg>
               </button>
-              <span className="card-eyebrow">COMING TO OUR LITTLE CITY</span>
-              <h2>{upcoming.chineseName}</h2>
-              <span className="station-en">{upcoming.englishName}</span>
-              <span className="not-open-badge">新車站 · 未開通</span>
-              <p>
-                東涌綫嘅新朋友！呢個車站仲未開放畀乘客使用，暫時冇到站預報。
-              </p>
-              <small>位置來自 OpenStreetMap 原始站點</small>
-            </article>
-          )}
-          {follow && (
-            <article className="train-card">
-              <button
-                className="card-close"
-                aria-label="結束跟車"
-                onClick={() => setFollow(null)}
-              >
-                ×
-              </button>
-              <span className="card-eyebrow">
-                {follow.mode === 'live'
-                  ? '官方預報 · 位置推算'
-                  : 'CHOO CHOO! · 模擬跟車'}
+            </div>
+            <div className="map-heading">
+              <span className="map-heading-icon">⌁</span>
+              <div>
+                <b>{active ? lineInfo[active].zh : '一座會動的玩具城市'}</b>
+                <span>10 條路線 · {stations.length || 97} 個車站等你探索</span>
+              </div>
+            </div>
+            <div className="map-top-right">
+              <span className="simulation-pill">
+                <i />
+                {mode === 'live' ? '官方預報・位置推算' : '玩具行程・模擬中'}
               </span>
-              <ToyIcon
-                big
-                line={follow.line}
-                color={data?.colours[follow.line]}
-              />
-              <h2>{lineInfo[follow.line].zh}小火車</h2>
-              <p className="model-reference">
-                {trainProfiles[follow.line].nameZh} · 參考造型
-              </p>
-              {follow.live ? (
-                (() => {
-                  const trip = follow.live,
-                    current = now + clockOffset;
-                  const next =
-                    trip.points.find(
-                      (p) => p.official && p.at >= current - 1000,
-                    ) ??
-                    trip.points.find((p) => p.at >= current) ??
-                    trip.points.at(-1)!;
-                  const name = (code: string) =>
-                    liveNetwork?.stations.find(
-                      (s) => s.line === trip.line && s.code === code,
-                    )?.nameZh ?? code;
-                  return (
-                    <div className="live-train-details">
-                      <b>
-                        往 {name(trip.dest)}
-                        {trip.via === 'RAC' ? ' · 經馬場' : ''}
-                      </b>
-                      <span>
-                        {trip.direction === 'UP' ? '上行' : '下行'} ·{' '}
-                        {trip.platform} 號月台預報
-                      </span>
-                      <div className="train-countdown">
-                        <div>
-                          <small>
-                            {next.official
-                              ? next.kind === 'departure'
-                                ? '預計離站'
-                                : '下一個官方預報站'
-                              : '推算下站'}
-                          </small>
-                          <b>{name(next.station)}</b>
-                        </div>
-                        <strong>
-                          {Math.max(0, Math.ceil((next.at - current) / 1000))}
-                          <small>秒</small>
-                        </strong>
-                      </div>
-                      <span
-                        className={
-                          'data-chip ' +
-                          (follow.dataState === 'interrupted' || liveError
-                            ? 'warning'
-                            : '')
-                        }
-                      >
-                        {follow.dataState === 'interrupted' || liveError
-                          ? '資料中斷・續推中'
-                          : follow.correcting
-                            ? '新預報校正中・位置推算'
-                            : '官方時間・位置推算'}
-                        {trip.delay ? ' · 延誤' : ''}
-                      </span>
-                      <small>
-                        資料時間 {hkClock(trip.sourceTime)} ·{' '}
-                        {next.kind === 'departure' ? '離站' : '到／離站'}
-                        預報可更新
-                      </small>
-                      <small className="virtual-id">
-                        推算班次 {tripBadge(trip.id)} · 並非港鐵車號
-                      </small>
-                    </div>
+              <button
+                aria-label="切換音效"
+                className={sound ? 'sound active' : 'sound'}
+                onClick={() => {
+                  setSound(!sound);
+                  setToast(
+                    sound ? '已關閉音效' : '音效已開啟，下次出發會有叮叮聲！',
                   );
-                })()
-              ) : (
-                <p>慢慢睇風景，一齊探索香港。</p>
-              )}
-              {nearest && (
-                <button
-                  className="nearby-station"
-                  onClick={() => {
-                    pick(nearest);
-                    command('station');
-                  }}
-                >
-                  <small>地圖上附近嘅車站</small>
-                  <b>
-                    {nearest.chineseName} <span>→</span>
-                  </b>
-                </button>
-              )}
-              <span className="toy-label">
-                {follow.mode === 'live'
-                  ? '按官方預報推算，唔係 GPS 或實際車款識別'
-                  : '玩具列車，唔係真實 GPS 位置'}
-              </span>
-            </article>
-          )}
-          {mode === 'live' && followId && !follow && (
-            <article className="train-card waiting-follow">
-              <button
-                className="card-close"
-                aria-label="結束跟車"
-                onClick={() => setFollow(null)}
-              >
-                ×
-              </button>
-              <h2>正在等待新預報</h2>
-              <p>原班次暫時未能配對。為免跟錯車，唔會自動換成另一架。</p>
-              <button onClick={openTrainPicker}>打開列車清單</button>
-            </article>
-          )}
-          {selected && (
-            <article className="station-card">
-              <button
-                className="card-close"
-                aria-label="關閉車站資訊"
-                onClick={() => {
-                  setSelected(null);
-                  setUpcoming(null);
-                  setBoardOpen(false);
                 }}
               >
-                ×
+                {sound ? '♪' : '♫'}
               </button>
-              <span className="card-eyebrow">
-                HELLO, {selected.stationCode}!
-              </span>
-              <div className="station-title">
-                <div>
-                  <h2>{selected.chineseName}</h2>
-                  <p>{selected.englishName}</p>
-                </div>
-                <button
-                  className={
-                    'favorite-star ' +
-                    (favs.includes(selected.key) ? 'saved' : '')
-                  }
-                  aria-label="收藏車站"
-                  onClick={() => {
-                    setFavs((old) =>
-                      old.includes(selected.key)
-                        ? old.filter((k) => k !== selected.key)
-                        : [...old, selected.key],
-                    );
-                    ding();
-                  }}
-                >
-                  {favs.includes(selected.key) ? '★' : '☆'}
-                </button>
+            </div>
+            {data && city ? (
+              <MapView
+                data={data}
+                city={city}
+                controls={{
+                  mode,
+                  liveFeed,
+                  liveNetwork,
+                  clockOffset,
+                  paused,
+                  speed,
+                  active,
+                  followId,
+                }}
+                selected={selected}
+                upcoming={upcoming}
+                onUpcoming={pickUpcoming}
+                onSelect={pick}
+                onTrain={pickTrain}
+                onTick={tick}
+                onReady={setReady}
+                onStopFollow={stopFollow}
+                action={action}
+                locationFix={locationFix}
+              />
+            ) : (
+              <div className="loading-world">
+                <ToyIcon big />
+                <h2>{error || '小火車準備出庫…'}</h2>
+                {error && (
+                  <button onClick={() => location.reload()}>再試一次</button>
+                )}
               </div>
-              <span
-                className="line-tag"
-                style={
-                  {
-                    '--line': data?.colours[selected.line],
-                  } as React.CSSProperties
-                }
-              >
-                {lineInfo[selected.line].zh}
-              </span>
-              <div className="station-fun">
-                <span>✦</span>
+            )}
+            {!selected && !followId && !upcoming && (
+              <article className="welcome-card">
+                <span className="welcome-sticker">出發喇！</span>
+                <ToyIcon big color="#87a98a" />
+                <h2>下一站，開心！</h2>
                 <p>
-                  你發現咗一個新地方！
+                  點小火車可以跟住佢走，
                   <br />
-                  沿住彩色軌道，搵下一個車站吧。
+                  點車站就會發現新地方。
                 </p>
+                <button onClick={start}>
+                  {mode === 'live' ? '跟隨預報列車 ↗' : '隨機去探險 ↗'}
+                </button>
+                <button className="welcome-list" onClick={openTrainPicker}>
+                  自己揀車 ≋
+                </button>
+              </article>
+            )}
+            {upcoming && (
+              <article className="station-card future-card">
+                <button
+                  className="card-close"
+                  aria-label="關閉未開通車站資訊"
+                  onClick={() => setUpcoming(null)}
+                >
+                  ×
+                </button>
+                <span className="card-eyebrow">COMING TO OUR LITTLE CITY</span>
+                <h2>{upcoming.chineseName}</h2>
+                <span className="station-en">{upcoming.englishName}</span>
+                <span className="not-open-badge">新車站 · 未開通</span>
+                <p>
+                  東涌綫嘅新朋友！呢個車站仲未開放畀乘客使用，暫時冇到站預報。
+                </p>
+                <small>位置來自 OpenStreetMap 原始站點</small>
+              </article>
+            )}
+            {follow && (
+              <article className="train-card">
+                <button
+                  className="card-close"
+                  aria-label="結束跟車"
+                  onClick={() => setFollow(null)}
+                >
+                  ×
+                </button>
+                <span className="card-eyebrow">
+                  {follow.mode === 'live'
+                    ? '官方預報 · 位置推算'
+                    : 'CHOO CHOO! · 模擬跟車'}
+                </span>
+                <ToyIcon
+                  big
+                  line={follow.line}
+                  color={data?.colours[follow.line]}
+                />
+                <h2>{lineInfo[follow.line].zh}小火車</h2>
+                <p className="model-reference">
+                  {trainProfiles[follow.line].nameZh} · 參考造型
+                </p>
+                {follow.live ? (
+                  (() => {
+                    const trip = follow.live,
+                      current = now + clockOffset;
+                    const next =
+                      trip.points.find(
+                        (p) => p.official && p.at >= current - 1000,
+                      ) ??
+                      trip.points.find((p) => p.at >= current) ??
+                      trip.points.at(-1)!;
+                    const name = (code: string) =>
+                      liveNetwork?.stations.find(
+                        (s) => s.line === trip.line && s.code === code,
+                      )?.nameZh ?? code;
+                    return (
+                      <div className="live-train-details">
+                        <b>
+                          往 {name(trip.dest)}
+                          {trip.via === 'RAC' ? ' · 經馬場' : ''}
+                        </b>
+                        <span>
+                          {trip.direction === 'UP' ? '上行' : '下行'} ·{' '}
+                          {trip.platform} 號月台預報
+                        </span>
+                        <div className="train-countdown">
+                          <div>
+                            <small>
+                              {next.official
+                                ? next.kind === 'departure'
+                                  ? '預計離站'
+                                  : '下一個官方預報站'
+                                : '推算下站'}
+                            </small>
+                            <b>{name(next.station)}</b>
+                          </div>
+                          <strong>
+                            {Math.max(0, Math.ceil((next.at - current) / 1000))}
+                            <small>秒</small>
+                          </strong>
+                        </div>
+                        <span
+                          className={
+                            'data-chip ' +
+                            (follow.dataState === 'interrupted' || liveError
+                              ? 'warning'
+                              : '')
+                          }
+                        >
+                          {follow.dataState === 'interrupted' || liveError
+                            ? '資料中斷・續推中'
+                            : follow.correcting
+                              ? '新預報校正中・位置推算'
+                              : '官方時間・位置推算'}
+                          {trip.delay ? ' · 延誤' : ''}
+                        </span>
+                        <small>
+                          資料時間 {hkClock(trip.sourceTime)} ·{' '}
+                          {next.kind === 'departure' ? '離站' : '到／離站'}
+                          預報可更新
+                        </small>
+                        <small className="virtual-id">
+                          推算班次 {tripBadge(trip.id)} · 並非港鐵車號
+                        </small>
+                      </div>
+                    );
+                  })()
+                ) : (
+                  <p>慢慢睇風景，一齊探索香港。</p>
+                )}
+                {nearest && (
+                  <button
+                    className="nearby-station"
+                    onClick={() => {
+                      pick(nearest);
+                      command('station');
+                    }}
+                  >
+                    <small>地圖上附近嘅車站</small>
+                    <b>
+                      {nearest.chineseName} <span>→</span>
+                    </b>
+                  </button>
+                )}
+                <span className="toy-label">
+                  {follow.mode === 'live'
+                    ? '按官方預報推算，唔係 GPS 或實際車款識別'
+                    : '玩具列車，唔係真實 GPS 位置'}
+                </span>
+              </article>
+            )}
+            {mode === 'live' && followId && !follow && (
+              <article className="train-card waiting-follow">
+                <button
+                  className="card-close"
+                  aria-label="結束跟車"
+                  onClick={() => setFollow(null)}
+                >
+                  ×
+                </button>
+                <h2>正在等待新預報</h2>
+                <p>原班次暫時未能配對。為免跟錯車，唔會自動換成另一架。</p>
+                <button onClick={openTrainPicker}>打開列車清單</button>
+              </article>
+            )}
+            {selected && (
+              <article className="station-card">
+                <button
+                  className="card-close"
+                  aria-label="關閉車站資訊"
+                  onClick={() => {
+                    setSelected(null);
+                    setUpcoming(null);
+                    setBoardOpen(false);
+                  }}
+                >
+                  ×
+                </button>
+                <span className="card-eyebrow">
+                  HELLO, {selected.stationCode}!
+                </span>
+                <div className="station-title">
+                  <div>
+                    <h2>{selected.chineseName}</h2>
+                    <p>{selected.englishName}</p>
+                  </div>
+                  <button
+                    className={
+                      'favorite-star ' +
+                      (favs.includes(selected.key) ? 'saved' : '')
+                    }
+                    aria-label="收藏車站"
+                    onClick={() => {
+                      setFavs((old) =>
+                        old.includes(selected.key)
+                          ? old.filter((k) => k !== selected.key)
+                          : [...old, selected.key],
+                      );
+                      ding();
+                    }}
+                  >
+                    {favs.includes(selected.key) ? '★' : '☆'}
+                  </button>
+                </div>
+                <span
+                  className="line-tag"
+                  style={
+                    {
+                      '--line': data?.colours[selected.line],
+                    } as React.CSSProperties
+                  }
+                >
+                  {lineInfo[selected.line].zh}
+                </span>
+                <div className="station-fun">
+                  <span>✦</span>
+                  <p>
+                    你發現咗一個新地方！
+                    <br />
+                    沿住彩色軌道，搵下一個車站吧。
+                  </p>
+                </div>
+                <button
+                  className="board-toggle"
+                  onClick={() => {
+                    setBoardOpen(!boardOpen);
+                    setBoard(null);
+                  }}
+                >
+                  ⌚ {boardOpen ? '收起到站資訊' : '睇吓下一班真車'}{' '}
+                  <span>{boardOpen ? '−' : '+'}</span>
+                </button>
+                {boardOpen && (
+                  <div className="arrival-board" role="status">
+                    {!board ? (
+                      <p>正在問車站…</p>
+                    ) : board.state === 'official' ? (
+                      <>
+                        <span className="official-label">
+                          港鐵官方到站預報 {board.delay === 'Y' ? '· 延誤' : ''}
+                        </span>
+                        {boardRows.length ? (
+                          boardRows.map((r, i) => (
+                            <div className="arrival" key={i}>
+                              <span>
+                                往{' '}
+                                {data?.stations.stations.find(
+                                  (s) => s.stationCode === r.dest,
+                                )?.chineseName ?? r.dest}
+                                <small>{r.plat} 號月台</small>
+                              </span>
+                              <b>
+                                {minutesUntil(r.time, now)}
+                                <small>分鐘</small>
+                              </b>
+                            </div>
+                          ))
+                        ) : (
+                          <p>暫時冇到站預報。</p>
+                        )}
+                        {board.updatedAt &&
+                        now -
+                          Date.parse(
+                            String(board.updatedAt).replace(' ', 'T') +
+                              '+08:00',
+                          ) >
+                          120000 ? (
+                          <p>資料可能已過時，請核對車站顯示。</p>
+                        ) : null}
+                        <small className="board-time">
+                          資料時間：{String(board.updatedAt ?? '未提供')}
+                          <br />
+                          以車站顯示為準 · 與玩具列車行程無關
+                        </small>
+                      </>
+                    ) : (
+                      <p>{String(board.message ?? '未能連接到站資訊。')}</p>
+                    )}
+                  </div>
+                )}
+                <div className="station-actions">
+                  <button onClick={() => command('station')}>
+                    ⌖ 放大呢一站
+                  </button>
+                  <span>✓ 已加入探索紀錄</span>
+                </div>
+              </article>
+            )}
+          </div>
+          <div className="map-dock">
+            {mode === 'live' && (
+              <div
+                className={'live-status ' + (liveError ? 'interrupted' : '')}
+                role="status"
+              >
+                <b>
+                  {liveError ||
+                    (!liveFeed
+                      ? '正在更新官方預報…'
+                      : liveFeed.coverage.stationsFresh === 0
+                        ? '暫未有新鮮預報'
+                        : liveFeed.diagnostics.cacheState ===
+                            'persistence-error'
+                          ? '共享快取更新中・部分預報'
+                          : liveFeed.lines.some((l) => l.message)
+                            ? '部分預報暫缺・位置推算中'
+                            : '官方預報・列車位置推算')}
+                </b>
+                <span>
+                  {liveFeed
+                    ? `${liveFeed.coverage.stationsFresh}/${liveFeed.coverage.stationsTotal} 站已更新 · ${trains.filter((t) => t.mode === 'live').length} 架推算列車 · ${liveFeed.lines.some((l) => l.updatedAt) ? hkClock(Math.max(...liveFeed.lines.map((l) => l.updatedAt ?? 0))) : '暫無資料時間'}`
+                    : '分批取得各站預報，唔會用模擬數據代替。'}
+                </span>
+                {liveFeed && liveFeed.diagnostics.unmappedObservations > 0 && (
+                  <span>
+                    另有 {liveFeed.diagnostics.unmappedObservations}{' '}
+                    項預報路徑未能確認，暫未畫出
+                  </span>
+                )}
               </div>
+            )}
+            <div className="camera-controls" aria-label="地圖控制">
+              <button aria-label="放大地圖" onClick={() => command('zoom-in')}>
+                +
+              </button>
+              <button aria-label="縮小地圖" onClick={() => command('zoom-out')}>
+                −
+              </button>
               <button
-                className="board-toggle"
+                aria-label="重設地圖"
                 onClick={() => {
-                  setBoardOpen(!boardOpen);
-                  setBoard(null);
+                  setFollow(null);
+                  command('home');
                 }}
               >
-                ⌚ {boardOpen ? '收起到站資訊' : '睇吓下一班真車'}{' '}
-                <span>{boardOpen ? '−' : '+'}</span>
+                ⌖
               </button>
-              {boardOpen && (
-                <div className="arrival-board" role="status">
-                  {!board ? (
-                    <p>正在問車站…</p>
-                  ) : board.state === 'official' ? (
-                    <>
-                      <span className="official-label">
-                        港鐵官方到站預報 {board.delay === 'Y' ? '· 延誤' : ''}
-                      </span>
-                      {boardRows.length ? (
-                        boardRows.map((r, i) => (
-                          <div className="arrival" key={i}>
-                            <span>
-                              往{' '}
-                              {data?.stations.stations.find(
-                                (s) => s.stationCode === r.dest,
-                              )?.chineseName ?? r.dest}
-                              <small>{r.plat} 號月台</small>
-                            </span>
-                            <b>
-                              {minutesUntil(r.time, now)}
-                              <small>分鐘</small>
-                            </b>
-                          </div>
-                        ))
-                      ) : (
-                        <p>暫時冇到站預報。</p>
-                      )}
-                      {board.updatedAt &&
-                      now -
-                        Date.parse(
-                          String(board.updatedAt).replace(' ', 'T') + '+08:00',
-                        ) >
-                        120000 ? (
-                        <p>資料可能已過時，請核對車站顯示。</p>
-                      ) : null}
-                      <small className="board-time">
-                        資料時間：{String(board.updatedAt ?? '未提供')}
-                        <br />
-                        以車站顯示為準 · 與玩具列車行程無關
-                      </small>
-                    </>
-                  ) : (
-                    <p>{String(board.message ?? '未能連接到站資訊。')}</p>
-                  )}
-                </div>
-              )}
-              <div className="station-actions">
-                <button onClick={() => command('station')}>⌖ 放大呢一站</button>
-                <span>✓ 已加入探索紀錄</span>
-              </div>
-            </article>
-          )}
-          <div className="camera-controls">
-            <button aria-label="放大地圖" onClick={() => command('zoom-in')}>
-              +
-            </button>
-            <button aria-label="縮小地圖" onClick={() => command('zoom-out')}>
-              −
-            </button>
-            <span />
-            <button
-              aria-label="重設地圖"
-              onClick={() => {
-                setFollow(null);
-                command('home');
-              }}
-            >
-              ⌖
-            </button>
-            <button
-              aria-label="查看全港路網"
-              onClick={() => {
-                setFollow(null);
-                command('island');
-              }}
-            >
-              全港
-            </button>
-            <button aria-label="切換立體視角" onClick={() => command('tilt')}>
-              3D
-            </button>
-            <button
-              aria-label="定位跟車"
-              aria-pressed={locationOn}
-              className={locationOn ? 'location-on' : ''}
-              onClick={locate}
-            >
-              ◎
-            </button>
-          </div>
-          <div
-            className={
-              'journey-controls ' + (mode === 'live' ? 'official-controls' : '')
-            }
-          >
-            <button
-              disabled={mode === 'live'}
-              className="play-button"
-              aria-label={
-                mode === 'live'
-                  ? '官方模式固定真實時間'
-                  : paused
-                    ? '播放玩具列車'
-                    : '暫停玩具列車'
+              <button
+                aria-label="查看全港路網"
+                onClick={() => {
+                  setFollow(null);
+                  command('island');
+                }}
+              >
+                全港
+              </button>
+              <button aria-label="切換立體視角" onClick={() => command('tilt')}>
+                3D
+              </button>
+              <button
+                aria-label="定位跟車"
+                aria-pressed={locationOn}
+                className={locationOn ? 'location-on' : ''}
+                onClick={locate}
+              >
+                ◎
+              </button>
+            </div>
+            <div
+              className={
+                'journey-controls ' +
+                (mode === 'live' ? 'official-controls' : '')
               }
-              onClick={() => setPaused(!paused)}
             >
-              {paused ? '▶' : 'Ⅱ'}
-            </button>
-            <div className="journey-label">
-              <b>
-                {mode === 'live'
-                  ? '跟住真實時間出發'
-                  : paused
-                    ? '小火車休息一下'
-                    : '小火車出發中！'}
-              </b>
-              <span>
-                {mode === 'live'
-                  ? '官方預報・位置推算・1× 時間'
-                  : '模擬行程 · 拖動地圖，自由探索'}
-              </span>
+              <button
+                disabled={mode === 'live'}
+                className="play-button"
+                aria-label={
+                  mode === 'live'
+                    ? '官方模式固定真實時間'
+                    : paused
+                      ? '播放玩具列車'
+                      : '暫停玩具列車'
+                }
+                onClick={() => setPaused(!paused)}
+              >
+                {paused ? '▶' : 'Ⅱ'}
+              </button>
+              <div className="journey-label">
+                <b>
+                  {mode === 'live'
+                    ? '跟住真實時間出發'
+                    : paused
+                      ? '小火車休息一下'
+                      : '小火車出發中！'}
+                </b>
+                <span>
+                  {mode === 'live'
+                    ? '官方預報・位置推算・1× 時間'
+                    : '模擬行程 · 拖動地圖，自由探索'}
+                </span>
+              </div>
+              <div className="speed-control" hidden={mode === 'live'}>
+                <span>車速</span>
+                {[1, 3, 10].map((s) => (
+                  <button
+                    className={speed === s ? 'active' : ''}
+                    aria-label={`${s}倍速度`}
+                    key={s}
+                    onClick={() => setSpeed(s)}
+                  >
+                    {s}×
+                  </button>
+                ))}
+              </div>
+              <button
+                className="train-list-shortcut"
+                aria-label="列車清單"
+                onClick={openTrainPicker}
+              >
+                <span aria-hidden="true">≋</span>{' '}
+                <span className="shortcut-label">列車</span>
+              </button>
             </div>
-            <div className="speed-control" hidden={mode === 'live'}>
-              <span>車速</span>
-              {[1, 3, 10].map((s) => (
-                <button
-                  className={speed === s ? 'active' : ''}
-                  aria-label={`${s}倍速度`}
-                  key={s}
-                  onClick={() => setSpeed(s)}
-                >
-                  {s}×
-                </button>
-              ))}
-            </div>
-            <button
-              className="train-list-shortcut"
-              aria-label="列車清單"
-              onClick={openTrainPicker}
-            >
-              ≋
-            </button>
           </div>
           <div className="map-caption">
             ♪ 玩具小模型只作裝飾，不代表真實車款或建築比例。

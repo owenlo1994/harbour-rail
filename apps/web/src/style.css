@@ -1127,11 +1127,6 @@ aside {
   }
 }
 @media (max-width: 760px) {
-  header {
-    height: 66px;
-    padding: 0 15px;
-    gap: 10px;
-  }
   .brand {
     font-size: 19px;
     gap: 5px;
@@ -1162,130 +1157,6 @@ aside {
     font-size: 9px;
     min-width: 16px;
   }
-  .about-button {
-    width: 30px;
-    height: 30px;
-    font-size: 14px;
-  }
-  main {
-    height: calc(100dvh - 66px);
-    min-height: 610px;
-    display: block;
-    padding: 8px 10px 82px;
-  }
-  .world {
-    height: 100%;
-    border-radius: 22px;
-  }
-  .mobile-search {
-    display: block;
-    position: absolute;
-    left: 12px;
-    right: 12px;
-    top: 12px;
-    z-index: 7;
-  }
-  .mobile-search .search-wrap {
-    border-radius: 14px;
-    box-shadow: 0 3px 0 #5f82501a;
-    min-height: 43px;
-    background: #fffdf3f5;
-  }
-  .search-wrap input {
-    font-size: 12px;
-  }
-  .mobile-search .search-results {
-    top: 47px;
-  }
-  .map-heading {
-    top: 68px;
-    left: 13px;
-    padding: 8px 11px;
-    border-radius: 12px;
-  }
-  .map-heading b {
-    font-size: 11px;
-    letter-spacing: 0.2px;
-  }
-  .map-heading span:not(.map-heading-icon) {
-    font-size: 8px;
-    margin-top: 4px;
-  }
-  .map-heading-icon {
-    font-size: 20px;
-  }
-  .map-top-right {
-    top: 68px;
-    right: 12px;
-    gap: 6px;
-  }
-  .simulation-pill {
-    font-size: 8px;
-    padding: 8px 9px;
-  }
-  .simulation-pill i {
-    width: 4px;
-    height: 4px;
-  }
-  .sound {
-    display: none;
-  }
-  .welcome-card {
-    display: none;
-  }
-  .camera-controls {
-    left: 12px;
-    right: auto;
-    top: 141px;
-    bottom: auto;
-    padding: 4px;
-    border-radius: 13px;
-    gap: 3px;
-  }
-  .camera-controls button {
-    width: 32px;
-    height: 32px;
-    font-size: 18px;
-  }
-  .camera-controls button:nth-last-child(2) {
-    font-size: 10px;
-  }
-  .journey-controls {
-    left: 12px;
-    right: 12px;
-    bottom: 26px;
-    border-radius: 16px;
-    padding: 10px;
-    gap: 10px;
-  }
-  .play-button {
-    width: 37px;
-    height: 37px;
-    font-size: 15px;
-  }
-  .journey-label b {
-    font-size: 11px;
-  }
-  .journey-label span {
-    font-size: 7px;
-    margin-top: 5px;
-  }
-  .speed-control {
-    padding: 2px;
-    gap: 1px;
-    border-radius: 9px;
-  }
-  .speed-control button {
-    font-size: 9px;
-    padding: 7px 6px;
-  }
-  .map-caption {
-    left: 15px;
-    bottom: 8px;
-    font-size: 6px;
-    max-width: calc(100% - 30px);
-    white-space: nowrap;
-  }
   .maplibregl-ctrl-attrib {
     font-size: 7px !important;
     max-width: 80% !important;
@@ -1294,68 +1165,9 @@ aside {
     margin-bottom: 110px !important;
     font-size: 7px !important;
   }
-  .mobile-nav {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 75px;
-    padding: 8px 20px max(8px, env(safe-area-inset-bottom));
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background: #fffdf1;
-    border-top: 1px solid #e1e5d2;
-    z-index: 10;
-  }
-  .mobile-nav button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 4px;
-    font-size: 23px;
-    color: #91a17d;
-    min-width: 65px;
-    min-height: 51px;
-    border-radius: 13px;
-  }
-  .mobile-nav button span {
-    font-size: 10px;
-  }
   .mobile-nav button.active {
     background: #e9efd8;
     color: #73925d;
-  }
-  aside {
-    display: none;
-    position: fixed;
-    z-index: 15;
-    left: 12px;
-    right: 12px;
-    bottom: 89px;
-    width: auto;
-    max-height: calc(100dvh - 116px);
-    padding: 19px;
-    background: #fffdf0;
-    border: 1px solid #dce3c9;
-    border-radius: 23px;
-    box-shadow: 0 8px 30px #45623e26;
-    overflow-y: auto;
-  }
-  .open {
-    display: block;
-  }
-  .drawer-close {
-    display: block;
-    position: absolute;
-    right: 11px;
-    top: 9px;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    color: #a3ab90;
-    font-size: 23px;
   }
   .intro .tiny-label {
     font-size: 7px;
@@ -1401,15 +1213,6 @@ aside {
   .side-bottom {
     display: none;
   }
-  .station-card,
-  .train-card {
-    right: 12px;
-    top: auto;
-    bottom: 112px;
-    width: 244px;
-    border-radius: 19px;
-    padding: 17px;
-  }
   .train-card .toy-icon {
     width: 115px;
     height: 83px;
@@ -1437,12 +1240,6 @@ aside {
     font-size: 7px;
     margin-top: 10px;
   }
-  .station-card {
-    left: 12px;
-    width: auto;
-    max-height: calc(100% - 190px);
-    overflow: auto;
-  }
   .station-title h2 {
     font-size: 23px;
   }
@@ -1463,15 +1260,6 @@ aside {
   }
   .arrival-board {
     max-height: 165px;
-  }
-  .toast {
-    bottom: 88px;
-    width: max-content;
-    font-size: 11px;
-    padding: 11px 14px;
-  }
-  .modal-backdrop {
-    padding: 16px;
   }
   .modal {
     padding: 25px;
@@ -1494,23 +1282,10 @@ aside {
   }
 }
 
-/* Child-sized touch targets; the station sheet takes priority on small screens. */
+/* Larger map controls. */
 .camera-controls button {
   width: 44px;
   height: 40px;
-}
-@media (max-width: 760px) {
-  .camera-controls button {
-    width: 40px;
-    height: 40px;
-  }
-  .world:has(.station-card) .camera-controls {
-    display: none;
-  }
-  .about-button {
-    width: 40px;
-    height: 40px;
-  }
 }
 
 /* The world itself is a miniature set, framed like a wooden toy tray. */
@@ -1559,14 +1334,8 @@ aside {
   color: #899482;
 }
 @media (max-width: 759px) {
-  .world {
-    border-width: 5px;
-  }
   .map-canvas {
     border-radius: 17px;
-  }
-  .camera-controls button {
-    min-height: 40px;
   }
 }
 
@@ -1811,55 +1580,6 @@ aside {
   font-size: 12px;
 }
 @media (max-width: 760px) {
-  header {
-    height: 110px;
-    flex-wrap: wrap;
-    padding-top: 7px;
-    padding-bottom: 5px;
-    gap: 2px 8px;
-  }
-  .mode-switch {
-    order: 3;
-    flex-basis: 100%;
-    justify-content: center;
-    padding: 3px;
-    margin: 0;
-    height: 38px;
-    border: 0;
-    background: transparent;
-  }
-  .mode-switch button {
-    min-height: 34px;
-    padding: 7px 15px;
-    background: #edeedd;
-    font-size: 12px;
-  }
-  main {
-    height: calc(100dvh - 110px);
-    min-height: 520px;
-  }
-  .live-status {
-    left: 13px;
-    right: 13px;
-    bottom: 91px;
-    max-width: none;
-    padding: 8px 11px;
-  }
-  .live-status b {
-    font-size: 10px;
-  }
-  .live-status span {
-    font-size: 8px;
-  }
-  .train-card:has(.live-train-details) {
-    width: auto;
-    max-height: calc(100% - 225px);
-    top: auto;
-    bottom: 142px;
-    left: 14px;
-    right: 14px;
-    padding: 16px;
-  }
   .train-card:has(.live-train-details) .toy-icon {
     display: none;
   }
@@ -1884,15 +1604,8 @@ aside {
     font-size: 8px;
     margin-top: 8px;
   }
-  .world:has(.train-card) .camera-controls {
-    display: none;
-  }
   .train-picker {
     max-height: 51dvh;
-  }
-  .official-controls .play-button {
-    width: 37px;
-    height: 37px;
   }
 }
 .refresh-picker {
@@ -1918,4 +1631,471 @@ aside {
 }
 .train-picker small {
   font-variant-numeric: tabular-nums;
+}
+
+/* Keep the map canvas independent of the controls so resizing preserves its camera. */
+.map-stage {
+  position: absolute;
+  inset: 0;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+.map-dock {
+  display: contents;
+}
+.map-quickbar {
+  position: absolute;
+  z-index: 7;
+  top: 18px;
+  right: 18px;
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+}
+.map-quickbar > button {
+  display: grid;
+  place-items: center;
+  height: 44px;
+  min-width: 44px;
+  border-radius: 13px;
+  background: #fffdf3;
+  border: 1px solid #dce2cd;
+  font-weight: 700;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+.map-top-right {
+  right: 74px;
+}
+.shortcut-label {
+  display: none;
+}
+.map-expanded {
+  position: fixed;
+  inset: 0;
+  height: 100vh;
+  height: 100dvh;
+  background: #fffdf3;
+}
+.map-expanded > header,
+.map-expanded > .mobile-nav {
+  display: none;
+}
+.map-expanded > main {
+  height: 100%;
+  min-height: 0;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+.map-expanded .world {
+  height: 100%;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.map-expanded .map-top-right {
+  display: none;
+}
+.map-expanded aside {
+  display: none;
+}
+.map-expanded aside.open {
+  display: flex;
+  position: fixed;
+  z-index: 15;
+  top: max(62px, calc(env(safe-area-inset-top) + 54px));
+  left: max(10px, env(safe-area-inset-left));
+  width: min(340px, calc(100% - 20px));
+  right: auto;
+  bottom: auto;
+  max-height: calc(100dvh - 130px);
+  padding: 16px;
+  border: 1px solid #dce3c9;
+  border-radius: 20px;
+  background: #fffdf0;
+  box-shadow: 0 8px 30px #45623e26;
+}
+.map-expanded .drawer-close {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  width: 44px;
+  height: 44px;
+  font-size: 24px;
+}
+.map-expanded .map-heading {
+  left: 16px;
+}
+.map-expanded .map-caption {
+  display: none;
+}
+
+@media (max-width: 760px),
+  (orientation: landscape) and (max-height: 540px) and (pointer: coarse) {
+  .app {
+    --hosting-clearance: 0px;
+    --bottom-clearance: calc(
+      env(safe-area-inset-bottom) + var(--hosting-clearance)
+    );
+    height: 100vh;
+    height: 100dvh;
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right)
+      var(--bottom-clearance) env(safe-area-inset-left);
+    background: #fffdf3;
+  }
+  /* The host's fixed badge has its own space below the app controls. */
+  .app[data-hosted='true'] {
+    --hosting-clearance: 64px;
+  }
+  .app button {
+    touch-action: manipulation;
+  }
+  .app > header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    height: auto;
+    gap: 4px 8px;
+    padding: 4px 9px;
+  }
+  .brand {
+    font-size: 17px;
+    letter-spacing: 0.4px;
+  }
+  .brand small {
+    display: none;
+  }
+  .app .header-actions {
+    gap: 5px;
+  }
+  .app .header-actions button,
+  .app .mode-switch button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  .app .mode-switch {
+    grid-column: 1 / -1;
+    order: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    border: 0;
+    background: transparent;
+  }
+  .app .mode-switch button {
+    padding: 3px 6px;
+    background: #edeedd;
+    font-size: 13px;
+  }
+  .app > main {
+    display: block;
+    min-height: 0;
+    height: 100%;
+    padding: 4px;
+  }
+  .world {
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) auto;
+    grid-template-columns: minmax(0, 1fr);
+    height: 100%;
+    border: 1px solid #dfdfc7;
+    border-radius: 16px;
+    box-shadow: none;
+  }
+  .map-stage {
+    position: relative;
+  }
+  .map-canvas {
+    border-radius: 0;
+  }
+  .map-dock {
+    position: relative;
+    z-index: 4;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 3px;
+    padding: 4px;
+    background: #fffdf3;
+    border-top: 1px solid #e2e5d4;
+  }
+  .map-quickbar {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    gap: 4px;
+  }
+  .map-quickbar .mobile-search {
+    display: block;
+    position: static;
+    flex: 1;
+    min-width: 0;
+  }
+  .map-quickbar .search-wrap {
+    min-height: 44px;
+    background: #fffdf3;
+  }
+  .map-quickbar .search-wrap input {
+    font-size: 16px; /* Avoid the page zoom on input focus in iOS Safari. */
+  }
+  .map-quickbar .search-results {
+    max-height: min(44dvh, 220px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .map-quickbar .search-results button {
+    min-height: 44px;
+  }
+  .map-heading,
+  .map-top-right,
+  .map-caption,
+  .welcome-card {
+    display: none;
+  }
+  .world .camera-controls {
+    display: grid;
+    position: static;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 3px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+  .world .camera-controls button {
+    width: 100%;
+    height: 44px;
+    min-height: 44px;
+    padding: 0;
+    background: #edf1e0;
+    color: #3b6955;
+    border: 1px solid #dce3cc;
+    border-radius: 10px;
+  }
+  .live-status {
+    order: -1;
+    position: static;
+    max-width: none;
+    padding: 4px 8px;
+    border: 0;
+    border-radius: 8px;
+    background: #eef2e4;
+    box-shadow: none;
+  }
+  .live-status b {
+    font-size: 11px;
+  }
+  .live-status span {
+    font-size: 10px;
+    margin-top: 1px;
+  }
+  .journey-controls {
+    position: static;
+    padding: 0;
+    gap: 4px;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+  .journey-label,
+  .official-controls .play-button {
+    display: none;
+  }
+  .journey-controls .play-button,
+  .journey-controls .train-list-shortcut,
+  .journey-controls .speed-control button {
+    height: 44px;
+    min-width: 44px;
+    flex-shrink: 0;
+  }
+  .journey-controls .play-button {
+    width: 44px;
+    box-shadow: none;
+  }
+  .journey-controls .speed-control {
+    border: 0;
+    gap: 2px;
+    padding: 0;
+  }
+  .journey-controls .train-list-shortcut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: auto;
+    flex: 1;
+    border-radius: 10px;
+    padding: 0 6px;
+  }
+  .shortcut-label {
+    display: inline;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .world .map-stage :is(.station-card, .train-card) {
+    top: auto;
+    right: 6px;
+    bottom: 5px;
+    left: 6px;
+    width: auto;
+    margin: 0;
+    max-height: min(45%, calc(100% - 53px));
+    overflow: auto;
+    overscroll-behavior: contain;
+    padding: 8px 48px 8px 10px;
+    border-radius: 12px;
+  }
+  .world .map-stage .station-card {
+    text-align: left;
+  }
+  .world .map-stage .card-close,
+  .modal .card-close,
+  .drawer-close {
+    width: 44px;
+    height: 44px;
+    top: 0;
+    right: 0;
+  }
+  .train-card .toy-icon,
+  .train-card .card-eyebrow {
+    display: none;
+  }
+  .train-card h2 {
+    margin: 2px 0;
+    font-size: 17px;
+  }
+  .maplibregl-ctrl-bottom-right {
+    z-index: 4;
+  }
+  .map-stage:has(.station-card, .train-card) .maplibregl-ctrl-bottom-right {
+    bottom: auto;
+    top: 50px;
+  }
+  .app > .mobile-nav {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 52px;
+    padding: 2px 6px;
+    background: #fffdf3;
+    border-top: 1px solid #e1e5d2;
+  }
+  .app > .mobile-nav button {
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    min-height: 44px;
+    min-width: 64px;
+    gap: 0;
+    padding: 2px 4px;
+    font-size: 20px;
+  }
+  .app > .mobile-nav button span {
+    font-size: 10px;
+  }
+  .app aside {
+    display: none;
+    position: fixed;
+    z-index: 15;
+    left: max(8px, env(safe-area-inset-left));
+    right: max(8px, env(safe-area-inset-right));
+    bottom: calc(var(--bottom-clearance) + 55px);
+    max-height: min(75dvh, calc(100dvh - var(--bottom-clearance) - 60px));
+    padding: 15px;
+    width: auto;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background: #fffdf0;
+    border-radius: 16px;
+    border: 1px solid #dce3c9;
+  }
+  .app aside.open {
+    display: block;
+  }
+  .app .drawer-close {
+    display: block;
+    position: absolute;
+    font-size: 24px;
+  }
+  .app .line-tile,
+  .app .station-actions button,
+  .app .board-toggle,
+  .app .modal button {
+    min-height: 44px;
+  }
+  .app .toast {
+    bottom: calc(var(--bottom-clearance) + 55px);
+    max-width: calc(100% - 20px);
+    pointer-events: none;
+  }
+  .app .modal-backdrop {
+    padding: max(8px, env(safe-area-inset-top))
+      max(8px, env(safe-area-inset-right)) max(8px, var(--bottom-clearance))
+      max(8px, env(safe-area-inset-left));
+  }
+  .app .modal {
+    max-height: 100%;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .app.map-expanded {
+    grid-template-rows: minmax(0, 1fr);
+  }
+  .app.map-expanded > header,
+  .app.map-expanded > .mobile-nav {
+    display: none;
+  }
+  .app.map-expanded > main {
+    padding: 0;
+  }
+  .app.map-expanded aside.open {
+    top: max(56px, calc(env(safe-area-inset-top) + 51px));
+    bottom: auto;
+    width: min(
+      340px,
+      calc(100% - env(safe-area-inset-left) - env(safe-area-inset-right) - 16px)
+    );
+    max-height: calc(100dvh - var(--bottom-clearance) - 64px);
+  }
+}
+
+@media (orientation: landscape) and (max-height: 540px) and (pointer: coarse) {
+  .app > header {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+  }
+  .app .mode-switch {
+    grid-column: 2;
+    order: 0;
+    justify-self: center;
+  }
+  .app .world {
+    grid-template-columns: minmax(0, 1fr) 214px;
+    grid-template-rows: minmax(0, 1fr);
+  }
+  .map-dock {
+    align-content: start;
+    overflow-y: auto;
+    border-top: 0;
+    border-left: 1px solid #e2e5d4;
+  }
+  .world .camera-controls,
+  .world:has(.station-card) .camera-controls,
+  .world:has(.train-card) .camera-controls {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 761px) and (hover: hover) {
+  .map-expanded .map-quickbar .mobile-search {
+    display: block;
+    position: static;
+    width: 232px;
+  }
 }

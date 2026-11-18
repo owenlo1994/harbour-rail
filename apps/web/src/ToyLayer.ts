@@ -39,6 +39,7 @@ export class ToyLayer implements CustomLayerInterface {
   renderer!: THREE.WebGLRenderer;
   camera = new THREE.Camera();
   scene = new THREE.Scene();
+  trainScene = new THREE.Scene();
   origin = MercatorCoordinate.fromLngLat([114.1, 22.35]);
   scale = this.origin.meterInMercatorCoordinateUnits();
   trains: {
@@ -80,22 +81,19 @@ export class ToyLayer implements CustomLayerInterface {
       antialias: true,
     });
     this.renderer.autoClear = false;
-    this.scene.add(new THREE.HemisphereLight('#fff7db', '#8fa7a7', 2.6));
+    const ambient = new THREE.HemisphereLight('#fff7db', '#8fa7a7', 2.6);
+    this.scene.add(ambient);
+    this.trainScene.add(ambient.clone());
     const sun = new THREE.DirectionalLight('#fff8e5', 2.4);
     sun.position.set(-300, -400, 1000);
     this.scene.add(sun);
+    this.trainScene.add(sun.clone());
     this.city = new CityScenery(this.cityData, this.world);
     this.scene.add(this.city.group);
     this.world.routes.forEach((r, i) => {
       for (let j = 0; j < 1; j++) {
         const mesh = createTrainModel(r.line);
-        mesh.traverse((o) => {
-          if (o instanceof THREE.Mesh) {
-            o.material.depthTest = true;
-            o.renderOrder = 40;
-          }
-        });
-        this.scene.add(mesh);
+        this.trainScene.add(mesh);
         this.trains.push({
           id: `${r.line}-${i}-${j}`,
           line: r.line,
@@ -158,15 +156,9 @@ export class ToyLayer implements CustomLayerInterface {
       let item = this.liveMeshes.get(t.id);
       if (!item) {
         const mesh = createTrainModel(t.line);
-        mesh.traverse((o) => {
-          if (o instanceof THREE.Mesh) {
-            o.material.depthTest = true;
-            o.renderOrder = 42;
-          }
-        });
         item = { mesh, line: t.line };
         this.liveMeshes.set(t.id, item);
-        this.scene.add(mesh);
+        this.trainScene.add(mesh);
       }
       const p = pointAtDistance(route.path, route.lengths, sample.distance),
         m = MercatorCoordinate.fromLngLat(p.coordinates);
@@ -202,7 +194,7 @@ export class ToyLayer implements CustomLayerInterface {
     }
     for (const [id, item] of this.liveMeshes)
       if (!ids.has(id)) {
-        this.scene.remove(item.mesh);
+        this.trainScene.remove(item.mesh);
         item.mesh.traverse((o) => {
           if (o instanceof THREE.Mesh) o.material.dispose();
         });
@@ -219,7 +211,17 @@ export class ToyLayer implements CustomLayerInterface {
       .scale(new THREE.Vector3(this.scale, -this.scale, this.scale));
     this.camera.projectionMatrix = matrix.multiply(local);
     this.renderer.resetState();
+    this.renderer.setViewport(
+      0,
+      0,
+      gl.drawingBufferWidth,
+      gl.drawingBufferHeight,
+    );
     this.renderer.render(this.scene, this.camera);
+    // Keep the train bodies above the scenery while preserving depth within each model.
+    this.renderer.state.buffers.depth.setMask(true);
+    this.renderer.clearDepth();
+    this.renderer.render(this.trainScene, this.camera);
     if ((controls.mode === 'live' || !controls.paused) && !this.repaintTimer)
       this.repaintTimer = setTimeout(() => {
         this.repaintTimer = null;
@@ -228,6 +230,7 @@ export class ToyLayer implements CustomLayerInterface {
     if (time - this.lastReport > 700) {
       this.lastReport = time;
       const canvas = this.map.getCanvas();
+      canvas.dataset.mapZoom = this.map.getZoom().toFixed(2);
       canvas.dataset.trainMode = controls.mode;
       canvas.dataset.trainCount = String(
         this.positions.filter(
@@ -273,6 +276,9 @@ export class ToyLayer implements CustomLayerInterface {
         const m = o.material;
         for (const material of Array.isArray(m) ? m : [m]) material.dispose();
       }
+    });
+    this.trainScene.traverse((o) => {
+      if (o instanceof THREE.Mesh) o.material.dispose();
     });
     this.renderer?.dispose();
   }
