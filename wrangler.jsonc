@@ -1,0 +1,19 @@
+{
+  "name": "harbour-rail",
+  "main": "apps/api/src/cloudflare.ts",
+  "compatibility_date": "2026-11-01",
+  "build": {
+    "command": "npm run typecheck && npm run build --workspace apps/web"
+  },
+  "assets": {
+    "directory": "./apps/web/dist",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "harbour-rail-cache",
+      "migrations_dir": "drizzle"
+    }
+  ]
+}
